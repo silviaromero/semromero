@@ -1,5 +1,5 @@
-Tesis de Silvia Romero
-----------------------
+Seminario de Silvia Romero para acceder al Título de Profesora en Matemática
+----------------------------------------------------------------------------
 
-Tema
-====
+Tema: La inversión y el plano de Poincaré
+=========================================
