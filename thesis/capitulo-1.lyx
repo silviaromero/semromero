@@ -154,7 +154,11 @@ chaptername
 
 
 \begin_inset ERT
+<<<<<<< HEAD
 status open
+=======
+status collapsed
+>>>>>>> 8743abf80c9e70c061a252838b6ec4782cbe2dd3
 
 \begin_layout Plain Layout
 
@@ -267,6 +271,7 @@ thepage
 \end_layout
 
 \begin_layout Chapter
+<<<<<<< HEAD
 Introducción
 \end_layout
 
@@ -342,11 +347,41 @@ Se sigue de esta definición que el inverso de
 : la inversión es de periodo dos.
  Los únicos puntos auto-inversos son los puntos de 
 \begin_inset Formula $\omega$
+=======
+Introduccion
+\end_layout
+
+\begin_layout Section
+Overview
+\end_layout
+
+\begin_layout Standard
+bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+ bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+ bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+ bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+ bla bla bla bla DLC-coatings
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "DLC"
+description "diamond-like carbon"
+
+\end_inset
+
+ bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+ bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla,
+ see 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Fowl1928"
+
+>>>>>>> 8743abf80c9e70c061a252838b6ec4782cbe2dd3
 \end_inset
 
 .
 \end_layout
 
+<<<<<<< HEAD
 \begin_layout Standard
 \begin_inset Float figure
 wide false
@@ -804,6 +839,40 @@ ncias iguales, cuyos centros forman un n-ágono regular como en la figura
 \end_layout
 
 \begin_layout Standard
+=======
+\begin_layout Section
+The next section
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch NoChildDocument
+status collapsed
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "thesisExample"
+options "alpha"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset nomencl_print
+LatexCommand printnomenclature
+set_width "custom"
+width "2.5cm"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+>>>>>>> 8743abf80c9e70c061a252838b6ec4782cbe2dd3
 
 \end_layout
 

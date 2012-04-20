@@ -56,7 +56,10 @@
 \use_default_options true
 \begin_modules
 customHeadersFooters
+<<<<<<< HEAD
 theorems-ams
+=======
+>>>>>>> 8743abf80c9e70c061a252838b6ec4782cbe2dd3
 \end_modules
 \maintain_unincluded_children false
 \language spanish
@@ -151,7 +154,11 @@ theorems-ams
 \begin_body
 
 \begin_layout Subject
+<<<<<<< HEAD
 Seminario del Profesorado en Matemática
+=======
+Seminario del Profesorado en Matematica
+>>>>>>> 8743abf80c9e70c061a252838b6ec4782cbe2dd3
 \begin_inset Note Note
 status open
 
@@ -173,7 +180,11 @@ Subtitle (if you have one)
 \end_layout
 
 \begin_layout Author
+<<<<<<< HEAD
 Silvia Noemí Romero
+=======
+Your name
+>>>>>>> 8743abf80c9e70c061a252838b6ec4782cbe2dd3
 \end_layout
 
 \begin_layout Date
@@ -227,11 +238,19 @@ baselineskip}
 \begin_inset Newline newline
 \end_inset
 
+<<<<<<< HEAD
 Universidad Nacional de Salta
 \begin_inset Newline newline
 \end_inset
 
 Facultad de Ciencias Exactas
+=======
+Bla bla University Testburg
+\begin_inset Newline newline
+\end_inset
+
+Faculty for leading edge science
+>>>>>>> 8743abf80c9e70c061a252838b6ec4782cbe2dd3
 \begin_inset Newline newline
 \end_inset
 
@@ -530,7 +549,11 @@ chaptername
 
 
 \begin_inset ERT
+<<<<<<< HEAD
 status open
+=======
+status collapsed
+>>>>>>> 8743abf80c9e70c061a252838b6ec4782cbe2dd3
 
 \begin_layout Plain Layout
 
@@ -622,14 +645,24 @@ filename "C:/semromero/thesis/capitulo-2.lyx"
 status open
 
 \begin_layout Plain Layout
+<<<<<<< HEAD
 Agradecimientos
+=======
+
+>>>>>>> 8743abf80c9e70c061a252838b6ec4782cbe2dd3
 \end_layout
 
 \end_inset
 
+<<<<<<< HEAD
 
 \begin_inset Note Note
 status open
+=======
+Acknowledgments
+\begin_inset Note Note
+status collapsed
+>>>>>>> 8743abf80c9e70c061a252838b6ec4782cbe2dd3
 
 \begin_layout Plain Layout
 print 
@@ -653,7 +686,11 @@ Acknowledgments
 status open
 
 \begin_layout Plain Layout
+<<<<<<< HEAD
 Agradecimienos
+=======
+Acknowledgments
+>>>>>>> 8743abf80c9e70c061a252838b6ec4782cbe2dd3
 \end_layout
 
 \end_inset
