@@ -51,26 +51,12 @@
 
 % avoid that floats are placed above its sections
 \let\mySection\section\renewcommand{\section}{\suppressfloats[t]\mySection}
-\theoremstyle{theorem}
-\newtheorem{teo}{Teorema}
-
-\theoremstyle{theorem}
-\newtheorem{cor}{Corolario}
-
-\theoremstyle{theorem}
-\newtheorem{ejem}{Ejemplo}
-
-\theoremstyle{theorem}
-\newtheorem{prop}{Proposici\'on}
-
-\renewenvironment{example}{\begin{ejem}}{\end{ejem}}
-\renewenvironment{theorem}{\begin{teo}}{\end{teo}}
-\renewenvironment{corollary}{\begin{cor}}{\end{cor}}
 \end_preamble
 \options intoc,bibliography=totoc,index=totoc,BCOR10mm,captions=tableheading,titlepage,fleqn
 \use_default_options true
 \begin_modules
 customHeadersFooters
+theorems-ams
 \end_modules
 \maintain_unincluded_children false
 \language english
@@ -369,6 +355,8 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Graphics
 	filename C:/Users/lenovo/Documents/Geometria/imag1.png
 	lyxscale 50
@@ -613,9 +601,12 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Graphics
 	filename C:/Users/lenovo/Documents/Geometria/dibu1.png
 	lyxscale 40
+	width 15cm
 
 \end_inset
 
@@ -816,6 +807,10 @@ te y todas ellas tangentes a las dos circunferencias originales, como la
 ias concéntricas , y entonces las otras se convierten en un anillo de circunfere
 ncias iguales, cuyos centros forman un n-ágono regular como en la figura
  4 
+\end_layout
+
+\begin_layout Theorem
+chcncvjnchjn
 \end_layout
 
 \end_body
