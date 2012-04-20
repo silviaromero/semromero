@@ -56,13 +56,10 @@
 \use_default_options true
 \begin_modules
 customHeadersFooters
-<<<<<<< HEAD
 theorems-ams
-=======
->>>>>>> 8743abf80c9e70c061a252838b6ec4782cbe2dd3
 \end_modules
 \maintain_unincluded_children false
-\language spanish
+\language english
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -154,11 +151,11 @@ theorems-ams
 \begin_body
 
 \begin_layout Subject
-<<<<<<< HEAD
+
+\lang spanish
 Seminario del Profesorado en Matemática
-=======
-Seminario del Profesorado en Matematica
->>>>>>> 8743abf80c9e70c061a252838b6ec4782cbe2dd3
+\lang english
+
 \begin_inset Note Note
 status open
 
@@ -172,6 +169,8 @@ Use the official terms and title page layout instead of this one!
 \end_layout
 
 \begin_layout Title
+
+\lang spanish
 Inversiones y el plano de Poincare
 \end_layout
 
@@ -180,11 +179,9 @@ Subtitle (if you have one)
 \end_layout
 
 \begin_layout Author
-<<<<<<< HEAD
+
+\lang spanish
 Silvia Noemí Romero
-=======
-Your name
->>>>>>> 8743abf80c9e70c061a252838b6ec4782cbe2dd3
 \end_layout
 
 \begin_layout Date
@@ -238,19 +235,19 @@ baselineskip}
 \begin_inset Newline newline
 \end_inset
 
-<<<<<<< HEAD
+
+\lang spanish
 Universidad Nacional de Salta
+\lang english
+
 \begin_inset Newline newline
 \end_inset
 
+
+\lang spanish
 Facultad de Ciencias Exactas
-=======
-Bla bla University Testburg
-\begin_inset Newline newline
-\end_inset
+\lang english
 
-Faculty for leading edge science
->>>>>>> 8743abf80c9e70c061a252838b6ec4782cbe2dd3
 \begin_inset Newline newline
 \end_inset
 
@@ -459,6 +456,17 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Standard
+
+\lang spanish
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
 \begin_inset ERT
 status open
 
@@ -476,6 +484,8 @@ pagestyle{plain}
 status collapsed
 
 \begin_layout Plain Layout
+
+\lang spanish
 The summary should not have page headers.
 \end_layout
 
@@ -485,10 +495,14 @@ The summary should not have page headers.
 \end_layout
 
 \begin_layout Standard
+
+\lang spanish
 \begin_inset Branch Summary
 status open
 
 \begin_layout Standard
+
+\lang spanish
 \begin_inset CommandInset include
 LatexCommand include
 filename "C:/semromero/thesis/Resumen.lyx"
@@ -504,6 +518,8 @@ filename "C:/semromero/thesis/Resumen.lyx"
 \end_layout
 
 \begin_layout Standard
+
+\lang spanish
 \begin_inset Newpage cleardoublepage
 \end_inset
 
@@ -511,6 +527,8 @@ filename "C:/semromero/thesis/Resumen.lyx"
 \end_layout
 
 \begin_layout Standard
+
+\lang spanish
 \begin_inset ERT
 status collapsed
 
@@ -527,10 +545,14 @@ pagestyle{fancy}
 \end_layout
 
 \begin_layout Left Header
+
+\lang spanish
 \begin_inset Argument
 status open
 
 \begin_layout Plain Layout
+
+\lang spanish
 \begin_inset ERT
 status collapsed
 
@@ -549,11 +571,7 @@ chaptername
 
 
 \begin_inset ERT
-<<<<<<< HEAD
-status open
-=======
 status collapsed
->>>>>>> 8743abf80c9e70c061a252838b6ec4782cbe2dd3
 
 \begin_layout Plain Layout
 
@@ -587,6 +605,8 @@ rightmark
 status collapsed
 
 \begin_layout Plain Layout
+
+\lang spanish
 Enable page headers and add the chapter to the header line.
 \end_layout
 
@@ -596,10 +616,14 @@ Enable page headers and add the chapter to the header line.
 \end_layout
 
 \begin_layout Standard
+
+\lang spanish
 \begin_inset Branch chapter-1
 status open
 
 \begin_layout Standard
+
+\lang spanish
 \begin_inset CommandInset include
 LatexCommand include
 filename "C:/semromero/thesis/capitulo-1.lyx"
@@ -615,10 +639,14 @@ filename "C:/semromero/thesis/capitulo-1.lyx"
 \end_layout
 
 \begin_layout Standard
+
+\lang spanish
 \begin_inset Branch chapter-2
 status open
 
 \begin_layout Standard
+
+\lang spanish
 \begin_inset CommandInset include
 LatexCommand include
 filename "C:/semromero/thesis/capitulo-2.lyx"
@@ -645,24 +673,14 @@ filename "C:/semromero/thesis/capitulo-2.lyx"
 status open
 
 \begin_layout Plain Layout
-<<<<<<< HEAD
-Agradecimientos
-=======
 
->>>>>>> 8743abf80c9e70c061a252838b6ec4782cbe2dd3
 \end_layout
 
 \end_inset
 
-<<<<<<< HEAD
-
-\begin_inset Note Note
-status open
-=======
-Acknowledgments
+Agradecimientos
 \begin_inset Note Note
 status collapsed
->>>>>>> 8743abf80c9e70c061a252838b6ec4782cbe2dd3
 
 \begin_layout Plain Layout
 print 
@@ -686,11 +704,7 @@ Acknowledgments
 status open
 
 \begin_layout Plain Layout
-<<<<<<< HEAD
-Agradecimienos
-=======
-Acknowledgments
->>>>>>> 8743abf80c9e70c061a252838b6ec4782cbe2dd3
+Agradecimientos
 \end_layout
 
 \end_inset
@@ -723,7 +737,7 @@ status open
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "C:/semromero/thesis/Agradecimientos.lyx"
+filename "Agradecimientos.lyx"
 
 \end_inset
 
@@ -742,7 +756,7 @@ status open
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "C:/semromero/thesis/Apendice.lyx"
+filename "Apendice.lyx"
 
 \end_inset
 
