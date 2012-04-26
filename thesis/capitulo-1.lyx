@@ -59,7 +59,7 @@ customHeadersFooters
 theorems-ams
 \end_modules
 \maintain_unincluded_children false
-\language english
+\language spanish
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -288,7 +288,7 @@ Dada una circunferencia
 \begin_inset Formula $k$
 \end_inset
 
-, como la figura 
+, como en la
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Inversión"
@@ -358,12 +358,17 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
-	filename C:/Users/lenovo/Documents/Geometria/imag1.png
+	filename imag1.png
 	lyxscale 50
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -566,7 +571,14 @@ Recíprocamente, para construir el inverso de cualquier punto
 \end_layout
 
 \begin_layout Standard
-En la figira 2 se observa que la inversa de cualquier recta 
+En la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Inversa-de-una"
+
+\end_inset
+
+ se observa que la inversa de cualquier recta 
 \begin_inset Formula $a$
 \end_inset
 
@@ -604,7 +616,7 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
-	filename C:/Users/lenovo/Documents/Geometria/dibu1.png
+	filename imag3.png
 	lyxscale 40
 	width 15cm
 
@@ -614,10 +626,22 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Inversa de una recta a que no pasa por O
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Inversa-de-una"
+
+\end_inset
+
+Inversa de una recta 
+\begin_inset Formula $a$
+\end_inset
+
+ que no pasa por O
 \end_layout
 
 \end_inset
@@ -757,6 +781,11 @@ Se sigue que un par de circunferencias tangentes, con puntos comunes
 , se invierten en un par de rectas paralelas.
 \end_layout
 
+\begin_layout Theorem
+Cualquiera dos circunferencias que no se intersectan pueden invertirse en
+ dos circunferencias concéntricas.
+\end_layout
+
 \begin_layout Section
 Porisma de Steiner.
 \end_layout
@@ -800,17 +829,12 @@ te y todas ellas tangentes a las dos circunferencias originales, como la
 \end_inset
 
 .
- El teorema: cualquiera dos circunferencias que no se intersectan pueden
- invertirse en dos circunferencias concéntricas, nos proporciona una curiosa
- demostración sencilla del porisma de Steiner.
+ El teorema 1, nos proporciona una curiosa demostración sencilla del porisma
+ de Steiner.
  Simplemente tenemos que invertir las circunferencias originales en circunferenc
 ias concéntricas , y entonces las otras se convierten en un anillo de circunfere
 ncias iguales, cuyos centros forman un n-ágono regular como en la figura
- 4 
-\end_layout
-
-\begin_layout Theorem
-chcncvjnchjn
+ 4.
 \end_layout
 
 \end_body

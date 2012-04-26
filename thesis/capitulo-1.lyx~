@@ -56,9 +56,10 @@
 \use_default_options true
 \begin_modules
 customHeadersFooters
+theorems-ams
 \end_modules
 \maintain_unincluded_children false
-\language english
+\language spanish
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -154,11 +155,7 @@ chaptername
 
 
 \begin_inset ERT
-<<<<<<< HEAD
 status open
-=======
-status collapsed
->>>>>>> 8743abf80c9e70c061a252838b6ec4782cbe2dd3
 
 \begin_layout Plain Layout
 
@@ -271,7 +268,6 @@ thepage
 \end_layout
 
 \begin_layout Chapter
-<<<<<<< HEAD
 Introducción
 \end_layout
 
@@ -292,7 +288,7 @@ Dada una circunferencia
 \begin_inset Formula $k$
 \end_inset
 
-, como la figura 
+, como en la
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Inversión"
@@ -347,41 +343,11 @@ Se sigue de esta definición que el inverso de
 : la inversión es de periodo dos.
  Los únicos puntos auto-inversos son los puntos de 
 \begin_inset Formula $\omega$
-=======
-Introduccion
-\end_layout
-
-\begin_layout Section
-Overview
-\end_layout
-
-\begin_layout Standard
-bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
- bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
- bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
- bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
- bla bla bla bla DLC-coatings
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "DLC"
-description "diamond-like carbon"
-
-\end_inset
-
- bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
- bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla,
- see 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Fowl1928"
-
->>>>>>> 8743abf80c9e70c061a252838b6ec4782cbe2dd3
 \end_inset
 
 .
 \end_layout
 
-<<<<<<< HEAD
 \begin_layout Standard
 \begin_inset Float figure
 wide false
@@ -389,6 +355,8 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Graphics
 	filename C:/Users/lenovo/Documents/Geometria/imag1.png
 	lyxscale 50
@@ -598,7 +566,14 @@ Recíprocamente, para construir el inverso de cualquier punto
 \end_layout
 
 \begin_layout Standard
-En la figira 2 se observa que la inversa de cualquier recta 
+En la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Inversa-de-una"
+
+\end_inset
+
+ se observa que la inversa de cualquier recta 
 \begin_inset Formula $a$
 \end_inset
 
@@ -633,9 +608,12 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Graphics
 	filename C:/Users/lenovo/Documents/Geometria/dibu1.png
 	lyxscale 40
+	width 15cm
 
 \end_inset
 
@@ -643,10 +621,22 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Inversa de una recta a que no pasa por O
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Inversa-de-una"
+
+\end_inset
+
+Inversa de una recta 
+\begin_inset Formula $a$
+\end_inset
+
+ que no pasa por O
 \end_layout
 
 \end_inset
@@ -786,6 +776,11 @@ Se sigue que un par de circunferencias tangentes, con puntos comunes
 , se invierten en un par de rectas paralelas.
 \end_layout
 
+\begin_layout Theorem
+Cualquiera dos circunferencias que no se intersectan pueden invertirse en
+ dos circunferencias concéntricas.
+\end_layout
+
 \begin_layout Section
 Porisma de Steiner.
 \end_layout
@@ -829,51 +824,12 @@ te y todas ellas tangentes a las dos circunferencias originales, como la
 \end_inset
 
 .
- El teorema: cualquiera dos circunferencias que no se intersectan pueden
- invertirse en dos circunferencias concéntricas, nos proporciona una curiosa
- demostración sencilla del porisma de Steiner.
+ El teorema 1, nos proporciona una curiosa demostración sencilla del porisma
+ de Steiner.
  Simplemente tenemos que invertir las circunferencias originales en circunferenc
 ias concéntricas , y entonces las otras se convierten en un anillo de circunfere
 ncias iguales, cuyos centros forman un n-ágono regular como en la figura
- 4 
-\end_layout
-
-\begin_layout Standard
-=======
-\begin_layout Section
-The next section
-\end_layout
-
-\begin_layout Standard
-\begin_inset Branch NoChildDocument
-status collapsed
-
-\begin_layout Standard
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-bibfiles "thesisExample"
-options "alpha"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset nomencl_print
-LatexCommand printnomenclature
-set_width "custom"
-width "2.5cm"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
->>>>>>> 8743abf80c9e70c061a252838b6ec4782cbe2dd3
-
+ 4.
 \end_layout
 
 \end_body
