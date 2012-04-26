@@ -505,7 +505,7 @@ status open
 \lang spanish
 \begin_inset CommandInset include
 LatexCommand include
-filename "C:/semromero/thesis/Resumen.lyx"
+filename "Resumen.lyx"
 
 \end_inset
 
@@ -626,7 +626,7 @@ status open
 \lang spanish
 \begin_inset CommandInset include
 LatexCommand include
-filename "C:/semromero/thesis/capitulo-1.lyx"
+filename "capitulo-1.lyx"
 
 \end_inset
 
@@ -649,7 +649,7 @@ status open
 \lang spanish
 \begin_inset CommandInset include
 LatexCommand include
-filename "C:/semromero/thesis/capitulo-2.lyx"
+filename "capitulo-2.lyx"
 
 \end_inset
 
@@ -849,6 +849,22 @@ status collapsed
 
 \begin_layout Plain Layout
 restore the right header line
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+selectlanguage{spanish}
 \end_layout
 
 \end_inset
