@@ -138,7 +138,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -810,6 +810,7 @@ porisma
 \end_inset
 
 , en este caso el porisma de Steiner.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -835,6 +836,198 @@ te y todas ellas tangentes a las dos circunferencias originales, como la
 ias concéntricas , y entonces las otras se convierten en un anillo de circunfere
 ncias iguales, cuyos centros forman un n-ágono regular como en la figura
  4.
+ Aquí, 
+\begin_inset Formula $A$
+\end_inset
+
+ es uno de los centros, 
+\begin_inset Formula $T$
+\end_inset
+
+ el punto de tangencia de esta circunferencia con una de sus adyacentes
+ en el anillo, y 
+\begin_inset Formula $O$
+\end_inset
+
+ el centro común de las dos circunferencias concéntricas: la exterior de
+ radio 
+\begin_inset Formula $a$
+\end_inset
+
+, y la interior de radio 
+\begin_inset Formula $b$
+\end_inset
+
+, 
+\begin_inset Formula $\triangle OAT$
+\end_inset
+
+ es un triángulo rectángulo con
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Formula $OA=(a+b)/2$
+\end_inset
+
+, 
+\begin_inset Formula $AT=(a-b)/2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+y ángulo 
+\begin_inset Formula $\pi/n$
+\end_inset
+
+ radianes en 
+\begin_inset Formula $O$
+\end_inset
+
+.
+ Como estas circunferencias concéntricas tienen radios 
+\begin_inset Formula $a$
+\end_inset
+
+ y 
+\begin_inset Formula $b$
+\end_inset
+
+, su distancia inversiva 
+\begin_inset Formula $\delta=\log(a/b)$
+\end_inset
+
+ satisface 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Formula $\sin\frac{\pi}{n}=\frac{AT}{OT}=\frac{a-b}{a+b}=\frac{(a/b)-1}{(a/b)+1}=\frac{e^{\delta}-1}{e^{\delta}+1}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+De aquí se sigue que e l porisma de Steiner se verifica siempre que la distancia
+ inversiva entre sus dos circunferencias originales satisfaga la misma ecuación
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Formula $\sin\frac{\pi}{n}=\frac{e^{\delta}-1}{e^{\delta}+1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Resolviéndola para 
+\begin_inset Formula $e^{\delta}$
+\end_inset
+
+ y luego para el propio 
+\begin_inset Formula $\delta$
+\end_inset
+
+, encontramos
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Formula $e^{\delta}=\frac{1+\sin(\pi/n)}{1-\sin(\pi/n)}=(\frac{1+\sin(\pi/n)}{\cos(\pi/n)})^{2}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Formula $=(\sec\frac{\pi}{n}+\tan\frac{\pi}{n})^{2}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Formula $\delta=2\log(\sec\frac{\pi}{n}+\tan\frac{\pi}{n})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+En particular, vemos que haciendo 
+\begin_inset Formula $n=4$
+\end_inset
+
+, cualquiera de las dos circunferencias cuya distancia inversiva es
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Formula $2\log(\sqrt{2}+1)$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+pertenecen a una 
+\begin_inset Quotes eld
+\end_inset
+
+configuración
+\begin_inset Quotes erd
+\end_inset
+
+ de seis circunferencias, cada una de las cuales es tangente a las otras
+ cuatro.
+ Las seis circunferencias se dividen en tres pares 
+\begin_inset Quotes eld
+\end_inset
+
+opuestos
+\begin_inset Quotes erd
+\end_inset
+
+, tales que cada una es tangente a todas las demás excepto a su propia opuesta.
+ La distancia inversiva entre cualesquiera dos circunferencias opuestas
+ es 
+\begin_inset Formula $2\log(\sqrt{2}+1)$
+\end_inset
+
+, y, por supuesto, las doce distancias restantes son cero.
+\end_layout
+
+\begin_layout Standard
+El porisma de Steiner es todavía válido en la cadena de circunferencias
+ después de 
+\begin_inset Formula $d$
+\end_inset
+
+ vueltas en lugar de una.
+ En la fórmula, simplemente tenemos que sustituir 
+\begin_inset Formula $n$
+\end_inset
+
+por la fracción 
+\begin_inset Formula $n/d$
+\end_inset
+
+.
+ 
 \end_layout
 
 \end_body
