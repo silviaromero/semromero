@@ -542,24 +542,6 @@ filename "Resumen.lyx"
 
 \end_layout
 
-\begin_layout Standard
-
-\lang spanish
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-pagestyle{fancy}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Left Header
 
 \lang spanish
@@ -628,6 +610,10 @@ Enable page headers and add the chapter to the header line.
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Right Footer
 
 \end_layout
 
