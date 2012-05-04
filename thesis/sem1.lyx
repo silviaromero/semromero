@@ -59,7 +59,7 @@ customHeadersFooters
 theorems-ams
 \end_modules
 \maintain_unincluded_children false
-\language english
+\language spanish
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -151,8 +151,6 @@ theorems-ams
 \begin_body
 
 \begin_layout Subject
-
-\lang spanish
 Seminario del Profesorado en Matemática
 \lang english
 
@@ -160,6 +158,8 @@ Seminario del Profesorado en Matemática
 status open
 
 \begin_layout Plain Layout
+
+\lang english
 Use the official terms and title page layout instead of this one!
 \end_layout
 
@@ -169,26 +169,28 @@ Use the official terms and title page layout instead of this one!
 \end_layout
 
 \begin_layout Title
-
-\lang spanish
 Inversiones y el plano de Poincaré
 \end_layout
 
 \begin_layout Subtitle
+
+\lang english
 Una herramienta potente de la matemática
 \end_layout
 
 \begin_layout Author
-
-\lang spanish
 Silvia Noemí Romero
 \end_layout
 
 \begin_layout Date
+
+\lang english
 Date (optional)
 \end_layout
 
 \begin_layout Publishers
+
+\lang english
 \begin_inset Box Boxed
 position "t"
 hor_pos "c"
@@ -203,15 +205,15 @@ height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
-Replace this box e.
-\begin_inset space \thinspace{}
+
+\lang english
+\begin_inset Graphics
+	filename C:/semromero/Geomet/seminario/escunsa.bmp
+	lyxscale 60
+
 \end_inset
 
-g.
-\begin_inset space ~
-\end_inset
 
-by the coat of arms of the university.
 \end_layout
 
 \end_inset
@@ -251,11 +253,7 @@ Facultad de Ciencias Exactas
 \begin_inset Newline newline
 \end_inset
 
-Institute for 
-\noun on
-Nobel
-\noun default
- price winning research
+Departamento de Matemáticas
 \begin_inset VSpace -3cm
 \end_inset
 
@@ -265,6 +263,7 @@ Nobel
 \begin_layout Lowertitleback
 
 \series bold
+\lang english
 Dean
 \series default
 
@@ -333,10 +332,14 @@ xx.yy.zzzz
 \end_layout
 
 \begin_layout Dedication
+
+\lang english
 Dedication, cite from a famous person, or whatever you like (optional)
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset Newpage cleardoublepage
 \end_inset
 
@@ -344,6 +347,8 @@ Dedication, cite from a famous person, or whatever you like (optional)
 \end_layout
 
 \begin_layout Left Header
+
+\lang english
 \begin_inset ERT
 status collapsed
 
@@ -361,6 +366,8 @@ rightmark
 status collapsed
 
 \begin_layout Plain Layout
+
+\lang english
 defines the header line
 \end_layout
 
@@ -370,10 +377,14 @@ defines the header line
 \end_layout
 
 \begin_layout Right Header
+
+\lang english
 \begin_inset Argument
 status open
 
 \begin_layout Plain Layout
+
+\lang english
 \begin_inset ERT
 status collapsed
 
@@ -395,10 +406,14 @@ leftmark
 \end_layout
 
 \begin_layout Left Footer
+
+\lang english
 \begin_inset Argument
 status open
 
 \begin_layout Plain Layout
+
+\lang english
 \begin_inset ERT
 status collapsed
 
@@ -424,6 +439,8 @@ thepage
 \end_layout
 
 \begin_layout Right Footer
+
+\lang english
 \begin_inset ERT
 status collapsed
 
@@ -440,6 +457,8 @@ thepage
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset ERT
 status open
 
@@ -456,6 +475,8 @@ selectlanguage{spanish}
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
 
@@ -465,6 +486,8 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset Newpage cleardoublepage
 \end_inset
 
@@ -472,8 +495,6 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Standard
-
-\lang spanish
 \begin_inset Newpage cleardoublepage
 \end_inset
 
@@ -481,8 +502,6 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Standard
-
-\lang spanish
 \begin_inset ERT
 status open
 
@@ -500,8 +519,6 @@ pagestyle{plain}
 status collapsed
 
 \begin_layout Plain Layout
-
-\lang spanish
 The summary should not have page headers.
 \end_layout
 
@@ -511,14 +528,10 @@ The summary should not have page headers.
 \end_layout
 
 \begin_layout Standard
-
-\lang spanish
 \begin_inset Branch Summary
 status open
 
 \begin_layout Standard
-
-\lang spanish
 \begin_inset CommandInset include
 LatexCommand include
 filename "Resumen.lyx"
@@ -534,8 +547,6 @@ filename "Resumen.lyx"
 \end_layout
 
 \begin_layout Standard
-
-\lang spanish
 \begin_inset Newpage cleardoublepage
 \end_inset
 
@@ -543,8 +554,6 @@ filename "Resumen.lyx"
 \end_layout
 
 \begin_layout Standard
-
-\lang spanish
 \begin_inset ERT
 status collapsed
 
@@ -561,14 +570,10 @@ pagestyle{fancy}
 \end_layout
 
 \begin_layout Left Header
-
-\lang spanish
 \begin_inset Argument
 status open
 
 \begin_layout Plain Layout
-
-\lang spanish
 \begin_inset ERT
 status collapsed
 
@@ -621,8 +626,6 @@ rightmark
 status collapsed
 
 \begin_layout Plain Layout
-
-\lang spanish
 Enable page headers and add the chapter to the header line.
 \end_layout
 
@@ -632,14 +635,10 @@ Enable page headers and add the chapter to the header line.
 \end_layout
 
 \begin_layout Standard
-
-\lang spanish
 \begin_inset Branch chapter-1
 status open
 
 \begin_layout Standard
-
-\lang spanish
 \begin_inset CommandInset include
 LatexCommand include
 filename "capitulo-1.lyx"
@@ -655,14 +654,10 @@ filename "capitulo-1.lyx"
 \end_layout
 
 \begin_layout Standard
-
-\lang spanish
 \begin_inset Branch chapter-2
 status open
 
 \begin_layout Standard
-
-\lang spanish
 \begin_inset CommandInset include
 LatexCommand include
 filename "capitulo-2.lyx"
@@ -678,6 +673,8 @@ filename "capitulo-2.lyx"
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset Newpage cleardoublepage
 \end_inset
 
@@ -685,6 +682,8 @@ filename "capitulo-2.lyx"
 \end_layout
 
 \begin_layout Left Header
+
+\lang english
 \begin_inset Argument
 status open
 
@@ -699,6 +698,8 @@ Agradecimientos
 status collapsed
 
 \begin_layout Plain Layout
+
+\lang english
 print 
 \begin_inset Quotes eld
 \end_inset
@@ -716,10 +717,14 @@ Acknowledgments
 \end_layout
 
 \begin_layout Right Header
+
+\lang english
 \begin_inset Argument
 status open
 
 \begin_layout Plain Layout
+
+\lang english
 Agradecimientos
 \end_layout
 
@@ -730,6 +735,8 @@ Agradecimientos
 status collapsed
 
 \begin_layout Plain Layout
+
+\lang english
 print 
 \begin_inset Quotes eld
 \end_inset
@@ -747,10 +754,14 @@ Acknowledgments
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset Branch Acknowledgments
 status open
 
 \begin_layout Standard
+
+\lang english
 \begin_inset CommandInset include
 LatexCommand include
 filename "Agradecimientos.lyx"
@@ -766,10 +777,14 @@ filename "Agradecimientos.lyx"
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset Branch Appendix
 status open
 
 \begin_layout Standard
+
+\lang english
 \begin_inset CommandInset include
 LatexCommand include
 filename "Apendice.lyx"
@@ -786,6 +801,8 @@ filename "Apendice.lyx"
 status open
 
 \begin_layout Plain Layout
+
+\lang english
 Appendix is of course optional
 \end_layout
 
@@ -795,6 +812,8 @@ Appendix is of course optional
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset Newpage cleardoublepage
 \end_inset
 
@@ -802,6 +821,8 @@ Appendix is of course optional
 \end_layout
 
 \begin_layout Left Header
+
+\lang english
 \begin_inset Argument
 status open
 
@@ -829,6 +850,8 @@ rightmark
 status collapsed
 
 \begin_layout Plain Layout
+
+\lang english
 remove the chapter from the header line
 \end_layout
 
@@ -838,10 +861,14 @@ remove the chapter from the header line
 \end_layout
 
 \begin_layout Right Header
+
+\lang english
 \begin_inset Argument
 status open
 
 \begin_layout Plain Layout
+
+\lang english
 \begin_inset ERT
 status collapsed
 
@@ -864,6 +891,8 @@ leftmark
 status collapsed
 
 \begin_layout Plain Layout
+
+\lang english
 restore the right header line
 \end_layout
 
@@ -873,6 +902,8 @@ restore the right header line
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset ERT
 status open
 
@@ -889,6 +920,8 @@ selectlanguage{spanish}
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 bibfiles "thesisExample"
@@ -900,6 +933,8 @@ options "alpha"
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset Newpage cleardoublepage
 \end_inset
 
@@ -907,6 +942,8 @@ options "alpha"
 \end_layout
 
 \begin_layout Left Header
+
+\lang english
 \begin_inset Argument
 status open
 
@@ -921,6 +958,8 @@ Nomenclature
 status collapsed
 
 \begin_layout Plain Layout
+
+\lang english
 print 
 \begin_inset Quotes eld
 \end_inset
@@ -938,10 +977,14 @@ Nomenclature
 \end_layout
 
 \begin_layout Right Header
+
+\lang english
 \begin_inset Argument
 status open
 
 \begin_layout Plain Layout
+
+\lang english
 Nomenclature
 \end_layout
 
@@ -951,6 +994,8 @@ Nomenclature
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset CommandInset nomencl_print
 LatexCommand printnomenclature
 set_width "custom"
@@ -963,6 +1008,8 @@ width "2.5cm"
 status open
 
 \begin_layout Plain Layout
+
+\lang english
 The width of the nomenclature entries can be changed by clicking on the
  nomenclature inset.
 \end_layout

@@ -787,6 +787,257 @@ Cualquiera dos circunferencias que no se intersectan pueden invertirse en
 \end_layout
 
 \begin_layout Section
+Inversión que pone concéntricas dos circunferencias.
+\end_layout
+
+\begin_layout Standard
+Sean 
+\begin_inset Formula $C_{1}$
+\end_inset
+
+y 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+dos circunferencias no concéntricas, de manera que la primera está contenida
+ en la región acotada determinada por la segunda.
+ Si hacemos una inversión con centro un punto cualquiera 
+\begin_inset Formula $P\in C_{1}$
+\end_inset
+
+la pareja de circunferencias se tranforman respectivamente en una circunferencia
+ 
+\begin_inset Formula $C_{2}^{'}$
+\end_inset
+
+ y una recta 
+\begin_inset Formula $C_{1}^{'}$
+\end_inset
+
+ver ..
+\end_layout
+
+\begin_layout Standard
+Dibujamos a continuación dos circunferencias ortogonales a la vez a 
+\begin_inset Formula $C_{1}^{'}$
+\end_inset
+
+y 
+\begin_inset Formula $C_{2}^{'}$
+\end_inset
+
+.
+ Para ello tomamos 
+\begin_inset Formula $T$
+\end_inset
+
+, 
+\begin_inset Formula $T^{\text{'}}\in C_{2}^{'}$
+\end_inset
+
+con la precaución de que no pertenezcan al diámetro de 
+\begin_inset Formula $C_{2}^{'}$
+\end_inset
+
+ perpendicular a 
+\begin_inset Formula $C_{1}^{'}$
+\end_inset
+
+.
+ Sean 
+\begin_inset Formula $U$
+\end_inset
+
+ y 
+\begin_inset Formula $U^{\text{'}}$
+\end_inset
+
+respectivamente los puntos de intersección con 
+\begin_inset Formula $C_{1}^{'}$
+\end_inset
+
+ de las tangentes a 
+\begin_inset Formula $C_{2}^{'}$
+\end_inset
+
+ por 
+\begin_inset Formula $T$
+\end_inset
+
+ y 
+\begin_inset Formula $T^{'}$
+\end_inset
+
+, ver ..
+\end_layout
+
+\begin_layout Standard
+Entonces las circunferencias 
+\begin_inset Formula $C_{3}$
+\end_inset
+
+(de centro 
+\begin_inset Formula $U$
+\end_inset
+
+ y radio 
+\begin_inset Formula $UT$
+\end_inset
+
+) y 
+\begin_inset Formula $C_{4}$
+\end_inset
+
+(de centro 
+\begin_inset Formula $U^{\text{'}}$
+\end_inset
+
+y radio 
+\begin_inset Formula $U^{'}T^{'}$
+\end_inset
+
+) son ortogonales a 
+\begin_inset Formula $C_{1}^{'}$
+\end_inset
+
+y 
+\begin_inset Formula $C_{2}^{'}$
+\end_inset
+
+ y se cortan en dos puntos 
+\begin_inset Formula $R$
+\end_inset
+
+ y 
+\begin_inset Formula $S$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Ahora ya es claro que cualquier inversión de centro 
+\begin_inset Formula $R$
+\end_inset
+
+ tranforma 
+\begin_inset Formula $C_{1}^{'}$
+\end_inset
+
+ y 
+\begin_inset Formula $C_{2}^{'}$
+\end_inset
+
+ en dos circunferencias concéntricas 
+\begin_inset Formula $C_{1}^{''}$
+\end_inset
+
+y 
+\begin_inset Formula $C_{2}^{''}$
+\end_inset
+
+.
+ En efecto, 
+\begin_inset Formula $C_{3}$
+\end_inset
+
+ y 
+\begin_inset Formula $C_{4}$
+\end_inset
+
+ pasan a ser rectas 
+\begin_inset Formula $C_{3}^{'}$
+\end_inset
+
+ y 
+\begin_inset Formula $C_{4}^{'}$
+\end_inset
+
+ que se cortan en un punto 
+\begin_inset Formula $S^{'}$
+\end_inset
+
+ imagen de 
+\begin_inset Formula $S$
+\end_inset
+
+.
+ La recta 
+\begin_inset Formula $C_{1}^{'}$
+\end_inset
+
+ se transforma en una circunferencia por 
+\begin_inset Formula $R$
+\end_inset
+
+ ortogonal a 
+\begin_inset Formula $C_{3}^{'}$
+\end_inset
+
+y 
+\begin_inset Formula $C_{4}^{'}$
+\end_inset
+
+.
+ Por tanto, el punto 
+\begin_inset Formula $S^{'}$
+\end_inset
+
+ de intersección de 
+\begin_inset Formula $C_{3}^{'}$
+\end_inset
+
+ y 
+\begin_inset Formula $C_{4}^{'}$
+\end_inset
+
+ es su centro, ver ...
+\end_layout
+
+\begin_layout Standard
+Análogamente 
+\begin_inset Formula $C_{2}^{'}$
+\end_inset
+
+se transforma en una circunferencia ortogonal a 
+\begin_inset Formula $C_{3}^{'}$
+\end_inset
+
+ y 
+\begin_inset Formula $C_{4}^{'}$
+\end_inset
+
+.
+ Por tanto, el punto de intersección de 
+\begin_inset Formula $C_{3}^{'}$
+\end_inset
+
+y 
+\begin_inset Formula $C_{4}^{'}$
+\end_inset
+
+ es su centro.
+ Así pues las tranformadas 
+\begin_inset Formula $C_{1}^{''}$
+\end_inset
+
+ y 
+\begin_inset Formula $C_{2}^{''}$
+\end_inset
+
+ de 
+\begin_inset Formula $C_{1}^{'}$
+\end_inset
+
+ y 
+\begin_inset Formula $C_{2}^{'}$
+\end_inset
+
+ son circunferencias concéntricas, como queriamos.
+\end_layout
+
+\begin_layout Section
 Porisma de Steiner.
 \end_layout
 
@@ -817,7 +1068,7 @@ porisma
 Si tenemos dos circunferencias (no concentricas), una dentro de la otra,
  y dibujamos otras circunferencias, que sean tangentes una a la otra sucesivamen
 te y todas ellas tangentes a las dos circunferencias originales, como la
- figura 3, es posible que suceda que la suceción de las circunferencias
+ figura 3, es posible que suceda que la sucesión de las circunferencias
  tangentes se cierre, formando un anillo de 
 \begin_inset Formula $n$
 \end_inset
@@ -834,8 +1085,14 @@ te y todas ellas tangentes a las dos circunferencias originales, como la
  de Steiner.
  Simplemente tenemos que invertir las circunferencias originales en circunferenc
 ias concéntricas , y entonces las otras se convierten en un anillo de circunfere
-ncias iguales, cuyos centros forman un n-ágono regular como en la figura
- 4.
+ncias iguales, cuyos centros forman un n-ágono regular como en la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Circunferencias-concéntricas"
+
+\end_inset
+
+.
  Aquí, 
 \begin_inset Formula $A$
 \end_inset
@@ -1022,12 +1279,54 @@ El porisma de Steiner es todavía válido en la cadena de circunferencias
 \begin_inset Formula $n$
 \end_inset
 
-por la fracción 
+ por la fracción 
 \begin_inset Formula $n/d$
 \end_inset
 
 .
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename porism1.png
+	lyxscale 30
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Circunferencias-concéntricas"
+
+\end_inset
+
+Circunferencias concéntricas
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
