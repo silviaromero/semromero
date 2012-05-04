@@ -205,11 +205,8 @@ height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
-
-\lang english
 \begin_inset Graphics
-	filename C:/semromero/Geomet/seminario/escunsa.bmp
-	lyxscale 60
+	filename escunsa.bmp
 
 \end_inset
 
@@ -553,7 +550,6 @@ filename "Resumen.lyx"
 
 \end_layout
 
-<<<<<<< HEAD
 \begin_layout Standard
 \begin_inset ERT
 status collapsed
@@ -570,8 +566,6 @@ pagestyle{fancy}
 
 \end_layout
 
-=======
->>>>>>> d12d49297a461b90dbce24461fa3dd7c1ad08a16
 \begin_layout Left Header
 \begin_inset Argument
 status open
