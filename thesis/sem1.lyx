@@ -151,6 +151,7 @@ theorems-ams
 \begin_body
 
 \begin_layout Subject
+\noindent
 Seminario del Profesorado en Matemática
 \lang english
 
@@ -205,6 +206,8 @@ height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Graphics
 	filename escunsa.bmp
 

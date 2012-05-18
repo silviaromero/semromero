@@ -111,8 +111,225 @@ adds table of contents entry
 
 \end_layout
 
+\begin_layout Section
+La renovación de geometría en el siglo XIX.
+\end_layout
+
 \begin_layout Standard
-el origen de las inversiones
+La geometría parece haber sido, entre todas las ramas de la matemáticas,
+ aquella cuya importancia ha variado más a través del tiempo.
+ Tuvo su origen en el arte de la medición, y ya en la época griega tuvo
+ el estatuto de una disciplina situada en la cúspide de las actividades
+ matemáticas de esa época.
+\end_layout
+
+\begin_layout Standard
+A principios del siglo XIX, ocupa un lugar preponderante en la actividad
+ matemática de la época, sobre todo gracias a los trabajos originales de
+ Fermat y Descartes.
+ Es también en este siglo cuando se elabora un estudio de las perspectivas,
+ y cuando Desargues y Pascal encuentran un cierto número de teoremas fundamental
+es que permiten entonces establecer las bases de una geométria distintiva,
+ la geometría proyectiva.
+ Sin embargo, los trabajos de estos dos pioneros caerán en el olvido hasta
+ el momento en que Monge y su escuela se dedican a la difícil tarea de revaloriz
+ar la geometría mediante aportaciones nuevas y llenas de promesas.
+ Pero a comienzos del siglo XIX se establece la controversia entre los defensore
+s de la utilización exclusiva de los métodos geométricos y los que recurren
+ al álgebra y al análisis para tratar la geometría.
+ De hecho, desde Descartes y Fermat, los métodos analíticos y algebraicos
+ dominaron casi enteramente el enfoque preconizado para el estudio de la
+ geometría, y sólo algunos raros matemáticos permanecieron ligados a los
+ métodos puramente geométricos, que seguían siendo, a sus ojos, los más
+ elegantes y los más claros intuitivamente.
+ Por el contrario, los métodos análiticos ofrecían, por sus características
+ intrínsecas, técnicas generales y uniformes y enfoques heurísticos que
+ conducían a resultados cuyo grado de generalidad parecía no tener límites,
+ mientras que los de la geometría sintética estaban sobre todo centrados
+ en el caso particular, en el estudio específico original de un problema
+ dado, cuyos resultados difícilmente podían ser generalizados.
+\end_layout
+
+\begin_layout Standard
+La influencia de la geometría descriptiva de Monge sobre su escuela y sus
+ contemporáneos se tradujo esencialmente en una floración de trabajos consagrado
+s en la mayor parte de los casos a la geometría proyectiva.
+ La renovación de esta geometría comienza con los notables trabajos de Poncelet,
+ que marcan la verdadera creación de la geometría proyectiva, estudio de
+ las propiedades geometrícas que se conservan por proyección central y perspecti
+va.La introducción del principio de dualidad y la utilización abundante de
+ las transformaciones geométricas le llevaron al estudio de tipos variados
+ de transformaciones.
+ Los discípulos de Porcelet se esforzaron por crear por crear una doctrina
+ autónoma susceptible de derrotar a Descartes en el campo mismo de la geometría.
+ Los trabajos de Porcelet y sus discípulos fueron difundidos y enriquecidos
+ con resultados originales por Steiner y Chasles.
+\end_layout
+
+\begin_layout Standard
+Paralelamente al desarrollo de la geometría proyectiva, nacen las geometrías
+ no euclídeas con Gauss, Bolyai, Lobachevski y Riemann y, despues de la
+ difusión, se emprenden ya interpretaciones de éstas mediante la elaboración
+ de modelos concebidos con el objetivo de hacer válidas estas nuevas geometrías.
+\end_layout
+
+\begin_layout Section
+La geometría de la inversión.
+\end_layout
+
+\begin_layout Standard
+Ningún pais especial tuvo el monopolio en el desarrollo de la matemática
+ elemental, pero quizá se pueda atribuir a Alemania el papel principal,
+ por ser la patria de Jacob Steiner (1796 - 1863), uno de los muchos descubridor
+es independientes de la circunferencia de los nueve puntos y, mucho más
+ importante aún, el matemático al que se suele considerar generalmente como
+ el más grande de los geómetras de la época moderna, tal como Apolonio lo
+ fue en la antigüedad.
+ En realidad Steiner nacio en Suiza, pero hizo sus estudios en Heidelberg
+ y en Berlín y, gracias al apoyo de Jacobi, obtuvo una cátedra en Berlín
+ que ocupó hasta su muerte.
+ En sus manos la geometría sintética hizo progresos comparables a los que
+ había hecho anteriormente el análisis.
+ El nombre de Steiner aparece en la geometría en muchos contextos, incluído
+ el que se refiere a las propiedades de los 
+\begin_inset Quotes eld
+\end_inset
+
+puntos de Steiner
+\begin_inset Quotes erd
+\end_inset
+
+: Si se unen de todas las maneras posibles los seis puntos de una cónica
+ en el 
+\begin_inset Quotes eld
+\end_inset
+
+hexagrama místico
+\begin_inset Quotes erd
+\end_inset
+
+ de Pascal, se obtienen 60 rectas de Pascal que se cortan tres a tres en
+ 20 puntos de Steiner.
+ También demostró Steiner que todas las construcciones euclídeas pueden
+ efectuarse con la regla únicamente, siempre que se nos de además una única
+ circunferencia fija.
+ Steiner sentía una gran aversión por los métodos analíticos, y demostró,
+ en un artículo publicado en el Jounal de Crelle, y utilizando exclusivamente
+ métodos sintéticos, un sorprendente teorema que parece pertenecer de manera
+ natural, por su complejidad, al análisis, el de que una superficie de tercer
+ orden sólo puede contener 27 rectas.
+\end_layout
+
+\begin_layout Standard
+La historia de la geometría durante el siglo XIX está llena de casos de
+ descubrimientos independientes y casi simultáneos, y Steiner se vio mezclado
+ en varios de estos casos.
+ En 1822, Porcelet, inspirado por la obra de Mascheroni, había sugerido
+ que todas las construcciones euclídeas planas podrían efectuarse con la
+ regla únicamente, si se daba además una circunferencia concreta y su centro,
+ teorema que demostró en 1833 Steiner, como hemos visto.
+ Es decir, que el teorema de Porcelet-Steiner demuestra que no podemos prescindi
+r completamente del compás en la geometría euclídea, pero que una vez utilizado
+ para trazar circunferencia cualquiera, podemos desecharlo a favor de la
+ regla únicamente, de una manera parecida a como Mascheroni había utilizado
+ únicamente el compás.
+\end_layout
+
+\begin_layout Standard
+En 1824 descubrió la fructífera transformación geométrica conocida como
+ inversión.
+ Si los puntos 
+\begin_inset Formula $P$
+\end_inset
+
+ y 
+\begin_inset Formula $P'$
+\end_inset
+
+ están sobre una semirrecta cuyo origen es el centro 
+\begin_inset Formula $O$
+\end_inset
+
+ de una circunferencia 
+\begin_inset Formula $C$
+\end_inset
+
+ de radio 
+\begin_inset Formula $r\neq0$
+\end_inset
+
+, y si el producto de las distancias 
+\begin_inset Formula $OP$
+\end_inset
+
+ y 
+\begin_inset Formula $OP'$
+\end_inset
+
+ es 
+\begin_inset Formula $r^{2}$
+\end_inset
+
+, entonces se dice que cada uno de los puntos 
+\begin_inset Formula $P$
+\end_inset
+
+, 
+\begin_inset Formula $P'$
+\end_inset
+
+, es inverso del otro con respecto a la circunferencia 
+\begin_inset Formula $C$
+\end_inset
+
+.
+ A todo punto 
+\begin_inset Formula $P$
+\end_inset
+
+ exterior al círculo que determina 
+\begin_inset Formula $C$
+\end_inset
+
+ le corresponde en la inversión uno y sólo uno 
+\begin_inset Formula $P'$
+\end_inset
+
+ interior al círculo, mientras que centro 
+\begin_inset Formula $O$
+\end_inset
+
+ es el único punto interior al círculo que no corresponde a ningún punto
+ exterior.
+ De manera totalmente análoga al caso del plano, se puede definir fácilmente
+ la inversión con respecto a una superficie esférica en el espacio tridimenciona
+l.
+\end_layout
+
+\begin_layout Standard
+Se puede demostrar sin dificultad gran cantidad de teoremas pertenecientes
+ a la gemetría de la inversión del plano o del espacio, bien sea por métodos
+ análiticos o sintéticos.
+ En particular, es inmediato demostrar que, en una inversión plana, toda
+ circunferencia que no pase por el centro de la inversión se transforma
+ en otra circunferencia, mientras que toda circunferencia que pase por el
+ centro de inversión se transforma en una recta que no pasa por él, así
+ como resultados análogos relativos a esferas y planos en la geometría de
+ la inversión tridimensional.
+\end_layout
+
+\begin_layout Standard
+Un poco más dificil de demostrar es el importante resultado de que la inversión
+ es una transformación conforme, es decir, que conserva los ángulos entre
+ curvas.
+ Un teorema demostrado por Jeseph Liouville muestra claramente que las transform
+aciones que conservan los ángulos no son frecuentes en absoluto; este teorema
+ afirma que en el espacio las únicas transformaciones conformes son las
+ inversiones, las semejanzas y las congruencias como caso particular.
+ Steiner no publicó sus ideas sobre la teoría de la inversión, y otros matemátic
+os del mismo siglo volvieron a descubrir repetidas veces esta transformación;
+ entre ellos figura Lord Kelvin (1824-1907), que se vio conducido a ella
+ en 1845 a través de la física, aplicándola a problemas de electrostática.
 \end_layout
 
 \end_body
