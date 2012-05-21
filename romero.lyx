@@ -33,7 +33,7 @@ customHeadersFooters
 \index_command default
 \float_placement h
 \paperfontsize 12
-\spacing single
+\spacing onehalf
 \use_hyperref true
 \pdf_bookmarks true
 \pdf_bookmarksnumbered true
@@ -112,39 +112,40 @@ customHeadersFooters
 \align center
 
 \series bold
-\size huge
-EL PORISMA DE STEINER COMO INTEGRADORA DE LA GEOMETRÍA DE LA INVERSIÓN
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align center
-
-\series bold
-\size larger
-Silvia Noemí Romero, Antonio Sángari
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align center
-
-\series bold
 \size large
+EL PORISMA DE STEINER COMO INTEGRADOR DE LA GEOMETRÍA DE LA INVERSIÓN
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\bar under
+Silvia Noemí Romero
+\bar default
+, Antonio Sángari
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
 Universidad Nacional de Salta
 \end_layout
 
@@ -153,7 +154,6 @@ Universidad Nacional de Salta
 \align center
 
 \series bold
-\size large
 (Avenida Bolivia N° 5150)
 \end_layout
 
@@ -169,7 +169,6 @@ Universidad Nacional de Salta
 \align center
 
 \series bold
-\size large
 silvi_778@hotmail.com
 \end_layout
 
@@ -183,32 +182,26 @@ silvi_778@hotmail.com
 \begin_layout Standard
 
 \series bold
-\size large
 Categoría del Trabajo:
 \series default
- Reflexiones
+ Reflexiones.
 \end_layout
 
 \begin_layout Standard
 
 \series bold
-\size large
 Nivel educativo: 
 \series default
-Universitarios
+Universitario.
 \end_layout
 
 \begin_layout Standard
 
 \series bold
-\size large
 Palabras claves:
 \series default
-\size default
- 
-\size large
-Geometría de la Inversión, Porisma de Steiner, Geometría asistida por computador
-a, Enseñanza de la geometría.
+ Geometría de la Inversión, Porisma de Steiner, Geometría asistida por computado
+ra, Enseñanza de la geometría.
 \end_layout
 
 \begin_layout Standard
@@ -221,7 +214,6 @@ a, Enseñanza de la geometría.
 \begin_layout Standard
 
 \series bold
-\size large
 Resumen: 
 \series default
 En este trabajo se plantea y resuelve el problema del Porisma de Steiner.
@@ -238,6 +230,813 @@ En este trabajo se plantea y resuelve el problema del Porisma de Steiner.
  Y por último propondremos una serie de actividades a desarrollar por los
  estudiantes con objetivo de la manipulación de los objetos inherentes en
  este problema.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+La Geometría de la Inversión.
+\end_layout
+
+\begin_layout Subsection
+Introducción.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Ningún pais especial tuvo el monopolio en el desarrollo de la matemática
+ elemental, pero quizá se pueda atribuir a Alemania el papel principal,
+ por ser la patria de Jacob Steiner (1796 - 1863), uno de los muchos descubridor
+es independientes de la circunferencia de los nueve puntos y, mucho más
+ importante aún, el matemático al que se suele considerar generalmente como
+ el más grande de los geómetras de la época moderna, tal como Apolonio lo
+ fue en la antigüedad.
+ En realidad Steiner nacio en Suiza, pero hizo sus estudios en Heidelberg
+ y en Berlín y, gracias al apoyo de Jacobi, obtuvo una cátedra en Berlín
+ que ocupó hasta su muerte.
+ En sus manos la geometría sintética hizo progresos comparables a los que
+ había hecho anteriormente el análisis.
+ Steiner demostró que todas las construcciones euclídeas pueden efectuarse
+ con la regla únicamente, siempre que se nos de además una única circunferencia
+ fija.
+ Este matemético sentía una gran aversión por los métodos analíticos, y
+ demostró, en un artículo publicado en el Jounal de Crelle, y utilizando
+ exclusivamente métodos sintéticos, un sorprendente teorema que parece pertenece
+r de manera natural, por su complejidad, al análisis, el de que una superficie
+ de tercer orden sólo puede contener 27 rectas.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+La historia de la geometría durante el siglo XIX está llena de casos de
+ descubrimientos independientes y casi simultáneos, y Steiner se vio mezclado
+ en varios de estos casos.
+ En 1822, Porcelet, inspirado por la obra de Mascheroni, había sugerido
+ que todas las construcciones euclídeas planas podrían efectuarse con la
+ regla únicamente, si se daba además una circunferencia concreta y su centro,
+ teorema que demostró en 1833 Steiner, como hemos visto.
+ Es decir, que el teorema de Porcelet-Steiner demuestra que no podemos prescindi
+r completamente del compás en la geometría euclídea, pero que una vez utilizado
+ para trazar circunferencia cualquiera, podemos desecharlo a favor de la
+ regla únicamente, de una manera parecida a como Mascheroni había utilizado
+ únicamente el compás.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+En 1824 descubrió la fructífera transformación geométrica conocida como
+ inversión.
+ Si los puntos 
+\begin_inset Formula $P$
+\end_inset
+
+ y 
+\begin_inset Formula $P'$
+\end_inset
+
+ están sobre una semirrecta cuyo origen es el centro 
+\begin_inset Formula $O$
+\end_inset
+
+ de una circunferencia 
+\begin_inset Formula $C$
+\end_inset
+
+ de radio 
+\begin_inset Formula $r\neq0$
+\end_inset
+
+, y si el producto de las distancias 
+\begin_inset Formula $OP$
+\end_inset
+
+ y 
+\begin_inset Formula $OP'$
+\end_inset
+
+ es 
+\begin_inset Formula $r^{2}$
+\end_inset
+
+, entonces se dice que cada uno de los puntos 
+\begin_inset Formula $P$
+\end_inset
+
+, 
+\begin_inset Formula $P'$
+\end_inset
+
+, es inverso del otro con respecto a la circunferencia 
+\begin_inset Formula $C$
+\end_inset
+
+.
+ A todo punto 
+\begin_inset Formula $P$
+\end_inset
+
+ exterior al círculo que determina 
+\begin_inset Formula $C$
+\end_inset
+
+ le corresponde en la inversión uno y sólo uno 
+\begin_inset Formula $P'$
+\end_inset
+
+ interior al círculo, mientras que centro 
+\begin_inset Formula $O$
+\end_inset
+
+ es el único punto interior al círculo que no corresponde a ningún punto
+ exterior.
+ De manera totalmente análoga al caso del plano, se puede definir fácilmente
+ la inversión con respecto a una superficie esférica en el espacio tridimenciona
+l.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Se puede demostrar sin dificultad gran cantidad de teoremas pertenecientes
+ a la gemetría de la inversión del plano o del espacio, bien sea por métodos
+ análiticos o sintéticos.
+ En particular, es inmediato demostrar que, en una inversión plana, toda
+ circunferencia que no pase por el centro de la inversión se transforma
+ en otra circunferencia, mientras que toda circunferencia que pase por el
+ centro de inversión se transforma en una recta que no pasa por él, así
+ como resultados análogos relativos a esferas y planos en la geometría de
+ la inversión tridimensional.
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Definición de inversión.
+\end_layout
+
+\begin_layout Standard
+Dada una circunferencia 
+\begin_inset Formula $\omega$
+\end_inset
+
+ con centro 
+\begin_inset Formula $O$
+\end_inset
+
+ y radio 
+\begin_inset Formula $k$
+\end_inset
+
+, como en la
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Inversión"
+
+\end_inset
+
+, y un punto 
+\begin_inset Formula $P$
+\end_inset
+
+ diferente de 
+\begin_inset Formula $O$
+\end_inset
+
+, definimos el inverso de 
+\begin_inset Formula $P$
+\end_inset
+
+ como el punto 
+\begin_inset Formula $P_{1}$
+\end_inset
+
+, en la semirrecta 
+\begin_inset Formula $OP$
+\end_inset
+
+, cuya distancia desde 
+\begin_inset Formula $O$
+\end_inset
+
+ satisface la ecuación 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Formula $OP\times OP_{1}=k^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se sigue de esta definición que el inverso de 
+\begin_inset Formula $P_{1}$
+\end_inset
+
+ es 
+\begin_inset Formula $P$
+\end_inset
+
+: la inversión es de periodo dos.
+ Los únicos puntos auto-inversos son los puntos de 
+\begin_inset Formula $\omega$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename thesis/imag1.png
+	lyxscale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Invers
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Inversión"
+
+\end_inset
+
+ión
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si 
+\begin_inset Formula $P$
+\end_inset
+
+ describe un lugar geométrico, 
+\begin_inset Formula $P_{1}$
+\end_inset
+
+ describe el lugar geométrico inverso.
+ En particular, el inverso de una circunferencia de centro 
+\begin_inset Formula $O$
+\end_inset
+
+ y radio 
+\begin_inset Formula $r$
+\end_inset
+
+ es una circunferencia concéntrica de radio 
+\begin_inset Formula $\nicefrac{k^{2}}{r}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Sea 
+\begin_inset Formula $P$
+\end_inset
+
+ un punto interior a 
+\begin_inset Formula $\omega$
+\end_inset
+
+(que no sea 
+\begin_inset Formula $O$
+\end_inset
+
+).
+ Consideremos la cuerda 
+\begin_inset Formula $TU$
+\end_inset
+
+ que pasa por 
+\begin_inset Formula $P$
+\end_inset
+
+, perpendicular a 
+\begin_inset Formula $OP$
+\end_inset
+
+, y el punto 
+\begin_inset Formula $P_{1}$
+\end_inset
+
+ donde se cortan las tangentes en 
+\begin_inset Formula $T$
+\end_inset
+
+ y 
+\begin_inset Formula $U$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Como 
+\begin_inset Formula $\triangle OPT\sim\triangle OTP_{1}$
+\end_inset
+
+, el punto 
+\begin_inset Formula $P_{1}$
+\end_inset
+
+construido de esta manera, satisface
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Formula $\frac{OP}{OT}=\frac{OT}{OP_{1}}$
+\end_inset
+
+ , 
+\begin_inset Formula $OP\times OP_{1}=k^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+por tanto 
+\begin_inset Formula $P_{1}$
+\end_inset
+
+es el inverso de 
+\begin_inset Formula $P$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Recíprocamente, para construir el inverso de cualquier punto 
+\begin_inset Formula $P_{1}$
+\end_inset
+
+ exterior a 
+\begin_inset Formula $\omega$
+\end_inset
+
+, podemos dibujar la circunferencia que tiene como diámetro 
+\begin_inset Formula $OP_{1}$
+\end_inset
+
+.
+ Si esta circunferencia corta 
+\begin_inset Formula $\omega$
+\end_inset
+
+ en 
+\begin_inset Formula $T$
+\end_inset
+
+ y 
+\begin_inset Formula $U$
+\end_inset
+
+, el inverso buscado 
+\begin_inset Formula $P$
+\end_inset
+
+ es el punto medio de 
+\begin_inset Formula $TU$
+\end_inset
+
+(es decir, el punto en el que 
+\begin_inset Formula $TU$
+\end_inset
+
+ corta a 
+\begin_inset Formula $OP_{1}$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsection
+La inversión de rectas y circunferencias.
+\end_layout
+
+\begin_layout Standard
+Cualquier recta que pase por 
+\begin_inset Formula $O$
+\end_inset
+
+ es su propia inversa, siempre que omitamos al propio punto 
+\begin_inset Formula $O$
+\end_inset
+
+.
+ (No debemos intentar evitar esta omisión, considerando 
+\begin_inset Formula $O$
+\end_inset
+
+ como su propio inverso, porque entonces la inversión no sería una transformació
+n contínua; cuando 
+\begin_inset Formula $P$
+\end_inset
+
+ se acerca a 
+\begin_inset Formula $O$
+\end_inset
+
+, 
+\begin_inset Formula $P_{1}$
+\end_inset
+
+se aleja).
+\end_layout
+
+\begin_layout Standard
+En la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Inversa-de-una"
+
+\end_inset
+
+se observa que la inversa de cualquier recta 
+\begin_inset Formula $a$
+\end_inset
+
+, que no pase por 
+\begin_inset Formula $O$
+\end_inset
+
+, es una circurcunfercia que pasa por 
+\begin_inset Formula $O$
+\end_inset
+
+(menos el mismo punto 
+\begin_inset Formula $O$
+\end_inset
+
+), y que el diámetro de esta circunferencia que pasa por 
+\begin_inset Formula $O$
+\end_inset
+
+, es perpendicular a 
+\begin_inset Formula $a$
+\end_inset
+
+ .
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename thesis/dib1.png
+	lyxscale 40
+	scale 60
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename thesis/dib3.png
+	lyxscale 40
+	scale 60
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename thesis/dib5.png
+	lyxscale 40
+	scale 60
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Inversa-de-una"
+
+\end_inset
+
+Inversión de una recta 
+\begin_inset Formula $a$
+\end_inset
+
+ que no pasa por 
+\begin_inset Formula $O$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Los detalles son los siguientes: sea 
+\begin_inset Formula $A$
+\end_inset
+
+ el pie de la perpendicular desde O a 
+\begin_inset Formula $a$
+\end_inset
+
+, 
+\begin_inset Formula $A_{1}$
+\end_inset
+
+ el inverso de 
+\begin_inset Formula $A$
+\end_inset
+
+, 
+\begin_inset Formula $P$
+\end_inset
+
+ un punto arbitrarionen 
+\begin_inset Formula $a$
+\end_inset
+
+, y 
+\begin_inset Formula $P_{1}$
+\end_inset
+
+ el punto en el que la semirrecta 
+\begin_inset Formula $OP$
+\end_inset
+
+ corta a la circunferencia que tiene como diámetro 
+\begin_inset Formula $OA_{1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Entonces 
+\begin_inset Formula $\triangle OAP\sim\triangle OP_{1}A_{1}$
+\end_inset
+
+, 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Formula $\frac{OP}{OA}=\frac{OA_{1}}{OP_{1}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+y 
+\begin_inset Formula $OP\times OP_{1}=OA\times OA_{1}=k^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Recíprocamente, cualquier punto 
+\begin_inset Formula $P_{1}$
+\end_inset
+
+(excepto 
+\begin_inset Formula $O$
+\end_inset
+
+) que pertenezca a la circunferencia con diámetro 
+\begin_inset Formula $OA_{1}$
+\end_inset
+
+, se invierte en un punto 
+\begin_inset Formula $P$
+\end_inset
+
+ de la recta 
+\begin_inset Formula $a$
+\end_inset
+
+.
+ Por lo tanto, la inversa de cualquier circunferencia que pase por 
+\begin_inset Formula $O$
+\end_inset
+
+(excepto el mismo 
+\begin_inset Formula $O$
+\end_inset
+
+) es una recta perpendicular al diámetro que pasa por 
+\begin_inset Formula $O$
+\end_inset
+
+, es decir, una recta paralela a la tangente a la circunferencia en 
+\begin_inset Formula $O$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Se sigue que un par de circunferencias tangentes, con puntos comunes 
+\begin_inset Formula $O$
+\end_inset
+
+ y 
+\begin_inset Formula $P$
+\end_inset
+
+, se invierten en un par de rectas que pasan por el inverso del punto 
+\begin_inset Formula $P_{1}$
+\end_inset
+
+; y que un par de circunferencias tangentes en 
+\begin_inset Formula $O$
+\end_inset
+
+, se invierten en un par de rectas paralelas.
+\end_layout
+
+\begin_layout Standard
+Veamos a hallar ahora el resultado de invertir una circunferencia que no
+ pasa por el centro de inversión.
+ Para ello consideremos una circunferencia 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ que no pasa por el centro de inversión 
+\begin_inset Formula $O$
+\end_inset
+
+.
+ Sean 
+\begin_inset Formula $A,$
+\end_inset
+
+
+\begin_inset Formula $B$
+\end_inset
+
+ los puntos en que esta circunferencia corta a la recta que une su centro
+ con el centro 
+\begin_inset Formula $O.$
+\end_inset
+
+ Sean 
+\begin_inset Formula $A_{1},B_{1}$
+\end_inset
+
+ los inversos de estos puntos, como muestra la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Inversión-de-una"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Tomamos un punto arbitrario X de 
+\begin_inset Formula $\alpha.$
+\end_inset
+
+ Tenemos que 
+\begin_inset Formula $\angle XBA=\angle OX_{1}B_{1}$
+\end_inset
+
+ y 
+\begin_inset Formula $\angle XAB=\angle A_{1}X_{1}X$
+\end_inset
+
+.
+ Como el ángulo 
+\begin_inset Formula $\angle AXB$
+\end_inset
+
+ es recto, por ser
+\begin_inset Formula $AB$
+\end_inset
+
+ diámetro, ha de ser 
+\begin_inset Formula $\angle A_{1}X_{1}B_{1}$
+\end_inset
+
+recto, y 
+\begin_inset Formula $X_{1}$
+\end_inset
+
+pertenece a la circunferencia de diámetro 
+\begin_inset Formula $A_{1}B_{1}$
+\end_inset
+
+.
+ Como 
+\begin_inset Formula $X$
+\end_inset
+
+ es arbitrario, todo punto de 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ tiene la imagen sobre esta circunferencia; y recíprocamente.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename thesis/imag4.png
+	lyxscale 40
+	scale 60
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Inversión-de-una"
+
+\end_inset
+
+Inversión de una circunferencia
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
