@@ -248,16 +248,14 @@ Introducción.
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-Ningún pais especial tuvo el monopolio en el desarrollo de la matemática
+Ningún país especial tuvo el monopolio en el desarrollo de la matemática
  elemental, pero quizá se pueda atribuir a Alemania el papel principal,
  por ser la patria de Jacob Steiner (1796 - 1863), uno de los muchos descubridor
 es independientes de la circunferencia de los nueve puntos y, mucho más
  importante aún, el matemático al que se suele considerar generalmente como
  el más grande de los geómetras de la época moderna, tal como Apolonio lo
  fue en la antigüedad.
- En realidad Steiner nacio en Suiza, pero hizo sus estudios en Heidelberg
+ En realidad Steiner nació en Suiza, pero hizo sus estudios en Heidelberg
  y en Berlín y, gracias al apoyo de Jacobi, obtuvo una cátedra en Berlín
  que ocupó hasta su muerte.
  En sus manos la geometría sintética hizo progresos comparables a los que
@@ -265,7 +263,7 @@ es independientes de la circunferencia de los nueve puntos y, mucho más
  Steiner demostró que todas las construcciones euclídeas pueden efectuarse
  con la regla únicamente, siempre que se nos de además una única circunferencia
  fija.
- Este matemético sentía una gran aversión por los métodos analíticos, y
+ Este matemático sentía una gran aversión por los métodos analíticos, y
  demostró, en un artículo publicado en el Jounal de Crelle, y utilizando
  exclusivamente métodos sintéticos, un sorprendente teorema que parece pertenece
 r de manera natural, por su complejidad, al análisis, el de que una superficie
@@ -273,8 +271,6 @@ r de manera natural, por su complejidad, al análisis, el de que una superficie
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 La historia de la geometría durante el siglo XIX está llena de casos de
  descubrimientos independientes y casi simultáneos, y Steiner se vio mezclado
  en varios de estos casos.
@@ -290,8 +286,6 @@ r completamente del compás en la geometría euclídea, pero que una vez utiliza
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 En 1824 descubrió la fructífera transformación geométrica conocida como
  inversión.
  Si los puntos 
@@ -363,23 +357,21 @@ l.
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Se puede demostrar sin dificultad gran cantidad de teoremas pertenecientes
- a la gemetría de la inversión del plano o del espacio, bien sea por métodos
+ a la geometría de la inversión del plano o del espacio, bien sea por métodos
  análiticos o sintéticos.
  En particular, es inmediato demostrar que, en una inversión plana, toda
  circunferencia que no pase por el centro de la inversión se transforma
  en otra circunferencia, mientras que toda circunferencia que pase por el
  centro de inversión se transforma en una recta que no pasa por él, así
  como resultados análogos relativos a esferas y planos en la geometría de
- la inversión tridimensional.
+ la inversión tridimensional
+\lang english
+.
 \end_layout
 
 \begin_layout Subsection
-
-\lang english
-Definición de inversión.
+Definición de inversión
 \end_layout
 
 \begin_layout Standard
@@ -395,7 +387,7 @@ Dada una circunferencia
 \begin_inset Formula $k$
 \end_inset
 
-, como en la
+, como en la figura 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Inversión"
@@ -479,14 +471,14 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Invers
+Inversión
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Inversión"
 
 \end_inset
 
-ión
+
 \end_layout
 
 \end_inset
@@ -533,7 +525,7 @@ Sea
 \begin_inset Formula $\omega$
 \end_inset
 
-(que no sea 
+ (que no sea 
 \begin_inset Formula $O$
 \end_inset
 
@@ -575,27 +567,26 @@ Como
 \end_inset
 
 construido de esta manera, satisface
+\begin_inset Formula 
+\[
+\frac{OP}{OT}=\frac{OT}{OP_{1}}
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-\noindent
-\align center
-\begin_inset Formula $\frac{OP}{OT}=\frac{OT}{OP_{1}}$
-\end_inset
-
- , 
+y entonces 
 \begin_inset Formula $OP\times OP_{1}=k^{2}$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-por tanto 
+ y por tanto 
 \begin_inset Formula $P_{1}$
 \end_inset
 
-es el inverso de 
+ es el inverso de 
 \begin_inset Formula $P$
 \end_inset
 
@@ -636,7 +627,7 @@ Recíprocamente, para construir el inverso de cualquier punto
 \begin_inset Formula $TU$
 \end_inset
 
-(es decir, el punto en el que 
+ (es decir, el punto en el que 
 \begin_inset Formula $TU$
 \end_inset
 
@@ -648,7 +639,7 @@ Recíprocamente, para construir el inverso de cualquier punto
 \end_layout
 
 \begin_layout Subsection
-La inversión de rectas y circunferencias.
+Rectas y Circunferencias
 \end_layout
 
 \begin_layout Standard
@@ -666,7 +657,7 @@ Cualquier recta que pase por
 \end_inset
 
  como su propio inverso, porque entonces la inversión no sería una transformació
-n contínua; cuando 
+n continua; cuando 
 \begin_inset Formula $P$
 \end_inset
 
@@ -697,11 +688,11 @@ se observa que la inversa de cualquier recta
 \begin_inset Formula $O$
 \end_inset
 
-, es una circurcunfercia que pasa por 
+, es una circunferencia que pasa por 
 \begin_inset Formula $O$
 \end_inset
 
-(menos el mismo punto 
+ (menos el mismo punto 
 \begin_inset Formula $O$
 \end_inset
 
@@ -801,7 +792,7 @@ Los detalles son los siguientes: sea
 \begin_inset Formula $P$
 \end_inset
 
- un punto arbitrarionen 
+ un punto arbitrario en 
 \begin_inset Formula $a$
 \end_inset
 
