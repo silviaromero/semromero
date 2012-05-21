@@ -431,7 +431,14 @@ reference "fig:Inversión"
 \end_layout
 
 \begin_layout Standard
-Se sigue de esta definición que el inverso de 
+Se sigue de esta definición 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Coxeter"
+
+\end_inset
+
+ que el inverso de 
 \begin_inset Formula $P_{1}$
 \end_inset
 
@@ -566,7 +573,7 @@ Como
 \begin_inset Formula $P_{1}$
 \end_inset
 
-construido de esta manera, satisface
+ construido de esta manera, satisface
 \begin_inset Formula 
 \[
 \frac{OP}{OT}=\frac{OT}{OP_{1}}
@@ -669,7 +676,7 @@ n continua; cuando
 \begin_inset Formula $P_{1}$
 \end_inset
 
-se aleja).
+ se aleja).
 \end_layout
 
 \begin_layout Standard
@@ -817,12 +824,11 @@ Entonces
 \end_inset
 
 , 
-\end_layout
+\begin_inset Formula 
+\[
+\frac{OP}{OA}=\frac{OA_{1}}{OP_{1}}
+\]
 
-\begin_layout Standard
-\noindent
-\align center
-\begin_inset Formula $\frac{OP}{OA}=\frac{OA_{1}}{OP_{1}}$
 \end_inset
 
 
@@ -841,7 +847,7 @@ Recíprocamente, cualquier punto
 \begin_inset Formula $P_{1}$
 \end_inset
 
-(excepto 
+ (excepto 
 \begin_inset Formula $O$
 \end_inset
 
@@ -862,7 +868,7 @@ Recíprocamente, cualquier punto
 \begin_inset Formula $O$
 \end_inset
 
-(excepto el mismo 
+ (excepto el mismo 
 \begin_inset Formula $O$
 \end_inset
 
@@ -899,7 +905,7 @@ Se sigue que un par de circunferencias tangentes, con puntos comunes
 \end_layout
 
 \begin_layout Standard
-Veamos a hallar ahora el resultado de invertir una circunferencia que no
+Vamos a hallar ahora el resultado de invertir una circunferencia que no
  pasa por el centro de inversión.
  Para ello consideremos una circunferencia 
 \begin_inset Formula $\alpha$
@@ -938,7 +944,11 @@ reference "fig:Inversión-de-una"
 \end_layout
 
 \begin_layout Standard
-Tomamos un punto arbitrario X de 
+Tomamos un punto arbitrario 
+\begin_inset Formula $X$
+\end_inset
+
+ de 
 \begin_inset Formula $\alpha.$
 \end_inset
 
@@ -955,7 +965,7 @@ Tomamos un punto arbitrario X de
 \begin_inset Formula $\angle AXB$
 \end_inset
 
- es recto, por ser
+ es recto, por ser 
 \begin_inset Formula $AB$
 \end_inset
 
@@ -963,11 +973,11 @@ Tomamos un punto arbitrario X de
 \begin_inset Formula $\angle A_{1}X_{1}B_{1}$
 \end_inset
 
-recto, y 
+ recto, y 
 \begin_inset Formula $X_{1}$
 \end_inset
 
-pertenece a la circunferencia de diámetro 
+ pertenece a la circunferencia de diámetro 
 \begin_inset Formula $A_{1}B_{1}$
 \end_inset
 
@@ -998,7 +1008,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename thesis/imag4.png
-	lyxscale 40
+	lyxscale 20
 	scale 60
 
 \end_inset
@@ -1028,6 +1038,194 @@ Inversión de una circunferencia
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection
+Circunferencias Ortogonales
+\end_layout
+
+\begin_layout Standard
+Dos circunferencias son ortogonales si se cortan en dos puntos formando
+ ángulos rectos.
+ 
+\end_layout
+
+\begin_layout Standard
+Sean dos circunferencias 
+\begin_inset Formula $\omega_{1}$
+\end_inset
+
+ y 
+\begin_inset Formula $\omega_{2}$
+\end_inset
+
+ ortogonales, entonces 
+\begin_inset Formula $\omega_{1}$
+\end_inset
+
+ es auto-inversa con respecto a 
+\begin_inset Formula $\omega_{2}$
+\end_inset
+
+ y recíprocamente.
+ O sea que si una de ellas, por ejemplo 
+\begin_inset Formula $\omega_{1}$
+\end_inset
+
+, tiene un punto 
+\begin_inset Formula $P$
+\end_inset
+
+, entonces también tendrá un punto 
+\begin_inset Formula $P'$
+\end_inset
+
+, inverso de 
+\begin_inset Formula $P$
+\end_inset
+
+ con respecto a 
+\begin_inset Formula $\omega_{2}$
+\end_inset
+
+.
+ También vale la proposición recíproca: Cualquier circunferencia que pase
+ por dos puntos distintos, inversos uno del otro en 
+\begin_inset Formula $\omega$
+\end_inset
+
+, entonces es su propia inversa con respecto a 
+\begin_inset Formula $\omega$
+\end_inset
+
+ y es ortogonal a 
+\begin_inset Formula $\omega$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Section
+Porisma de Steiner
+\end_layout
+
+\begin_layout Standard
+Un primer ejemplo donde se ve el poder de las inversiones es el llamado
+ Porisma de Steiner.
+ Dadas dos circunferencias no concéntricas, una interior a la otra, se quiere
+ saber si hay una cadena de circunferencias cada una de ellas tangente a
+ la anterior y a la posterior y tangentes todas ellas a las dos circunferencias
+ dadas.
+\end_layout
+
+\begin_layout Standard
+Este problema o bien no tiene solución, o bien tiene infinitas soluciones.
+ Esta situación se describe diciendo que tenemos un 
+\begin_inset Quotes eld
+\end_inset
+
+Porisma
+\begin_inset Quotes erd
+\end_inset
+
+, en este caso el Porisma de Steiner.
+ 
+\end_layout
+
+\begin_layout Standard
+Si tenemos dos circunferencias (no concéntricas), una dentro de la otra,
+ y dibujamos otras circunferencias, que sean tangentes una a la otra sucesivamen
+te y todas ellas tangentes a las dos circunferencias originales, como la
+ figura 3, es posible que suceda que la sucesión de las circunferencias
+ tangentes se cierre, formando un anillo de 
+\begin_inset Formula $n$
+\end_inset
+
+ circunferencias, la última de las cuales es tangente a la primera.
+ En este caso, podemos considerar como primera circunferencia del anillo
+ a cualquiera de las circunferencias tangentes a las dos circunferencias
+ originales, y el anillo seguirá cerrándose con el mismo valor 
+\begin_inset Formula $n$
+\end_inset
+
+.
+ Si pudieramos invertir las circunferencias originales en circunferencias
+ concéntricas , y entonces las otras se convierten en un anillo de circunferenci
+as iguales, cuyos centros forman un 
+\begin_inset Formula $n$
+\end_inset
+
+-ágono regular como en la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Circunferencias-concéntricas"
+
+\end_inset
+
+ entonces el problema tendría una solución sencilla.
+ Afortunadamente, como mostraremos en la siguiente subsección, esto último
+ es posible
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename /home/antonio/Documentos/Seminarios/semromero/thesis/porism1.png
+	lyxscale 30
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Circunferencias-concéntricas"
+
+\end_inset
+
+Circunferencias concéntricas
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Inversión de circunferencias no concéntricas
+\end_layout
+
+\begin_layout Standard
+sssss
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Co"
+key "Coxeter"
+
+\end_inset
+
+Coxeter H.S.M, S.L Greitzer.
+ Retorno a la Geometría.
+ La Tortuga de Aquiles.
+ 1993.
 \end_layout
 
 \end_body
