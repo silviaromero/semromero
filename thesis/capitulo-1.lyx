@@ -1069,7 +1069,11 @@ te y todas ellas tangentes a las dos circunferencias originales, como la
  de Steiner.
  Simplemente tenemos que invertir las circunferencias originales en circunferenc
 ias concéntricas , y entonces las otras se convierten en un anillo de circunfere
-ncias iguales, cuyos centros forman un n-ágono regular como en la 
+ncias iguales, cuyos centros forman un 
+\begin_inset Formula $n$
+\end_inset
+
+-ágono regular como en la 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Circunferencias-concéntricas"
@@ -1253,7 +1257,7 @@ opuestos
 \end_layout
 
 \begin_layout Standard
-El porisma de Steiner es todavía válido en la cadena de circunferencias
+El Porisma de Steiner es todavía válido en la cadena de circunferencias
  después de 
 \begin_inset Formula $d$
 \end_inset
@@ -1275,7 +1279,7 @@ El porisma de Steiner es todavía válido en la cadena de circunferencias
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
