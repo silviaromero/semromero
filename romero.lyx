@@ -669,7 +669,7 @@ n continua; cuando
 \begin_inset Formula $P_{1}$
 \end_inset
 
-se aleja).
+ se aleja).
 \end_layout
 
 \begin_layout Standard
@@ -817,12 +817,11 @@ Entonces
 \end_inset
 
 , 
-\end_layout
+\begin_inset Formula 
+\[
+\frac{OP}{OA}=\frac{OA_{1}}{OP_{1}}
+\]
 
-\begin_layout Standard
-\noindent
-\align center
-\begin_inset Formula $\frac{OP}{OA}=\frac{OA_{1}}{OP_{1}}$
 \end_inset
 
 
@@ -841,7 +840,7 @@ Recíprocamente, cualquier punto
 \begin_inset Formula $P_{1}$
 \end_inset
 
-(excepto 
+ (excepto 
 \begin_inset Formula $O$
 \end_inset
 
@@ -862,7 +861,7 @@ Recíprocamente, cualquier punto
 \begin_inset Formula $O$
 \end_inset
 
-(excepto el mismo 
+ (excepto el mismo 
 \begin_inset Formula $O$
 \end_inset
 
@@ -899,7 +898,7 @@ Se sigue que un par de circunferencias tangentes, con puntos comunes
 \end_layout
 
 \begin_layout Standard
-Veamos a hallar ahora el resultado de invertir una circunferencia que no
+Vamos a hallar ahora el resultado de invertir una circunferencia que no
  pasa por el centro de inversión.
  Para ello consideremos una circunferencia 
 \begin_inset Formula $\alpha$
@@ -938,7 +937,11 @@ reference "fig:Inversión-de-una"
 \end_layout
 
 \begin_layout Standard
-Tomamos un punto arbitrario X de 
+Tomamos un punto arbitrario 
+\begin_inset Formula $X$
+\end_inset
+
+ de 
 \begin_inset Formula $\alpha.$
 \end_inset
 
@@ -955,7 +958,7 @@ Tomamos un punto arbitrario X de
 \begin_inset Formula $\angle AXB$
 \end_inset
 
- es recto, por ser
+ es recto, por ser 
 \begin_inset Formula $AB$
 \end_inset
 
@@ -963,11 +966,11 @@ Tomamos un punto arbitrario X de
 \begin_inset Formula $\angle A_{1}X_{1}B_{1}$
 \end_inset
 
-recto, y 
+ recto, y 
 \begin_inset Formula $X_{1}$
 \end_inset
 
-pertenece a la circunferencia de diámetro 
+ pertenece a la circunferencia de diámetro 
 \begin_inset Formula $A_{1}B_{1}$
 \end_inset
 
@@ -988,10 +991,6 @@ pertenece a la circunferencia de diámetro
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \noindent
