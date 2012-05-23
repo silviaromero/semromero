@@ -222,7 +222,8 @@ En este trabajo se plantea y resuelve el problema del Porisma de Steiner.
  Este hecho convierte este problema en candidato excelente como herramienta
  de integración de conceptos tales como propiedad involutiva de inversión,
  inversión de rectas y circunferencias, circunferencias ortogonales, y otros
- temas de geometría.
+ temas de geometría; y por lo tanto de mucha utilidad para los que deban
+ enseñar o aprender estos temas.
  También describimos en el trabajo la construcción de herramientas útiles
  para la visualización del problema, realizadas con el Geogebra, que es
  un programa principalmente educativo y que permite la exploración por parte
@@ -240,11 +241,11 @@ En este trabajo se plantea y resuelve el problema del Porisma de Steiner.
 \end_layout
 
 \begin_layout Section
-La Geometría de la Inversión.
+Introducción
 \end_layout
 
 \begin_layout Subsection
-Introducción.
+Reseña histórica
 \end_layout
 
 \begin_layout Standard
@@ -261,102 +262,16 @@ es independientes de la circunferencia de los nueve puntos y, mucho más
  Demostró que todas las construcciones euclídeas pueden efectuarse con la
  regla únicamente, siempre que se nos de además una única circunferencia
  fija.
-\end_layout
-
-\begin_layout Standard
-La historia de la geometría durante el siglo XIX está llena de casos de
- descubrimientos independientes y casi simultáneos, y Steiner se vio mezclado
- en varios de estos casos.
- En 1822, Porcelet, inspirado por la obra de Mascheroni, había sugerido
- que todas las construcciones euclídeas planas podrían efectuarse con la
- regla únicamente, si se daba además una circunferencia concreta y su centro,
- teorema que demostró en 1833 Steiner, como hemos visto.
- 
-\end_layout
-
-\begin_layout Standard
-En 1824 descubrió la fructífera transformación geométrica conocida como
- inversión.
- Si los puntos 
-\begin_inset Formula $P$
-\end_inset
-
- y 
-\begin_inset Formula $P'$
-\end_inset
-
- están sobre una semirrecta cuyo origen es el centro 
-\begin_inset Formula $O$
-\end_inset
-
- de una circunferencia 
-\begin_inset Formula $C$
-\end_inset
-
- de radio 
-\begin_inset Formula $r\neq0$
-\end_inset
-
-, y si el producto de las distancias 
-\begin_inset Formula $OP$
-\end_inset
-
- y 
-\begin_inset Formula $OP'$
-\end_inset
-
- es 
-\begin_inset Formula $r^{2}$
-\end_inset
-
-, entonces se dice que cada uno de los puntos 
-\begin_inset Formula $P$
-\end_inset
-
-, 
-\begin_inset Formula $P'$
-\end_inset
-
-, es inverso del otro con respecto a la circunferencia 
-\begin_inset Formula $C$
-\end_inset
-
-.
- A todo punto 
-\begin_inset Formula $P$
-\end_inset
-
- exterior al círculo que determina 
-\begin_inset Formula $C$
-\end_inset
-
- le corresponde en la inversión uno y sólo uno 
-\begin_inset Formula $P'$
-\end_inset
-
- interior al círculo, mientras que centro 
-\begin_inset Formula $O$
-\end_inset
-
- es el único punto interior al círculo que no corresponde a ningún punto
- exterior.
- De manera totalmente análoga al caso del plano, se puede definir fácilmente
- la inversión con respecto a una superficie esférica en el espacio tridimenciona
-l.
-\end_layout
-
-\begin_layout Standard
-Se puede demostrar sin dificultad gran cantidad de teoremas pertenecientes
- a la geometría de la inversión del plano o del espacio, bien sea por métodos
- análiticos o sintéticos.
- 
+ En 1824 descubrió la fructífera transformación geométrica conocida como
+ inversión, que le sirvió como herramienta para dar solución al problema
+ del Porisma, que había sido planteado por Apolonio.
 \end_layout
 
 \begin_layout Subsection
-Definición de inversión
+La inversión
 \end_layout
 
-\begin_layout Standard
+\begin_layout Definition
 Dada una circunferencia 
 \begin_inset Formula $\omega$
 \end_inset
@@ -1187,8 +1102,9 @@ Inversión de circunferencias no concéntricas
 \end_layout
 
 \begin_layout Standard
-Pasos para la inversión de las circunferencias originales en circunferencias
- concéntricas: 
+La siguiente secuencia de actividades transforma dos circunferencias no
+ concéntricas por medio de inversiones en dos circunferencias concéntricas.
+ 
 \end_layout
 
 \begin_layout Enumerate
@@ -1923,7 +1839,7 @@ status open
 \begin_inset Graphics
 	filename thesis/ggb/centrotrece.png
 	lyxscale 40
-	scale 30
+	width 12cm
 
 \end_inset
 
@@ -1957,6 +1873,23 @@ Coxeter H.S.M, S.L Greitzer.
  Retorno a la Geometría.
  La Tortuga de Aquiles.
  1993.
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Referencias
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Ar"
+key "Arias"
+
+\end_inset
+
+Arias M.
+ V.
+ Sángari, A.
+ Construcciones con solo compás.
+ volumen 27.
+ Recuperado de http://www.famaf.unc.edu.ar/rev_edu/#rev_intro 
 \end_layout
 
 \end_body
