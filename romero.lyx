@@ -1027,10 +1027,6 @@ Inversión de una circunferencia
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -1174,8 +1170,9 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
-	filename /home/antonio/Documentos/Seminarios/semromero/thesis/porism1.png
+	filename thesis/porism1.png
 	lyxscale 30
+	scale 40
 
 \end_inset
 
@@ -1207,10 +1204,765 @@ Inversión de circunferencias no concéntricas
 \end_layout
 
 \begin_layout Standard
-sssss
+Pasos para la inversión de las circunferencias originales en circunferencias
+ concéntricas: 
+\end_layout
+
+\begin_layout Enumerate
+Trazar la circunferencia que pasa por 
+\begin_inset Formula $B=(-2,0)$
+\end_inset
+
+ con centro en 
+\begin_inset Formula $A=(2,0)$
+\end_inset
+
+.
+ Llamarla 
+\begin_inset Formula $c$
+\end_inset
+
+.
+ Y la circunferencia que pasa por 
+\begin_inset Formula $D=(-1,0)$
+\end_inset
+
+ con centro en 
+\begin_inset Formula $C=(1,0)$
+\end_inset
+
+.
+ Llamarla 
+\begin_inset Formula $d$
+\end_inset
+
+.
+ (Circunferencias no concentricas).
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename thesis/ggb/centrouno.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Trazar las tangentes por el punto 
+\begin_inset Formula $B$
+\end_inset
+
+ a la circunferencia 
+\begin_inset Formula $d$
+\end_inset
+
+.
+ Luego llamar 
+\begin_inset Formula $E$
+\end_inset
+
+ al punto de intersección de la tangente superior con dicha circunferencia.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename thesis/ggb/centrodos.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Trazar la circunferencia que pase por 
+\begin_inset Formula $E$
+\end_inset
+
+ con centro en 
+\begin_inset Formula $B$
+\end_inset
+
+.
+ Llamarla 
+\begin_inset Formula $e$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename thesis/ggb/centrotres.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Llamar 
+\begin_inset Formula $F$
+\end_inset
+
+ al punto de intersección superior de la circunferencia 
+\begin_inset Formula $e$
+\end_inset
+
+ con la circunferencia 
+\begin_inset Formula $c$
+\end_inset
+
+.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename thesis/ggb/centrocuatro.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Trazar las tangentes por el punto 
+\begin_inset Formula $F$
+\end_inset
+
+ a la circunferencia 
+\begin_inset Formula $d$
+\end_inset
+
+.
+ Luego llamar 
+\begin_inset Formula $G$
+\end_inset
+
+ al punto de interseción de la tangente inferior con dicha circunferencia.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename thesis/ggb/centrocinco.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Trazar la circunferencia que pase por 
+\begin_inset Formula $G$
+\end_inset
+
+ con centro en 
+\begin_inset Formula $F$
+\end_inset
+
+.
+ Llamarla 
+\begin_inset Formula $h.$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename thesis/ggb/centroseis.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Llamar 
+\begin_inset Formula $H$
+\end_inset
+
+ al punto de intersección izquierdo de la circunferencia 
+\begin_inset Formula $h$
+\end_inset
+
+ con el eje 
+\begin_inset Formula $x$
+\end_inset
+
+.
+ Luego trazar el punto 
+\begin_inset Formula $H$
+\end_inset
+
+', inverso del punto 
+\begin_inset Formula $H$
+\end_inset
+
+ a través de la circunferencia de inversión 
+\begin_inset Formula $e.$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename thesis/ggb/centrosiete.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Llamar 
+\begin_inset Formula $I$
+\end_inset
+
+ al punto de intersección inferior de la circunferencia 
+\begin_inset Formula $e$
+\end_inset
+
+ con la circunferencia 
+\begin_inset Formula $d$
+\end_inset
+
+.
+ Y 
+\begin_inset Formula $J$
+\end_inset
+
+ al punto de intersección inferior de la circunferencia 
+\begin_inset Formula $e$
+\end_inset
+
+ con la circunferencia 
+\begin_inset Formula $c$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename thesis/ggb/centroocho.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Trazar la circunferencia que pase por 
+\begin_inset Formula $B$
+\end_inset
+
+ con centro en 
+\begin_inset Formula $H'$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename thesis/ggb/centronueve.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Trazar el punto 
+\begin_inset Formula $F'$
+\end_inset
+
+, inverso del punto 
+\begin_inset Formula $F$
+\end_inset
+
+ , y el punto 
+\begin_inset Formula $J'$
+\end_inset
+
+, inverso del punto 
+\begin_inset Formula $J$
+\end_inset
+
+ a través de la circunferencia de inversión determinada en el punto 9.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename thesis/ggb/centrodiez.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Trazar la circunferencia que pase por los puntos 
+\begin_inset Formula $F'$
+\end_inset
+
+,
+\begin_inset Formula $J'$
+\end_inset
+
+ y 
+\begin_inset Formula $B$
+\end_inset
+
+; y llamarla 
+\begin_inset Formula $p$
+\end_inset
+
+.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename thesis/ggb/centroonce.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Luego trazar el punto 
+\begin_inset Formula $D'$
+\end_inset
+
+, inverso del punto 
+\begin_inset Formula $D$
+\end_inset
+
+ a través de la circunferencia de inversión determinada en el punto 9.
+ De la misma forma trazar el punto 
+\begin_inset Formula $E'$
+\end_inset
+
+, inverso del punto 
+\begin_inset Formula $E'$
+\end_inset
+
+, y el punto 
+\begin_inset Formula $I'$
+\end_inset
+
+, inverso del punto 
+\begin_inset Formula $I$
+\end_inset
+
+ a traves de la circunferencia de inversión determinada en el punto 9.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename thesis/ggb/centrodoce.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Trazar la circunferencia que pase por los puntos 
+\begin_inset Formula $E'$
+\end_inset
+
+,
+\begin_inset Formula $D'$
+\end_inset
+
+ y 
+\begin_inset Formula $I'$
+\end_inset
+
+; y llamarla 
+\begin_inset Formula $q.$
+\end_inset
+
+ De esta manera las circunferencias originales 
+\begin_inset Formula $c$
+\end_inset
+
+ y 
+\begin_inset Formula $d$
+\end_inset
+
+ se vuelven circunferencias concéntricas 
+\begin_inset Formula $p$
+\end_inset
+
+ y 
+\begin_inset Formula $q.$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename thesis/ggb/centrotrece.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Bibliography
+\labelwidthstring Referencias
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
 label "Co"
