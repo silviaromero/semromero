@@ -255,19 +255,12 @@ es independientes de la circunferencia de los nueve puntos y, mucho más
  importante aún, el matemático al que se suele considerar generalmente como
  el más grande de los geómetras de la época moderna, tal como Apolonio lo
  fue en la antigüedad.
- En realidad Steiner nació en Suiza, pero hizo sus estudios en Heidelberg
- y en Berlín y, gracias al apoyo de Jacobi, obtuvo una cátedra en Berlín
- que ocupó hasta su muerte.
- En sus manos la geometría sintética hizo progresos comparables a los que
- había hecho anteriormente el análisis.
- Steiner demostró que todas las construcciones euclídeas pueden efectuarse
- con la regla únicamente, siempre que se nos de además una única circunferencia
+ Steiner sentía una gran aversión por los métodos analíticos, y en sus manos
+ la geometría sintética hizo progresos comparables a los que había hecho
+ anteriormente el análisis.
+ Demostró que todas las construcciones euclídeas pueden efectuarse con la
+ regla únicamente, siempre que se nos de además una única circunferencia
  fija.
- Este matemático sentía una gran aversión por los métodos analíticos, y
- demostró, en un artículo publicado en el Jounal de Crelle, y utilizando
- exclusivamente métodos sintéticos, un sorprendente teorema que parece pertenece
-r de manera natural, por su complejidad, al análisis, el de que una superficie
- de tercer orden sólo puede contener 27 rectas.
 \end_layout
 
 \begin_layout Standard
@@ -278,11 +271,7 @@ La historia de la geometría durante el siglo XIX está llena de casos de
  que todas las construcciones euclídeas planas podrían efectuarse con la
  regla únicamente, si se daba además una circunferencia concreta y su centro,
  teorema que demostró en 1833 Steiner, como hemos visto.
- Es decir, que el teorema de Porcelet-Steiner demuestra que no podemos prescindi
-r completamente del compás en la geometría euclídea, pero que una vez utilizado
- para trazar circunferencia cualquiera, podemos desecharlo a favor de la
- regla únicamente, de una manera parecida a como Mascheroni había utilizado
- únicamente el compás.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -360,14 +349,7 @@ l.
 Se puede demostrar sin dificultad gran cantidad de teoremas pertenecientes
  a la geometría de la inversión del plano o del espacio, bien sea por métodos
  análiticos o sintéticos.
- En particular, es inmediato demostrar que, en una inversión plana, toda
- circunferencia que no pase por el centro de la inversión se transforma
- en otra circunferencia, mientras que toda circunferencia que pase por el
- centro de inversión se transforma en una recta que no pasa por él, así
- como resultados análogos relativos a esferas y planos en la geometría de
- la inversión tridimensional
-\lang english
-.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -465,7 +447,8 @@ status open
 \align center
 \begin_inset Graphics
 	filename thesis/imag1.png
-	lyxscale 50
+	lyxscale 40
+	scale 50
 
 \end_inset
 
@@ -727,7 +710,7 @@ status open
 \begin_inset Graphics
 	filename thesis/dib1.png
 	lyxscale 40
-	scale 60
+	scale 50
 
 \end_inset
 
@@ -735,7 +718,7 @@ status open
 \begin_inset Graphics
 	filename thesis/dib3.png
 	lyxscale 40
-	scale 60
+	scale 50
 
 \end_inset
 
@@ -743,7 +726,7 @@ status open
 \begin_inset Graphics
 	filename thesis/dib5.png
 	lyxscale 40
-	scale 60
+	scale 50
 
 \end_inset
 
@@ -1005,7 +988,7 @@ status open
 \begin_inset Graphics
 	filename thesis/imag4.png
 	lyxscale 20
-	scale 60
+	scale 50
 
 \end_inset
 
@@ -1253,7 +1236,7 @@ status open
 \begin_inset Graphics
 	filename thesis/ggb/centrouno.png
 	lyxscale 40
-	scale 40
+	scale 30
 
 \end_inset
 
@@ -1307,7 +1290,7 @@ status open
 \begin_inset Graphics
 	filename thesis/ggb/centrodos.png
 	lyxscale 40
-	scale 40
+	scale 30
 
 \end_inset
 
@@ -1363,7 +1346,7 @@ status open
 \begin_inset Graphics
 	filename thesis/ggb/centrotres.png
 	lyxscale 40
-	scale 40
+	scale 30
 
 \end_inset
 
@@ -1417,7 +1400,7 @@ status open
 \begin_inset Graphics
 	filename thesis/ggb/centrocuatro.png
 	lyxscale 40
-	scale 40
+	scale 30
 
 \end_inset
 
@@ -1468,7 +1451,7 @@ status open
 \begin_inset Graphics
 	filename thesis/ggb/centrocinco.png
 	lyxscale 40
-	scale 40
+	scale 30
 
 \end_inset
 
@@ -1519,7 +1502,7 @@ status open
 \begin_inset Graphics
 	filename thesis/ggb/centroseis.png
 	lyxscale 40
-	scale 40
+	scale 30
 
 \end_inset
 
@@ -1582,7 +1565,7 @@ status open
 \begin_inset Graphics
 	filename thesis/ggb/centrosiete.png
 	lyxscale 40
-	scale 40
+	scale 30
 
 \end_inset
 
@@ -1645,7 +1628,7 @@ status open
 \begin_inset Graphics
 	filename thesis/ggb/centroocho.png
 	lyxscale 40
-	scale 40
+	scale 30
 
 \end_inset
 
@@ -1691,7 +1674,7 @@ status open
 \begin_inset Graphics
 	filename thesis/ggb/centronueve.png
 	lyxscale 40
-	scale 40
+	scale 30
 
 \end_inset
 
@@ -1748,7 +1731,7 @@ status open
 \begin_inset Graphics
 	filename thesis/ggb/centrodiez.png
 	lyxscale 40
-	scale 40
+	scale 30
 
 \end_inset
 
@@ -1803,7 +1786,7 @@ status open
 \begin_inset Graphics
 	filename thesis/ggb/centroonce.png
 	lyxscale 40
-	scale 40
+	scale 30
 
 \end_inset
 
@@ -1866,7 +1849,7 @@ status open
 \begin_inset Graphics
 	filename thesis/ggb/centrodoce.png
 	lyxscale 40
-	scale 40
+	scale 30
 
 \end_inset
 
@@ -1940,7 +1923,7 @@ status open
 \begin_inset Graphics
 	filename thesis/ggb/centrotrece.png
 	lyxscale 40
-	scale 40
+	scale 30
 
 \end_inset
 
