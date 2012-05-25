@@ -1055,7 +1055,7 @@ reference "fig:Circunferencias-concéntricas"
 
  entonces el problema tendría una solución sencilla.
  Afortunadamente, como mostraremos en la siguiente subsección, esto último
- es posible.
+ es posible
 \end_layout
 
 \begin_layout Standard
@@ -1068,7 +1068,7 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
-	filename thesis/circufconcentricas.png
+	filename thesis/porism1.png
 	lyxscale 30
 	scale 40
 
