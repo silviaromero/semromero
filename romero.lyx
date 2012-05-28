@@ -1187,7 +1187,7 @@ Usando la herramienta Tangentes, determinar las tangentes por el punto
 \begin_inset Formula $B$
 \end_inset
 
- y despues la circunferencia 
+ y después la circunferencia 
 \begin_inset Formula $d$
 \end_inset
 
@@ -1452,7 +1452,7 @@ Trazar la circunferencia que pase por
 \begin_inset Formula $J$
 \end_inset
 
- .Para ello selecciona la herramienta, marca el punto y despues la circunferencia
+ .Para ello selecciona la herramienta, marca el punto y después la circunferencia
  .
  Luego a través de la herramienta Circunferencia dados Tres de sus Puntos,
  hallar la circunferencia que pase por los puntos 
@@ -1519,7 +1519,7 @@ De la misma manera que en el punto anterior, determinar usando la herramienta
 \end_inset
 
 .
- Tambien el punto 
+ También el punto 
 \begin_inset Formula $E'$
 \end_inset
 
@@ -1613,6 +1613,46 @@ Secuencia 6
 
 \end_layout
 
+\begin_layout Section
+Conclusión
+\end_layout
+
+\begin_layout Standard
+El valor pedagógico de los problemas integradores es innegable.
+ El Porisma de Steiner, como se vio anteriormente, es un excelente ejemplo
+ de esto último, para una primera introducción a la Geometría de la Inversión.
+ 
+\end_layout
+
+\begin_layout Standard
+En cuanto a la importancia que tiene, en general, el estudio de la geometría
+ de la inversión, se evidencia por la amplia gama de aplicaciones que tiene.
+ Por ejemplo, al ser una transformación conforme, cobra importancia en las
+ aplicaciones de la variable compleja, donde se requiere transformaciones
+ conformes de dominios, para la resolución de ecuaciones diferenciales.
+ Otra aplicación menos difundida, pero igualmente interesante, es la de
+ sentar una base para realizar construcciones geométricas con solo compás
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Arias"
+
+\end_inset
+
+.
+ Estas aplicaciones obligan a incluir en las currículas de profesorados
+ y licenciaturas en matemáticas temas de la geometría de la Inversión.
+ 
+\end_layout
+
+\begin_layout Standard
+El valor agregado del uso del Geogebra, que ha cobrado relevancia por más
+ de un motivo en la educación, hace que el tema que nos ocupa sea altamente
+ motivador.
+ Y esta motivación, nos sirve a nuestro principal objetivo como docentes:
+ Interesar a los estudiantes a nuestro cargo en temas de Matemáticas.
+\end_layout
+
 \begin_layout Bibliography
 \labelwidthstring Referencias
 \begin_inset CommandInset bibitem
@@ -1637,7 +1677,7 @@ key "Arias"
 
 \end_inset
 
-Arias M.
+Arias, M.
  V.
  Sángari, A.
  Construcciones con solo compás.
