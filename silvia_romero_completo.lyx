@@ -1,0 +1,1726 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\options intoc,bibliography=totoc,index=totoc,BCOR10mm,captions=tableheading,titlepage,fleqn
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+customHeadersFooters
+\end_modules
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman lmodern
+\font_sans lmss
+\font_typewriter lmtt
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "pdfpagelayout=OneColumn, pdfnewwindow=true, pdfstartview=XYZ, plainpages=false"
+\papersize a4paper
+\use_geometry true
+\use_amsmath 2
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\use_refstyle 0
+\branch chapter-1
+\selected 1
+\filename_suffix 0
+\color #ffaa00
+\end_branch
+\branch chapter-2
+\selected 1
+\filename_suffix 0
+\color #55aaff
+\end_branch
+\branch Summary
+\selected 1
+\filename_suffix 0
+\color #7f7f7f
+\end_branch
+\branch Acknowledgments
+\selected 1
+\filename_suffix 0
+\color #ffff00
+\end_branch
+\branch Appendix
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 2
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size large
+EL PORISMA DE STEINER COMO INTEGRADOR DE LA GEOMETRÍA DE LA INVERSIÓN
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\bar under
+Silvia Noemí Romero
+\bar default
+, Antonio Sángari
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+Universidad Nacional de Salta
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+(Avenida Bolivia N° 5150)
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+silvi_778@hotmail.com
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Categoría del Trabajo:
+\series default
+ Reflexiones.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Nivel educativo: 
+\series default
+Universitario.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Palabras claves:
+\series default
+ Geometría de la Inversión, Porisma de Steiner, Geometría asistida por computado
+ra, Enseñanza de la geometría.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Resumen: 
+\series default
+En este trabajo se plantea y resuelve el problema del Porisma de Steiner.
+ Este problema posee gran riqueza ejemplificadora debido a la variada cantidad
+ de recursos de la geometría de la Inversión.
+ Este hecho convierte este problema en candidato excelente como herramienta
+ de integración de conceptos tales como propiedad involutiva de inversión,
+ inversión de rectas y circunferencias, circunferencias ortogonales, y otros
+ temas de geometría; y por lo tanto de mucha utilidad para los que deban
+ enseñar o aprender estos temas.
+ También describimos en el trabajo la construcción de herramientas útiles
+ para la visualización del problema, realizadas con el Geogebra, que es
+ un programa principalmente educativo y que permite la exploración por parte
+ del estudiante de ciertas propiedades geométricas.
+ Y por último propondremos una serie de actividades a desarrollar por los
+ estudiantes con objetivo de la manipulación de los objetos inherentes en
+ este problema.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introducción
+\end_layout
+
+\begin_layout Subsection
+Reseña histórica
+\end_layout
+
+\begin_layout Standard
+Ningún país especial tuvo el monopolio en el desarrollo de la matemática
+ elemental, pero quizá se pueda atribuir a Alemania el papel principal,
+ por ser la patria de Jacob Steiner (1796 - 1863), uno de los muchos descubridor
+es independientes de la circunferencia de los nueve puntos y, mucho más
+ importante aún, el matemático al que se suele considerar generalmente como
+ el más grande de los geómetras de la época moderna, tal como Apolonio lo
+ fue en la antigüedad.
+ Steiner sentía una gran aversión por los métodos analíticos, y en sus manos
+ la geometría sintética hizo progresos comparables a los que había hecho
+ anteriormente el análisis.
+ Demostró que todas las construcciones euclídeas pueden efectuarse con la
+ regla únicamente, siempre que se nos de además una única circunferencia
+ fija.
+ En 1824 descubrió la fructífera transformación geométrica conocida como
+ inversión, que le sirvió como herramienta para dar solución al problema
+ del Porisma, que había sido planteado por Apolonio 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Boyer"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+La inversión
+\end_layout
+
+\begin_layout Definition
+Dada una circunferencia 
+\begin_inset Formula $\omega$
+\end_inset
+
+ con centro 
+\begin_inset Formula $O$
+\end_inset
+
+ y radio 
+\begin_inset Formula $k$
+\end_inset
+
+, como en la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Inversión"
+
+\end_inset
+
+, y un punto 
+\begin_inset Formula $P$
+\end_inset
+
+ diferente de 
+\begin_inset Formula $O$
+\end_inset
+
+, definimos el inverso de 
+\begin_inset Formula $P$
+\end_inset
+
+ como el punto 
+\begin_inset Formula $P_{1}$
+\end_inset
+
+, en la semirrecta 
+\begin_inset Formula $OP$
+\end_inset
+
+, cuya distancia desde 
+\begin_inset Formula $O$
+\end_inset
+
+ satisface la ecuación 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Formula $OP\times OP_{1}=k^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se sigue de esta definición 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Coxeter"
+
+\end_inset
+
+ que el inverso de 
+\begin_inset Formula $P_{1}$
+\end_inset
+
+ es 
+\begin_inset Formula $P$
+\end_inset
+
+: la inversión es de periodo dos.
+ Los únicos puntos auto-inversos son los puntos de 
+\begin_inset Formula $\omega$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename thesis/imag1.png
+	lyxscale 40
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Inversión
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Inversión"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si 
+\begin_inset Formula $P$
+\end_inset
+
+ describe un lugar geométrico, 
+\begin_inset Formula $P_{1}$
+\end_inset
+
+ describe el lugar geométrico inverso.
+ En particular, el inverso de una circunferencia de centro 
+\begin_inset Formula $O$
+\end_inset
+
+ y radio 
+\begin_inset Formula $r$
+\end_inset
+
+ es una circunferencia concéntrica de radio 
+\begin_inset Formula $\nicefrac{k^{2}}{r}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Sea 
+\begin_inset Formula $P$
+\end_inset
+
+ un punto interior a 
+\begin_inset Formula $\omega$
+\end_inset
+
+ (que no sea 
+\begin_inset Formula $O$
+\end_inset
+
+).
+ Consideremos la cuerda 
+\begin_inset Formula $TU$
+\end_inset
+
+ que pasa por 
+\begin_inset Formula $P$
+\end_inset
+
+, perpendicular a 
+\begin_inset Formula $OP$
+\end_inset
+
+, y el punto 
+\begin_inset Formula $P_{1}$
+\end_inset
+
+ donde se cortan las tangentes en 
+\begin_inset Formula $T$
+\end_inset
+
+ y 
+\begin_inset Formula $U$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Como 
+\begin_inset Formula $\triangle OPT\sim\triangle OTP_{1}$
+\end_inset
+
+, el punto 
+\begin_inset Formula $P_{1}$
+\end_inset
+
+ construido de esta manera, satisface
+\begin_inset Formula 
+\[
+\frac{OP}{OT}=\frac{OT}{OP_{1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+y entonces 
+\begin_inset Formula $OP\times OP_{1}=k^{2}$
+\end_inset
+
+ y por tanto 
+\begin_inset Formula $P_{1}$
+\end_inset
+
+ es el inverso de 
+\begin_inset Formula $P$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Recíprocamente, para construir el inverso de cualquier punto 
+\begin_inset Formula $P_{1}$
+\end_inset
+
+ exterior a 
+\begin_inset Formula $\omega$
+\end_inset
+
+, podemos dibujar la circunferencia que tiene como diámetro 
+\begin_inset Formula $OP_{1}$
+\end_inset
+
+.
+ Si esta circunferencia corta 
+\begin_inset Formula $\omega$
+\end_inset
+
+ en 
+\begin_inset Formula $T$
+\end_inset
+
+ y 
+\begin_inset Formula $U$
+\end_inset
+
+, el inverso buscado 
+\begin_inset Formula $P$
+\end_inset
+
+ es el punto medio de 
+\begin_inset Formula $TU$
+\end_inset
+
+ (es decir, el punto en el que 
+\begin_inset Formula $TU$
+\end_inset
+
+ corta a 
+\begin_inset Formula $OP_{1}$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsection
+Rectas y Circunferencias
+\end_layout
+
+\begin_layout Standard
+Cualquier recta que pase por 
+\begin_inset Formula $O$
+\end_inset
+
+ es su propia inversa, siempre que omitamos al propio punto 
+\begin_inset Formula $O$
+\end_inset
+
+.
+ (No debemos intentar evitar esta omisión, considerando 
+\begin_inset Formula $O$
+\end_inset
+
+ como su propio inverso, porque entonces la inversión no sería una transformació
+n continua; cuando 
+\begin_inset Formula $P$
+\end_inset
+
+ se acerca a 
+\begin_inset Formula $O$
+\end_inset
+
+, 
+\begin_inset Formula $P_{1}$
+\end_inset
+
+ se aleja).
+\end_layout
+
+\begin_layout Standard
+En la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Inversa-de-una"
+
+\end_inset
+
+se observa que la inversa de cualquier recta 
+\begin_inset Formula $a$
+\end_inset
+
+, que no pase por 
+\begin_inset Formula $O$
+\end_inset
+
+, es una circunferencia que pasa por 
+\begin_inset Formula $O$
+\end_inset
+
+ (menos el mismo punto 
+\begin_inset Formula $O$
+\end_inset
+
+), y que el diámetro de esta circunferencia que pasa por 
+\begin_inset Formula $O$
+\end_inset
+
+, es perpendicular a 
+\begin_inset Formula $a$
+\end_inset
+
+ .
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename thesis/dib1.png
+	lyxscale 40
+	scale 50
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename thesis/dib3.png
+	lyxscale 40
+	scale 50
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename thesis/dib5.png
+	lyxscale 40
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Inversa-de-una"
+
+\end_inset
+
+Inversión de una recta 
+\begin_inset Formula $a$
+\end_inset
+
+ que no pasa por 
+\begin_inset Formula $O$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Los detalles son los siguientes: sea 
+\begin_inset Formula $A$
+\end_inset
+
+ el pie de la perpendicular desde O a 
+\begin_inset Formula $a$
+\end_inset
+
+, 
+\begin_inset Formula $A_{1}$
+\end_inset
+
+ el inverso de 
+\begin_inset Formula $A$
+\end_inset
+
+, 
+\begin_inset Formula $P$
+\end_inset
+
+ un punto arbitrario en 
+\begin_inset Formula $a$
+\end_inset
+
+, y 
+\begin_inset Formula $P_{1}$
+\end_inset
+
+ el punto en el que la semirrecta 
+\begin_inset Formula $OP$
+\end_inset
+
+ corta a la circunferencia que tiene como diámetro 
+\begin_inset Formula $OA_{1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Entonces 
+\begin_inset Formula $\triangle OAP\sim\triangle OP_{1}A_{1}$
+\end_inset
+
+, 
+\begin_inset Formula 
+\[
+\frac{OP}{OA}=\frac{OA_{1}}{OP_{1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+y 
+\begin_inset Formula $OP\times OP_{1}=OA\times OA_{1}=k^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Recíprocamente, cualquier punto 
+\begin_inset Formula $P_{1}$
+\end_inset
+
+ (excepto 
+\begin_inset Formula $O$
+\end_inset
+
+) que pertenezca a la circunferencia con diámetro 
+\begin_inset Formula $OA_{1}$
+\end_inset
+
+, se invierte en un punto 
+\begin_inset Formula $P$
+\end_inset
+
+ de la recta 
+\begin_inset Formula $a$
+\end_inset
+
+.
+ Por lo tanto, la inversa de cualquier circunferencia que pase por 
+\begin_inset Formula $O$
+\end_inset
+
+ (excepto el mismo 
+\begin_inset Formula $O$
+\end_inset
+
+) es una recta perpendicular al diámetro que pasa por 
+\begin_inset Formula $O$
+\end_inset
+
+, es decir, una recta paralela a la tangente a la circunferencia en 
+\begin_inset Formula $O$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Se sigue que un par de circunferencias tangentes, con puntos comunes 
+\begin_inset Formula $O$
+\end_inset
+
+ y 
+\begin_inset Formula $P$
+\end_inset
+
+, se invierten en un par de rectas que pasan por el inverso del punto 
+\begin_inset Formula $P_{1}$
+\end_inset
+
+; y que un par de circunferencias tangentes en 
+\begin_inset Formula $O$
+\end_inset
+
+, se invierten en un par de rectas paralelas.
+\end_layout
+
+\begin_layout Standard
+Vamos a hallar ahora el resultado de invertir una circunferencia que no
+ pasa por el centro de inversión.
+ Para ello consideremos una circunferencia 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ que no pasa por el centro de inversión 
+\begin_inset Formula $O$
+\end_inset
+
+.
+ Sean 
+\begin_inset Formula $A,$
+\end_inset
+
+
+\begin_inset Formula $B$
+\end_inset
+
+ los puntos en que esta circunferencia corta a la recta que une su centro
+ con el centro 
+\begin_inset Formula $O.$
+\end_inset
+
+ Sean 
+\begin_inset Formula $A_{1},B_{1}$
+\end_inset
+
+ los inversos de estos puntos, como muestra la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Inversión-de-una"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Tomamos un punto arbitrario 
+\begin_inset Formula $X$
+\end_inset
+
+ de 
+\begin_inset Formula $\alpha.$
+\end_inset
+
+ Tenemos que 
+\begin_inset Formula $\angle XBA=\angle OX_{1}B_{1}$
+\end_inset
+
+ y 
+\begin_inset Formula $\angle XAB=\angle A_{1}X_{1}X$
+\end_inset
+
+.
+ Como el ángulo 
+\begin_inset Formula $\angle AXB$
+\end_inset
+
+ es recto, por ser 
+\begin_inset Formula $AB$
+\end_inset
+
+ diámetro, ha de ser 
+\begin_inset Formula $\angle A_{1}X_{1}B_{1}$
+\end_inset
+
+ recto, y 
+\begin_inset Formula $X_{1}$
+\end_inset
+
+ pertenece a la circunferencia de diámetro 
+\begin_inset Formula $A_{1}B_{1}$
+\end_inset
+
+.
+ Como 
+\begin_inset Formula $X$
+\end_inset
+
+ es arbitrario, todo punto de 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ tiene la imagen sobre esta circunferencia; y recíprocamente 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Coxeter"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename thesis/imag4.png
+	lyxscale 20
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Inversión-de-una"
+
+\end_inset
+
+Inversión de una circunferencia
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Circunferencias Ortogonales
+\end_layout
+
+\begin_layout Standard
+Dos circunferencias son ortogonales si se cortan en dos puntos formando
+ ángulos rectos.
+ 
+\end_layout
+
+\begin_layout Standard
+Sean dos circunferencias 
+\begin_inset Formula $\omega_{1}$
+\end_inset
+
+ y 
+\begin_inset Formula $\omega_{2}$
+\end_inset
+
+ ortogonales, entonces 
+\begin_inset Formula $\omega_{1}$
+\end_inset
+
+ es auto-inversa con respecto a 
+\begin_inset Formula $\omega_{2}$
+\end_inset
+
+ y recíprocamente.
+ O sea que si una de ellas, por ejemplo 
+\begin_inset Formula $\omega_{1}$
+\end_inset
+
+, tiene un punto 
+\begin_inset Formula $P$
+\end_inset
+
+, entonces también tendrá un punto 
+\begin_inset Formula $P'$
+\end_inset
+
+, inverso de 
+\begin_inset Formula $P$
+\end_inset
+
+ con respecto a 
+\begin_inset Formula $\omega_{2}$
+\end_inset
+
+.
+ También vale la proposición recíproca: Cualquier circunferencia que pase
+ por dos puntos distintos, inversos uno del otro en 
+\begin_inset Formula $\omega$
+\end_inset
+
+, entonces es su propia inversa con respecto a 
+\begin_inset Formula $\omega$
+\end_inset
+
+ y es ortogonal a 
+\begin_inset Formula $\omega$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Section
+Porisma de Steiner
+\end_layout
+
+\begin_layout Standard
+Un primer ejemplo donde se ve el poder de las inversiones es el llamado
+ Porisma de Steiner.
+ Dadas dos circunferencias no concéntricas, una interior a la otra, se quiere
+ saber si hay una cadena de circunferencias cada una de ellas tangente a
+ la anterior y a la posterior y tangentes todas ellas a las dos circunferencias
+ dadas.
+\end_layout
+
+\begin_layout Standard
+Este problema o bien no tiene solución, o bien tiene infinitas soluciones.
+ Esta situación se describe diciendo que tenemos un 
+\begin_inset Quotes eld
+\end_inset
+
+Porisma
+\begin_inset Quotes erd
+\end_inset
+
+, en este caso el Porisma de Steiner.
+ 
+\end_layout
+
+\begin_layout Standard
+Si tenemos dos circunferencias (no concéntricas), una dentro de la otra,
+ y dibujamos otras circunferencias, que sean tangentes una a la otra sucesivamen
+te y todas ellas tangentes a las dos circunferencias originales, como la
+ figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:transformación"
+
+\end_inset
+
+, es posible que suceda que la sucesión de las circunferencias tangentes
+ se cierre, formando un anillo de 
+\begin_inset Formula $n$
+\end_inset
+
+ circunferencias, la última de las cuales es tangente a la primera.
+ En este caso, podemos considerar como primera circunferencia del anillo
+ a cualquiera de las circunferencias tangentes a las dos circunferencias
+ originales, y el anillo seguirá cerrándose con el mismo valor 
+\begin_inset Formula $n$
+\end_inset
+
+.
+ Si pudiéramos invertir las circunferencias originales en circunferencias
+ concéntricas , y entonces las otras se convierten en un anillo de circunferenci
+as iguales, cuyos centros forman un 
+\begin_inset Formula $n$
+\end_inset
+
+-ágono regular como en la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:transformación"
+
+\end_inset
+
+ entonces el problema tendría una solución sencilla.
+ Afortunadamente, como mostraremos en la siguiente subsección, esto último
+ es posible.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename steiner.png
+	lyxscale 30
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:transformación"
+
+\end_inset
+
+Transformación del Porisma
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Inversión de circunferencias no concéntricas
+\end_layout
+
+\begin_layout Standard
+La siguiente secuencia de actividades transforma dos circunferencias no
+ concéntricas por medio de inversiones en dos circunferencias concéntricas.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Dibujar las circunferencias no concéntricas, para lo cual debes trazar la
+ circunferencia que pasa por 
+\begin_inset Formula $B=(-2,0)$
+\end_inset
+
+ con centro en 
+\begin_inset Formula $A=(2,0)$
+\end_inset
+
+.
+ Llamarla 
+\begin_inset Formula $c$
+\end_inset
+
+.
+ Y la circunferencia que pasa por 
+\begin_inset Formula $D=(-1,0)$
+\end_inset
+
+ con centro en 
+\begin_inset Formula $C=(1,0)$
+\end_inset
+
+.
+ Llamarla 
+\begin_inset Formula $d$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename concentr1.png
+	lyxscale 40
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Secuencia 1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Usando la herramienta Tangentes, determinar las tangentes por el punto 
+\begin_inset Formula $B$
+\end_inset
+
+ a la circunferencia 
+\begin_inset Formula $d$
+\end_inset
+
+.
+ Para ello una vez seleccionada la herramienta, marcar el punto 
+\begin_inset Formula $B$
+\end_inset
+
+ y después la circunferencia 
+\begin_inset Formula $d$
+\end_inset
+
+.
+ Llamar 
+\begin_inset Formula $E$
+\end_inset
+
+ al punto tangencia superior.
+ Luego trazar la circunferencia que pase por 
+\begin_inset Formula $E$
+\end_inset
+
+ con centro en 
+\begin_inset Formula $B$
+\end_inset
+
+.
+ Llamarla 
+\begin_inset Formula $e$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename concentr2.png
+	lyxscale 40
+	width 12cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Secuencia 2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Llamar 
+\begin_inset Formula $F$
+\end_inset
+
+ al punto de intersección superior de la circunferencia 
+\begin_inset Formula $e$
+\end_inset
+
+ con la circunferencia 
+\begin_inset Formula $c$
+\end_inset
+
+.
+ Usando nuevamente la herramienta Tangentes como en el punto anterior, determina
+r las tangentes por el punto 
+\begin_inset Formula $F$
+\end_inset
+
+ a la circunferencia 
+\begin_inset Formula $d$
+\end_inset
+
+.
+ Llamar 
+\begin_inset Formula $G$
+\end_inset
+
+ al punto de tangencia inferior.
+ Trazar la circunferencia que pase por 
+\begin_inset Formula $G$
+\end_inset
+
+ con centro en 
+\begin_inset Formula $F$
+\end_inset
+
+.
+ Llamarla 
+\begin_inset Formula $h.$
+\end_inset
+
+ Llamar 
+\begin_inset Formula $H$
+\end_inset
+
+ al punto de intersección izquierdo de la circunferencia 
+\begin_inset Formula $h$
+\end_inset
+
+ con el eje 
+\begin_inset Formula $x$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename concentr4.png
+	lyxscale 40
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Secuencia 3
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+A través de la herramienta Refleja Objeto en Circunferencia (Inversión),
+ hallar el punto 
+\begin_inset Formula $H$
+\end_inset
+
+', inverso del punto 
+\begin_inset Formula $H$
+\end_inset
+
+.
+ Para ello, una vez seleccionada la herramienta debes marcar el punto 
+\begin_inset Formula $H$
+\end_inset
+
+ y la circunferencia 
+\begin_inset Formula $e.$
+\end_inset
+
+ Llamar 
+\begin_inset Formula $I$
+\end_inset
+
+ al punto de intersección inferior de la circunferencia 
+\begin_inset Formula $e$
+\end_inset
+
+ con la circunferencia 
+\begin_inset Formula $d$
+\end_inset
+
+.
+ Y 
+\begin_inset Formula $J$
+\end_inset
+
+ al punto de intersección inferior de la circunferencia 
+\begin_inset Formula $e$
+\end_inset
+
+ con la circunferencia 
+\begin_inset Formula $c$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename concentr5.png
+	lyxscale 40
+	width 12cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Secuencia 4
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Trazar la circunferencia que pase por 
+\begin_inset Formula $B$
+\end_inset
+
+ con centro en 
+\begin_inset Formula $H'$
+\end_inset
+
+.
+ Usando nuevamente la herramienta Refleja Objeto en Circunferencia (Inversión),
+ hallar el punto 
+\begin_inset Formula $F'$
+\end_inset
+
+, inverso del punto 
+\begin_inset Formula $F$
+\end_inset
+
+ , y el punto 
+\begin_inset Formula $J'$
+\end_inset
+
+, inverso del punto 
+\begin_inset Formula $J$
+\end_inset
+
+ .Para ello selecciona la herramienta, marca el punto y después la circunferencia
+ .
+ Luego a través de la herramienta Circunferencia dados Tres de sus Puntos,
+ hallar la circunferencia que pase por los puntos 
+\begin_inset Formula $F'$
+\end_inset
+
+,
+\begin_inset Formula $J'$
+\end_inset
+
+ y 
+\begin_inset Formula $B$
+\end_inset
+
+; y llamarla 
+\begin_inset Formula $p$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename concentr6.png
+	lyxscale 40
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Secuencia 5
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+De la misma manera que en el punto anterior, determinar usando la herramienta
+ Refleja Objeto en Circunferencia (Inversión) el punto 
+\begin_inset Formula $D'$
+\end_inset
+
+, inverso del punto 
+\begin_inset Formula $D$
+\end_inset
+
+.
+ También el punto 
+\begin_inset Formula $E'$
+\end_inset
+
+, inverso del punto 
+\begin_inset Formula $E'$
+\end_inset
+
+, y el punto 
+\begin_inset Formula $I'$
+\end_inset
+
+, inverso del punto 
+\begin_inset Formula $I$
+\end_inset
+
+.
+ Finalmente, a través de la herramienta Circunferencia dados Tres de sus
+ Puntos, hallar la circunferencia que pase por los puntos 
+\begin_inset Formula $E'$
+\end_inset
+
+,
+\begin_inset Formula $D'$
+\end_inset
+
+ y 
+\begin_inset Formula $I'$
+\end_inset
+
+; y llamarla 
+\begin_inset Formula $q.$
+\end_inset
+
+ De esta manera las circunferencias originales 
+\begin_inset Formula $c$
+\end_inset
+
+ y 
+\begin_inset Formula $d$
+\end_inset
+
+ se transforman en circunferencias concéntricas 
+\begin_inset Formula $p$
+\end_inset
+
+ y 
+\begin_inset Formula $q.$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename concentr7.png
+	lyxscale 40
+	width 12cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Secuencia 6
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Conclusión
+\end_layout
+
+\begin_layout Standard
+El valor pedagógico de los problemas integradores es innegable.
+ El Porisma de Steiner, como se vio anteriormente, es un excelente ejemplo
+ de esto último, para una primera introducción a la Geometría de la Inversión.
+ 
+\end_layout
+
+\begin_layout Standard
+En cuanto a la importancia que tiene, en general, el estudio de la geometría
+ de la inversión, se evidencia por la amplia gama de aplicaciones que tiene.
+ Por ejemplo, al ser una transformación conforme, cobra importancia en las
+ aplicaciones de la variable compleja, donde se requiere transformaciones
+ conformes de dominios, para la resolución de ecuaciones diferenciales.
+ Otra aplicación menos difundida, pero igualmente interesante, es la de
+ sentar una base para realizar construcciones geométricas con solo compás
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Arias"
+
+\end_inset
+
+.
+ Estas aplicaciones obligan a incluir en las currículas de profesorados
+ y licenciaturas en matemáticas temas de la geometría de la Inversión.
+ 
+\end_layout
+
+\begin_layout Standard
+El valor agregado del uso del Geogebra, que ha cobrado relevancia por más
+ de un motivo en la educación, hace que el tema que nos ocupa sea altamente
+ motivador.
+ Y esta motivación, nos sirve a nuestro principal objetivo como docentes:
+ Interesar a los estudiantes a nuestro cargo en temas de Matemáticas.
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Referencias
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Co"
+key "Coxeter"
+
+\end_inset
+
+Coxeter H.S.M, S.L Greitzer.
+ Retorno a la Geometría.
+ La Tortuga de Aquiles.
+ 1993.
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Referencias
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Ar"
+key "Arias"
+
+\end_inset
+
+Arias, M.
+ V.
+ Sángari, A.
+ Construcciones con solo compás.
+ volumen 27.
+ Recuperado de http://www.famaf.unc.edu.ar/rev_edu/#rev_intro 
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Referencias
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Bo"
+key "Boyer"
+
+\end_inset
+
+Boyer C.
+ B.
+ Historia de la Matemática.
+ Editorial Alianza.
+ 1986.
+\end_layout
+
+\end_body
+\end_document
