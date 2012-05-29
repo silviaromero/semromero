@@ -69,11 +69,11 @@ Proyecto de Trabajo
 \end_layout
 
 \begin_layout Section*
-Tema: Construcciones con Regla y compás con asistencia del Geogebra
+Tema: Inversiones y el Plano de Poincaré
 \end_layout
 
 \begin_layout Subsection*
-Alumna: Clara Pamela Perez
+Alumna: Silvia Noemí Romero
 \end_layout
 
 \begin_layout Subsection*
@@ -85,14 +85,21 @@ Fundamentación
 \end_layout
 
 \begin_layout Standard
-Este trabajo propone estudiar las Construcciones de Polígonos Regulares
- con Regla y Compás con la asistencia del Geogebra, y presentar una secuencia
- de acciones que pueden resultar de base para enseñar estos conceptos.
- Sabemos que no todos los polígonos regulares son construibles, aquí solo
- nos centraremos en aquello cuyos lados son los tres primeros primos de
- Fermat, es decir, nos ocuparemos de construir el Triángulo Equilátero,
- el Pentágo Regular , el Heptadecágono Regular y el Polígono Regular de
- 257 lados, mediante un novedoso método.
+Este trabajo propone estudiar la Inversión Geométrica y varias de sus aplicacion
+es, dando pautas didácticas para su enseñanza.
+ Por ejemplo estudiaremos problemas clásicos como el Porisma de Steiner,
+ el Teorema de Feuerbach, el Plano de Poincaré y otras aplicaciones.
+ También indicaremos como la Geometría de la Inversión aporta al entendimiento
+ de las construcciones con solo compás.
+ Juzgamos necesario este estudio por cuanto la inversión tiene múltiples
+ aplicaciones especialmente en matemática aplicada.
+ Es conocido que al ser la inversión una transformación conforme es de utilidad
+ especial cuando es necesario transformar dominios en el plano complejo
+ para resolver una ecuación diferencial.
+ Nos referiremos a esto con algún detalle al final de este trabajo.
+ Debido a que nuestro trabajo es esencialmente geométrico realizaremos el
+ dibujo de nuestras construcciones y verificaremos deducciones, usando siempre
+ que sea posible el software libre Geogebra.
 \end_layout
 
 \begin_layout Section*
@@ -100,30 +107,25 @@ Planteo del Problema
 \end_layout
 
 \begin_layout Standard
-Las construcciones con Regla y Compás siempre han llamado la atención de
- los matemáticos y de los educadores de matemática, surgiendo de esta manera
- múltiples interrogantes y resultados interesantes.
- En cuanto a lo que en este trabajo nos proponemos, partamos de la pregunta:
- ¿Será siempre posible construir un polígono regular (con regla y compás)?.
- Y en los casos que fuera posible, ¿Cómo se construyen? Sabemos que la respuesta
- a la primera pregunta es no y que los únicos polígonos regulares construibles,
- son aquellos cuya descomposición en factores primos del número de lados
- es un producto de primos de Fermat por potencias de dos.
- Además, los primos de Fermat que aparecen, lo hacen solamente a la primera
- potencia.
- La segunda pregunta será respondida con algún detalle.
- 
-\end_layout
+Según 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Coxeter H. S. M."
 
-\begin_layout Standard
-La construcción de triángulos equiláteros, incluso de pentágonos regulares,
- se encuentran con alguna frecuencia en textos básicos de Geometría, pero
- no es tan común la construcción por ejemplo del Heptadecágono Regular.
- Pero además de justificar algebraicamente las construcciones, estamos interesad
-os en realizarlas con asistencia del software libre Geogebra.
- Esta decisión se fundamenta en la agilidad y eficiencia del software en
- contraposición a los elementos de uso tradicional en geometría (regla y
- compás).
+\end_inset
+
+el inventor de la Inversión, o mejor dicho quien comenzó con el estudio
+ sistemático y formal de esta transformación fue el matemático alemán Jacob
+ Steiner.
+ Posteriormente matemáticos como Adler, Poincaré, entre otros, desarrollaron
+ varias aplicaciones en diversas ramas de la matemática.
+ Nosotros estamos interesados particularmente en las aplicaciones geométricas
+ como la solución al problema del Porisma de Steiner, que ya había sido
+ pensado por Apolonio; el Teorema de Feuerbach, que trata con la Circunferencia
+ de los Nueve Puntos y circunferencias exinscriptas; y el Plano de Poincaré
+ que es un modelo para la Geometría de Lobaschevski.
+ También expondremos una sucesión de actividades que contribuyan al mejor
+ entendimiento de los temas mencionados.
  
 \end_layout
 
@@ -132,13 +134,12 @@ Objetivos
 \end_layout
 
 \begin_layout Itemize
-Fundamentar las Construcciones con Regla y Compás y específicamente, las
- Construcciones de los Polígonos Regulares.
+Diseño de esquema de actividades para la enseñanza de la Geometría de la
+ Inversión.
 \end_layout
 
 \begin_layout Itemize
-Establecer métodos que permitan realizar en forma eficiente las construcciones
- con regla y compás con asistencia del Geogebra.
+Entendimiento profundo de las aplicaciones de la Inversión.
 \end_layout
 
 \begin_layout Section*
@@ -146,8 +147,11 @@ Metodología
 \end_layout
 
 \begin_layout Standard
-Para la Fundamentación de las construcciones con regla y compás, necesitamos
- estudiar las Extensiones de Cuerpo y la Teoría de Galois.
+Para la fundamentación de la Geometría de la Inversión haremos primeramente
+ una recolección de bibliografía tanto física como virtual de los que nos
+ competen.
+ Estudiaremos y analizaremos esta bibliografía e iremos confeccionando el
+ trabajo final.
 \end_layout
 
 \begin_layout Section*
@@ -155,36 +159,28 @@ Cronograma Tentativo
 \end_layout
 
 \begin_layout Subsection*
-Abril
-\end_layout
-
-\begin_layout Standard
-Análisis Bibliográfico
-\begin_inset CommandInset citation
-LatexCommand cite
-key "ivorra"
-
-\end_inset
-
-, particularmente del Capítulo V de libro Algebra de Hungerford
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Hungerford"
-
-\end_inset
-
-.
- Estudio de los antecedentes históricos del tema a desarrollar.
- 
-\end_layout
-
-\begin_layout Subsection*
 Mayo
 \end_layout
 
 \begin_layout Standard
-Continuación del estudio del Capítulo V de libro Algebra de Hungerford.
- Creación de nuevas herramientas en Geogebra.
+Análisis del capítulo V del libro 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Coxeter H. S. M."
+
+\end_inset
+
+, particularmente el tratamiento de la Inversión y del problema Porisma
+ de Steiner.
+ Como así también el análisis histórico de la Geometría de la Inversión
+ del libro 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Jean Paul Collette"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection*
@@ -192,8 +188,8 @@ Junio
 \end_layout
 
 \begin_layout Standard
-Construcciones en Geogebra de los Polígonos Regulares.
- Redacción de la fundamentación algebraica del problema.
+Continuación del estudio del capítulo V pero tratando el Teorema de Feuerbach.
+ Búsqueda del material bibliográfico correspondiente.
 \end_layout
 
 \begin_layout Subsection*
@@ -201,8 +197,15 @@ Agosto
 \end_layout
 
 \begin_layout Standard
-Análisis de los Métodos utilizados en la construcción geométrica de los
- Polígonos Regulares estudiados.
+Estudio del Plano de Poincaré del libro 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Efímov N. V."
+
+\end_inset
+
+.
+ Búsqueda del material bibliográfico correspondiente.
 \end_layout
 
 \begin_layout Subsection*
@@ -210,8 +213,14 @@ Septiembre
 \end_layout
 
 \begin_layout Standard
-Investigación sobre la metodología de construcción del polígono regular
- de 257 lados.
+Continuación del estudio del Plano de Poincaré del libro 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Efímov N. V."
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
@@ -219,10 +228,8 @@ Octubre
 \end_layout
 
 \begin_layout Standard
-Análisis de la construcción de poligonos regulares con número de lados no
- primos (por ejemplo: el pentadecágono regular o el polígono regular de
- 51 lados).
- 
+Aplicación de la Geometría de la Inversión a la transformación de dominios
+ del plano complejo.
 \end_layout
 
 \begin_layout Subsection*
@@ -238,25 +245,42 @@ Conclusiones del tema estudiado.
 \labelwidthstring Bibliografía
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-label "Iv"
-key "Ivorra"
+label "Co"
+key "Coxeter H. S. M."
 
 \end_inset
 
-Geometría.
- Carlos Ivorra Castillo
+Retorno a la Geometría.
+ La Tortuga de Aquiles.
+ 1993.
 \end_layout
 
 \begin_layout Bibliography
 \labelwidthstring Bibliografía
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-label "Hu"
-key "Hungerford"
+label "Co"
+key "Jean Paul Collette"
 
 \end_inset
 
-Algebra
+Historia de las Matemáticas II.
+ Siglo XII editores.
+ 1985.
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Ef"
+key "Efímov N. V."
+
+\end_inset
+
+Geometría Superior.
+ Editorial Mir.
+ 1984
 \end_layout
 
 \end_body
