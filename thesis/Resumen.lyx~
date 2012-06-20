@@ -157,12 +157,11 @@ s en la mayor parte de los casos a la geometría proyectiva.
  La renovación de esta geometría comienza con los notables trabajos de Poncelet,
  que marcan la verdadera creación de la geometría proyectiva, estudio de
  las propiedades geometrícas que se conservan por proyección central y perspecti
-va.
- La introducción del principio de dualidad y la utilización abundante de
+va.La introducción del principio de dualidad y la utilización abundante de
  las transformaciones geométricas le llevaron al estudio de tipos variados
  de transformaciones.
- Los discípulos de Porcelet se esforzaron por crear una doctrina autónoma
- susceptible de derrotar a Descartes en el campo mismo de la geometría.
+ Los discípulos de Porcelet se esforzaron por crear por crear una doctrina
+ autónoma susceptible de derrotar a Descartes en el campo mismo de la geometría.
  Los trabajos de Porcelet y sus discípulos fueron difundidos y enriquecidos
  con resultados originales por Steiner y Chasles.
 \end_layout
@@ -189,12 +188,46 @@ es independientes de la circunferencia de los nueve puntos y, mucho más
  En realidad Steiner nacio en Suiza, pero hizo sus estudios en Heidelberg
  y en Berlín y, gracias al apoyo de Jacobi, obtuvo una cátedra en Berlín
  que ocupó hasta su muerte.
- Steiner sentía una gran aversión por los métodos analíticos y, en sus manos
- la geometría sintética hizo progresos comparables a los que había hecho
- anteriormente el análisis.
- En 1833, Steiner demostró que todas las construcciones euclídeas pueden
+ En sus manos la geometría sintética hizo progresos comparables a los que
+ había hecho anteriormente el análisis.
+ El nombre de Steiner aparece en la geometría en muchos contextos, incluído
+ el que se refiere a las propiedades de los 
+\begin_inset Quotes eld
+\end_inset
+
+puntos de Steiner
+\begin_inset Quotes erd
+\end_inset
+
+: Si se unen de todas las maneras posibles los seis puntos de una cónica
+ en el 
+\begin_inset Quotes eld
+\end_inset
+
+hexagrama místico
+\begin_inset Quotes erd
+\end_inset
+
+ de Pascal, se obtienen 60 rectas de Pascal que se cortan tres a tres en
+ 20 puntos de Steiner.
+ También demostró Steiner que todas las construcciones euclídeas pueden
  efectuarse con la regla únicamente, siempre que se nos de además una única
  circunferencia fija.
+ Steiner sentía una gran aversión por los métodos analíticos, y demostró,
+ en un artículo publicado en el Jounal de Crelle, y utilizando exclusivamente
+ métodos sintéticos, un sorprendente teorema que parece pertenecer de manera
+ natural, por su complejidad, al análisis, el de que una superficie de tercer
+ orden sólo puede contener 27 rectas.
+\end_layout
+
+\begin_layout Standard
+La historia de la geometría durante el siglo XIX está llena de casos de
+ descubrimientos independientes y casi simultáneos, y Steiner se vio mezclado
+ en varios de estos casos.
+ En 1822, Porcelet, inspirado por la obra de Mascheroni, había sugerido
+ que todas las construcciones euclídeas planas podrían efectuarse con la
+ regla únicamente, si se daba además una circunferencia concreta y su centro,
+ teorema que demostró en 1833 Steiner, como hemos visto.
  Es decir, que el teorema de Porcelet-Steiner demuestra que no podemos prescindi
 r completamente del compás en la geometría euclídea, pero que una vez utilizado
  para trazar circunferencia cualquiera, podemos desecharlo a favor de la
@@ -204,17 +237,99 @@ r completamente del compás en la geometría euclídea, pero que una vez utiliza
 
 \begin_layout Standard
 En 1824 descubrió la fructífera transformación geométrica conocida como
- inversión
-\lang spanish
-, que le sirvió como herramienta para dar solución al problema del Porisma,
- que había sido planteado por Apolonio 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Boyer"
+ inversión.
+ Si los puntos 
+\begin_inset Formula $P$
+\end_inset
 
+ y 
+\begin_inset Formula $P'$
+\end_inset
+
+ están sobre una semirrecta cuyo origen es el centro 
+\begin_inset Formula $O$
+\end_inset
+
+ de una circunferencia 
+\begin_inset Formula $C$
+\end_inset
+
+ de radio 
+\begin_inset Formula $r\neq0$
+\end_inset
+
+, y si el producto de las distancias 
+\begin_inset Formula $OP$
+\end_inset
+
+ y 
+\begin_inset Formula $OP'$
+\end_inset
+
+ es 
+\begin_inset Formula $r^{2}$
+\end_inset
+
+, entonces se dice que cada uno de los puntos 
+\begin_inset Formula $P$
+\end_inset
+
+, 
+\begin_inset Formula $P'$
+\end_inset
+
+, es inverso del otro con respecto a la circunferencia 
+\begin_inset Formula $C$
 \end_inset
 
 .
+ A todo punto 
+\begin_inset Formula $P$
+\end_inset
+
+ exterior al círculo que determina 
+\begin_inset Formula $C$
+\end_inset
+
+ le corresponde en la inversión uno y sólo uno 
+\begin_inset Formula $P'$
+\end_inset
+
+ interior al círculo, mientras que centro 
+\begin_inset Formula $O$
+\end_inset
+
+ es el único punto interior al círculo que no corresponde a ningún punto
+ exterior.
+ De manera totalmente análoga al caso del plano, se puede definir fácilmente
+ la inversión con respecto a una superficie esférica en el espacio tridimenciona
+l.
+\end_layout
+
+\begin_layout Standard
+Se puede demostrar sin dificultad gran cantidad de teoremas pertenecientes
+ a la gemetría de la inversión del plano o del espacio, bien sea por métodos
+ análiticos o sintéticos.
+ En particular, es inmediato demostrar que, en una inversión plana, toda
+ circunferencia que no pase por el centro de la inversión se transforma
+ en otra circunferencia, mientras que toda circunferencia que pase por el
+ centro de inversión se transforma en una recta que no pasa por él, así
+ como resultados análogos relativos a esferas y planos en la geometría de
+ la inversión tridimensional.
+\end_layout
+
+\begin_layout Standard
+Un poco más dificil de demostrar es el importante resultado de que la inversión
+ es una transformación conforme, es decir, que conserva los ángulos entre
+ curvas.
+ Un teorema demostrado por Jeseph Liouville muestra claramente que las transform
+aciones que conservan los ángulos no son frecuentes en absoluto; este teorema
+ afirma que en el espacio las únicas transformaciones conformes son las
+ inversiones, las semejanzas y las congruencias como caso particular.
+ Steiner no publicó sus ideas sobre la teoría de la inversión, y otros matemátic
+os del mismo siglo volvieron a descubrir repetidas veces esta transformación;
+ entre ellos figura Lord Kelvin (1824-1907), que se vio conducido a ella
+ en 1845 a través de la física, aplicándola a problemas de electrostática.
 \end_layout
 
 \end_body
