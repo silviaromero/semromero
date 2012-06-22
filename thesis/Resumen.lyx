@@ -127,10 +127,17 @@ La geometría parece haber sido, entre todas las ramas de la matemáticas,
 A principios del siglo XIX, ocupa un lugar preponderante en la actividad
  matemática de la época, sobre todo gracias a los trabajos originales de
  Fermat y Descartes.
- Es también en este siglo cuando se elabora un estudio de las perspectivas,
- y cuando Desargues y Pascal encuentran un cierto número de teoremas fundamental
-es que permiten entonces establecer las bases de una geométria distintiva,
- la geometría proyectiva.
+ Es también en este siglo
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Jens03"
+
+\end_inset
+
+ cuando se elabora un estudio de las perspectivas, y cuando Desargues y
+ Pascal encuentran un cierto número de teoremas fundamentales que permiten
+ entonces establecer las bases de una geométria distintiva, la geometría
+ proyectiva.
  Sin embargo, los trabajos de estos dos pioneros caerán en el olvido hasta
  el momento en que Monge y su escuela se dedican a la difícil tarea de revaloriz
 ar la geometría mediante aportaciones nuevas y llenas de promesas.
