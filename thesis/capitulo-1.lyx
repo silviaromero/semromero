@@ -1717,13 +1717,13 @@ es, debe intercambiar también sus ortocentros
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
-	filename C:/semromero/nueve puntos.png
+	filename /home/antonio/Documentos/Seminarios/semromero/nueve puntos.png
 	lyxscale 40
 	width 12cm
 

@@ -1773,5 +1773,110 @@ La circunferencia de los nueve puntos de un triángulo es tangente a la circunfe
 encia inscrita y a las tres circunferencias tangentes exteriores.
 \end_layout
 
+\begin_layout Standard
+La figura muestra el triángulo 
+\begin_inset Formula $ABC$
+\end_inset
+
+ con su triángulo medial 
+\begin_inset Formula $A'B'C'$
+\end_inset
+
+, su circunferencia inscrita (con centro 
+\begin_inset Formula $I$
+\end_inset
+
+ ), tangente a 
+\begin_inset Formula $BC$
+\end_inset
+
+ en 
+\begin_inset Formula $X$
+\end_inset
+
+, su primera circunferencia tangente exterior (con centro en 
+\begin_inset Formula $I_{a}$
+\end_inset
+
+), tangente a 
+\begin_inset Formula $BC$
+\end_inset
+
+ en 
+\begin_inset Formula $X_{a}$
+\end_inset
+
+, y la tangente común
+\begin_inset Formula $B_{1}C_{1}$
+\end_inset
+
+de estas dos circunferencias, (que son ambas tangentes a los tres lados
+ de 
+\begin_inset Formula $\triangle ABC$
+\end_inset
+
+ ).
+ Vemos también la circunferencia 
+\begin_inset Formula $\omega$
+\end_inset
+
+, que tiene como diámetro 
+\begin_inset Formula $XX_{a}$
+\end_inset
+
+, y los puntos 
+\begin_inset Formula $S$
+\end_inset
+
+, 
+\begin_inset Formula $B''$
+\end_inset
+
+, 
+\begin_inset Formula $C''$
+\end_inset
+
+ en los que 
+\begin_inset Formula $B_{1}C_{1}$
+\end_inset
+
+ corta a 
+\begin_inset Formula $BC$
+\end_inset
+
+, 
+\begin_inset Formula $A'B'$
+\end_inset
+
+, 
+\begin_inset Formula $A'C'$
+\end_inset
+
+.
+ Como 
+\begin_inset Formula $\omega$
+\end_inset
+
+ es ortogonal a la circunferencia inscrita y a la primera circunferencia
+ tangente exterior, la inversión en 
+\begin_inset Formula $\omega$
+\end_inset
+
+ deja invariantes ambas circunferencias.
+ Vamos a proceder a probar que 
+\begin_inset Formula $\omega$
+\end_inset
+
+ invierte la circunferencia de los nueve puntos 
+\begin_inset Formula $A'B'C'$
+\end_inset
+
+en la recta 
+\begin_inset Formula $B_{1}C_{1}$
+\end_inset
+
+.
+\end_layout
+
 \end_body
 \end_document
