@@ -1646,7 +1646,14 @@ Los pies de las tres alturas de cualquier triángulo, los puntos medios de
 \shape italic
 la circunferencia de los nueve puntos del triángulo
 \shape default
-.
+ (figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Circunferencia-de-los"
+
+\end_inset
+
+).
  Ya que los tres puntos 
 \begin_inset Formula $K$
 \end_inset
@@ -1704,6 +1711,66 @@ es, debe intercambiar también sus ortocentros
  En otras palabras, el centro de la circunferencia de los nueve puntos está
  situado en la recta de Euler, equidistante del ortocentro y del centro
  de la circunferencia circunscrita.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename C:/semromero/nueve puntos.png
+	lyxscale 40
+	width 12cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Circunferencia-de-los"
+
+\end_inset
+
+Circunferencia de los nueve puntos
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Teorema de Feuerbach
+\end_layout
+
+\begin_layout Standard
+A continuación enunciaremos el teorema de Feuerbach, al que se le puede
+ aplicar la inversión.
+\end_layout
+
+\begin_layout Theorem*
+La circunferencia de los nueve puntos de un triángulo es tangente a la circunfer
+encia inscrita y a las tres circunferencias tangentes exteriores.
 \end_layout
 
 \end_body

@@ -190,9 +190,10 @@ Date (optional)
 \end_layout
 
 \begin_layout Publishers
+\noindent
 
 \lang english
-\begin_inset Box Boxed
+\begin_inset Box Frameless
 position "t"
 hor_pos "c"
 has_inner_box 1
@@ -210,6 +211,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename escunsa.bmp
+	scale 60
 
 \end_inset
 
