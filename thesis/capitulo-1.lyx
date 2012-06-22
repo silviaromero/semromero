@@ -222,19 +222,15 @@ leftmark
 
 \end_layout
 
-\begin_layout Left Footer
-\begin_inset Argument
-status open
-
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
 
 \backslash
-thepage
+pagestyle{fancy} 
 \end_layout
 
 \end_inset
@@ -242,8 +238,25 @@ thepage
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyfoot[LE,RO]{
+\backslash
+thepage}
+\end_layout
+
 \end_inset
 
+
+\end_layout
+
+\begin_layout Center Footer
 
 \end_layout
 
