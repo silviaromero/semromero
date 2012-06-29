@@ -183,32 +183,8 @@ Una herramienta potente de la matemática
 Silvia Noemí Romero
 \end_layout
 
-\begin_layout Date
-
-\lang english
-Date (optional)
-\end_layout
-
 \begin_layout Publishers
 \noindent
-
-\lang english
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "40col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Plain Layout
-\noindent
-\align center
 \begin_inset Graphics
 	filename escunsa.bmp
 	scale 60
@@ -216,10 +192,7 @@ status open
 \end_inset
 
 
-\end_layout
-
-\end_inset
-
+\lang english
 
 \begin_inset ERT
 status collapsed
@@ -256,6 +229,10 @@ Facultad de Ciencias Exactas
 \end_inset
 
 Departamento de Matemáticas
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset VSpace -3cm
 \end_inset
 
