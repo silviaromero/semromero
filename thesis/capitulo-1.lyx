@@ -1644,135 +1644,6 @@ Secuencia 6
 \end_layout
 
 \begin_layout Section
-La circunferencia de los nueve puntos.
-\end_layout
-
-\begin_layout Standard
-Los pies de las tres alturas de cualquier triángulo, los puntos medios de
- los tres lados y los puntos medios de los segmentos que unen los tres vértices
- con el ortocentro, están todos en la misma circunferencia, de radio 
-\begin_inset Formula $\frac{1}{2}R$
-\end_inset
-
-.
- Llamamos a esta circunferencia, 
-\shape italic
-la circunferencia de los nueve puntos del triángulo
-\shape default
- (figura 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Circunferencia-de-los"
-
-\end_inset
-
-).
- Ya que los tres puntos 
-\begin_inset Formula $K$
-\end_inset
-
-, 
-\begin_inset Formula $L$
-\end_inset
-
-, 
-\begin_inset Formula $M$
-\end_inset
-
- son diamentralmente opuestos a 
-\begin_inset Formula $A'$
-\end_inset
-
-, 
-\begin_inset Formula $B'$
-\end_inset
-
-, 
-\begin_inset Formula $C'$
-\end_inset
-
-, cualesquiera de los dos triángulos 
-\begin_inset Formula $KLM$
-\end_inset
-
- y 
-\begin_inset Formula $A'B'C'$
-\end_inset
-
-, puede obtenerse del otro con un giro de 180°, alrededor del centro de
- esta circunferencia.
- Más claramente, este giro de 180°, que intercambia los dos triángulos congruent
-es, debe intercambiar también sus ortocentros 
-\begin_inset Formula $H$
-\end_inset
-
- y 
-\begin_inset Formula $O$
-\end_inset
-
-.
- Como el centro de la circunferencia de los nueve puntos es el punto medio
- de 
-\begin_inset Formula $HO$
-\end_inset
-
-, lo denotaremos con 
-\begin_inset Formula $N$
-\end_inset
-
-, en previsión de su papel.
- En otras palabras, el centro de la circunferencia de los nueve puntos está
- situado en la recta de Euler, equidistante del ortocentro y del centro
- de la circunferencia circunscrita.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Graphics
-	filename C:/semromero/circ nueve puntos.png
-	lyxscale 50
-	width 8cm
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Circunferencia-de-los"
-
-\end_inset
-
-Circunferencia de los nueve puntos
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
 Teorema de Feuerbach
 \end_layout
 
@@ -1781,7 +1652,7 @@ A continuación enunciaremos el teorema de Feuerbach, al que se le puede
  aplicar la inversión.
 \end_layout
 
-\begin_layout Theorem*
+\begin_layout Theorem
 La circunferencia de los nueve puntos de un triángulo es tangente a la circunfer
 encia inscrita y a las tres circunferencias tangentes exteriores.
 \end_layout
@@ -1905,14 +1776,10 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
-	filename C:/semromero/demo.png
+	filename C:/semromero/feuerbach.png
 	lyxscale 50
 	width 12cm
 
@@ -1939,6 +1806,319 @@ Teorema de Feuerbach
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Por el teorema (ver apendice) y las observaciones posteriores, tenemos,
+ en términos de 
+\begin_inset Formula $s=\frac{(a+b+c)}{2}$
+\end_inset
+
+, 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Formula $BX=X_{a}C=s-b,$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+mientras que el centro de 
+\begin_inset Formula $\omega$
+\end_inset
+
+ es 
+\begin_inset Formula $A'$
+\end_inset
+
+, el punto medio de 
+\begin_inset Formula $BC$
+\end_inset
+
+, y el diámetro de 
+\begin_inset Formula $\omega$
+\end_inset
+
+ es
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Formula $XX_{a}=a-2(s-b)=b-c$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La circunferencia de los nueve puntos pasa por el centro 
+\begin_inset Formula $A'$
+\end_inset
+
+ de 
+\begin_inset Formula $\omega$
+\end_inset
+
+; por tanto, 
+\begin_inset Formula $\omega$
+\end_inset
+
+ la invierte en una línea recta.
+ Vamos a probar que esta recta pasa por 
+\begin_inset Formula $B''$
+\end_inset
+
+ y 
+\begin_inset Formula $C''$
+\end_inset
+
+(y, por tanto, por 
+\begin_inset Formula $B_{1}$
+\end_inset
+
+y 
+\begin_inset Formula $C_{1}$
+\end_inset
+
+) demostrando que 
+\begin_inset Formula $B''$
+\end_inset
+
+y 
+\begin_inset Formula $C''$
+\end_inset
+
+ son los inversos en 
+\begin_inset Formula $\omega$
+\end_inset
+
+ de los puntos 
+\begin_inset Formula $B'$
+\end_inset
+
+y 
+\begin_inset Formula $C'$
+\end_inset
+
+ situados en la circunferencia de los nueve puntos.
+\end_layout
+
+\begin_layout Standard
+Como 
+\begin_inset Formula $S$
+\end_inset
+
+ (lo mismo que 
+\begin_inset Formula $I$
+\end_inset
+
+ e 
+\begin_inset Formula $I_{a}$
+\end_inset
+
+) están en la bisectiz del ángulo 
+\begin_inset Formula $A$
+\end_inset
+
+, el teorema (ver apendice) demuestra que 
+\begin_inset Formula $S$
+\end_inset
+
+ divide el segmento 
+\begin_inset Formula $CB$
+\end_inset
+
+ (de longitud 
+\begin_inset Formula $a$
+\end_inset
+
+) en razón 
+\begin_inset Formula $b:c$
+\end_inset
+
+, de forma que tenemos
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Formula $CS=\frac{ab}{b+c}$
+\end_inset
+
+, 
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset Formula $SB=\frac{ac}{b+c}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+y la semi-diferencia de estas dos longitudes es
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Formula $SA'=\frac{a(b-c)}{2(b+c)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+También 
+\begin_inset Formula $BC_{1}=AC_{1}-AB=AC-AB=b-c$
+\end_inset
+
+, y análogamente 
+\begin_inset Formula $CB_{1}=b-c$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Como 
+\begin_inset Formula $\triangle SA'B''\sim\triangle SBC_{1}$
+\end_inset
+
+ y 
+\begin_inset Formula $\triangle SA'C''\sim\triangle SCB_{1}$
+\end_inset
+
+, tenemos
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Formula $\frac{A'B''}{b-c}=\frac{A'B''}{BC_{1}}$
+\end_inset
+
+=
+\begin_inset Formula $\frac{SA'}{SB}=\frac{b-c}{2c}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+y 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Formula $\frac{A'C''}{b-c}=\frac{A'C''}{CB_{1}}=\frac{SA'}{SC}=\frac{b-c}{2b}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Formula $A'B'\times A'B''=\frac{c}{2}\frac{(b-c)^{2}}{2c}=(\frac{b-c}{2b})^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+y
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Formula $A'C'\times A'C''=\frac{b}{2}\frac{(b-c)^{2}}{2b}=(\frac{b-c}{2})^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Entonces 
+\begin_inset Formula $\omega$
+\end_inset
+
+, invierte la circunferencia inscripta y la primera circunferencia tangente
+ exterior en sí mismas, y su tangente común 
+\begin_inset Formula $B_{1}C_{1}$
+\end_inset
+
+ en la circunferencia de los nueve puntos.
+ Por tanto, tanto la circunferencia de los nueve puntos, como la recta son
+ tangentes a ambas, y análogamente, son tangentes a las dos circunferencias
+ tangentes exteriores.
+\end_layout
+
+\begin_layout Standard
+Además, la circunferencia de los nueve puntos está determinada por los puntos
+ 
+\begin_inset Formula $D,$
+\end_inset
+
+
+\begin_inset Formula $E$
+\end_inset
+
+, 
+\begin_inset Formula $F$
+\end_inset
+
+ que son las intersecciones de los pares de lados opuestos del cuadriángulo
+ ortocéntrico 
+\begin_inset Formula $ABCH$
+\end_inset
+
+ (ver apendice).
+ En otras palabras, los cuatro triángulos 
+\begin_inset Formula $ABC$
+\end_inset
+
+, 
+\begin_inset Formula $BCH,$
+\end_inset
+
+ 
+\begin_inset Formula $CAH,$
+\end_inset
+
+
+\begin_inset Formula $ABH$
+\end_inset
+
+ tienen todos la misma circunferencia de los nueve puntos.
+ Sin embargo, cada uno de estos triángulos tiene su propio conjunto de cuatro
+ circunferencias tritangentes.
+ Por tanto, el cuadriángulo ortocéntrico determina un conjunto de diciséis
+ circunferencias, todas tangentes a la circunferencia 
+\begin_inset Formula $DEF$
+\end_inset
+
+.
 \end_layout
 
 \end_body
