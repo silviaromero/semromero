@@ -222,19 +222,15 @@ leftmark
 
 \end_layout
 
-\begin_layout Left Footer
-\begin_inset Argument
-status open
-
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
 
 \backslash
-thepage
+pagestyle{fancy} 
 \end_layout
 
 \end_inset
@@ -242,8 +238,25 @@ thepage
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyfoot[LE,RO]{
+\backslash
+thepage}
+\end_layout
+
 \end_inset
 
+
+\end_layout
+
+\begin_layout Center Footer
 
 \end_layout
 
@@ -347,7 +360,7 @@ status open
 \begin_inset Graphics
 	filename imag1.png
 	lyxscale 40
-	scale 60
+	width 8cm
 
 \end_inset
 
@@ -1723,9 +1736,9 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
-	filename /home/antonio/Documentos/Seminarios/semromero/nueve puntos.png
-	lyxscale 40
-	width 12cm
+	filename C:/semromero/circ nueve puntos.png
+	lyxscale 50
+	width 8cm
 
 \end_inset
 
@@ -1774,7 +1787,14 @@ encia inscrita y a las tres circunferencias tangentes exteriores.
 \end_layout
 
 \begin_layout Standard
-La figura muestra el triángulo 
+La figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Teorema-de-Feuerbach"
+
+\end_inset
+
+ muestra el triángulo 
 \begin_inset Formula $ABC$
 \end_inset
 
@@ -1876,6 +1896,49 @@ en la recta
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename C:/semromero/demo.png
+	lyxscale 50
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Teorema-de-Feuerbach"
+
+\end_inset
+
+Teorema de Feuerbach
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body

@@ -13,7 +13,7 @@
 \options intoc,bibliography=totoc,index=totoc,BCOR10mm,captions=tableheading,titlepage,fleqn
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language spanish
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -211,10 +211,8 @@ r completamente del compás en la geometría euclídea, pero que una vez utiliza
 
 \begin_layout Standard
 En 1824 descubrió la fructífera transformación geométrica conocida como
- inversión
-\lang spanish
-, que le sirvió como herramienta para dar solución al problema del Porisma,
- que había sido planteado por Apolonio 
+ inversión, que le sirvió como herramienta para dar solución al problema
+ del Porisma, que había sido planteado por Apolonio 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Boyer"
