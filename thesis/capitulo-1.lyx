@@ -1779,7 +1779,11 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
+<<<<<<< HEAD
 	filename C:/semromero/feuerbach.png
+=======
+	filename /home/antonio/Documentos/Seminarios/semromero/circ nueve puntos.png
+>>>>>>> 994fd2ed3a497be41ecede616ff93f68fea2a6cf
 	lyxscale 50
 	width 12cm
 
@@ -2013,8 +2017,15 @@ Como
 \begin_layout Standard
 \noindent
 \align center
+<<<<<<< HEAD
 \begin_inset Formula $\frac{A'B''}{b-c}=\frac{A'B''}{BC_{1}}$
 \end_inset
+=======
+\begin_inset Graphics
+	filename /home/antonio/Documentos/Seminarios/semromero/demo.png
+	lyxscale 50
+	width 12cm
+>>>>>>> 994fd2ed3a497be41ecede616ff93f68fea2a6cf
 
 =
 \begin_inset Formula $\frac{SA'}{SB}=\frac{b-c}{2c}$
