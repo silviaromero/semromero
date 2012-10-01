@@ -113,7 +113,7 @@ customHeadersFooters
 
 \series bold
 \size large
-EL PORISMA DE STEINER COMO INTEGRADOR DE LA GEOMETRÍA DE LA INVERSIÓN
+Un Ejemplo Sencillo de la Geometría de la Inversión
 \end_layout
 
 \begin_layout Standard
@@ -180,26 +180,9 @@ silvi_778@hotmail.com
 \begin_layout Standard
 
 \series bold
-Categoría del Trabajo:
-\series default
- Reflexiones.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
 Nivel educativo: 
 \series default
-Universitario.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Palabras claves:
-\series default
- Geometría de la Inversión, Porisma de Steiner, Geometría asistida por computado
-ra, Enseñanza de la geometría.
+Secundario y Universitario.
 \end_layout
 
 \begin_layout Standard
@@ -238,8 +221,22 @@ En este trabajo se plantea y resuelve el problema del Porisma de Steiner.
 
 \end_layout
 
+\begin_layout Standard
+
+\series bold
+Palabras claves:
+\series default
+ Geometría de la Inversión, Porisma de Steiner, Geometría asistida por computado
+ra, Enseñanza de la geometría.
+\end_layout
+
 \begin_layout Section
 Introducción
+\end_layout
+
+\begin_layout Standard
+Comenzaremos dando una breve reseña histórica para situarnos en el tema
+ y luego desarrollaremos algunos conceptos que nos permitan encarar el problema.
 \end_layout
 
 \begin_layout Subsection
@@ -549,7 +546,17 @@ Recíprocamente, para construir el inverso de cualquier punto
 \end_layout
 
 \begin_layout Subsection
+Transformación por la Inversión de Rectas y Circunferencias 
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
 Rectas y Circunferencias
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1654,7 +1661,7 @@ En cuanto a la importancia que tiene, en general, el estudio de la geometría
  
 \begin_inset CommandInset citation
 LatexCommand cite
-key "Arias"
+key "arias2012construccisolocompas"
 
 \end_inset
 
@@ -1681,54 +1688,6 @@ options "apalike"
 \end_inset
 
 
-\end_layout
-
-\begin_layout Bibliography
-\labelwidthstring Referencias
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-label "Co"
-key "Coxeter"
-
-\end_inset
-
-Coxeter H.S.M, S.L Greitzer.
- Retorno a la Geometría.
- La Tortuga de Aquiles.
- 1993.
-\end_layout
-
-\begin_layout Bibliography
-\labelwidthstring Referencias
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-label "Ar"
-key "Arias"
-
-\end_inset
-
-Arias, M.
- V.
- Sángari, A.
- Construcciones con solo compás.
- volumen 27.
- Recuperado de http://www.famaf.unc.edu.ar/rev_edu/#rev_intro 
-\end_layout
-
-\begin_layout Bibliography
-\labelwidthstring Referencias
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-label "Bo"
-key "Boyer"
-
-\end_inset
-
-Boyer C.
- B.
- Historia de la Matemática.
- Editorial Alianza.
- 1986.
 \end_layout
 
 \end_body
