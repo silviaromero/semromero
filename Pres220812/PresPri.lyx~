@@ -1044,7 +1044,7 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
-	filename C:/semromero/circ nueve puntos.png
+	filename /home/antonio/Documentos/Seminarios/semromero/circ nueve puntos.png
 	lyxscale 50
 	width 5cm
 
@@ -1095,7 +1095,7 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
-	filename C:/semromero/feuerbach.png
+	filename /home/antonio/Documentos/Seminarios/semromero/demo.png
 	lyxscale 50
 	width 8cm
 
