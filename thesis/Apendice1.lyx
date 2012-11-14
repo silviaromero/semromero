@@ -1,0 +1,768 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass scrbook
+\options intoc,bibliography=totoc,index=totoc,BCOR10mm,captions=tableheading,titlepage,fleqn
+\use_default_options true
+\begin_modules
+customHeadersFooters
+theorems-ams
+\end_modules
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman lmodern
+\font_sans lmss
+\font_typewriter lmtt
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 12
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "pdfpagelayout=OneColumn, pdfnewwindow=true, pdfstartview=XYZ, plainpages=false"
+\papersize a4paper
+\use_geometry false
+\use_amsmath 2
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\use_refstyle 0
+\branch chapter-1
+\selected 1
+\filename_suffix 0
+\color #ffaa00
+\end_branch
+\branch chapter-2
+\selected 1
+\filename_suffix 0
+\color #55aaff
+\end_branch
+\branch Summary
+\selected 1
+\filename_suffix 0
+\color #7f7f7f
+\end_branch
+\branch Acknowledgments
+\selected 1
+\filename_suffix 0
+\color #ffff00
+\end_branch
+\branch Appendix
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 2
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Left Header
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+chaptername
+\end_layout
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thechapter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+rightmark
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Enable page headers and add the chapter to the header line.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Right Header
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+leftmark
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagestyle{fancy} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyfoot[LE,RO]{
+\backslash
+thepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Center Footer
+
+\end_layout
+
+\begin_layout Chapter
+Apendice
+\end_layout
+
+\begin_layout Section
+La circunferencia de los nueve puntos
+\end_layout
+
+\begin_layout Standard
+Los pies de las tres alturas de cualquier triángulo, los puntos medios de
+ los tres lados y los puntos medios de los segmentos que unen los tres vértices
+ con el ortocentro, están todos en la misma circunferencia, de radio 
+\begin_inset Formula $\frac{1}{2}R$
+\end_inset
+
+.
+ Llamamos a esta circunferencia, 
+\shape italic
+la circunferencia de los nueve puntos del triángulo
+\shape default
+ (figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Circunferencia-de-los"
+
+\end_inset
+
+).
+ Ya que los tres puntos 
+\begin_inset Formula $K$
+\end_inset
+
+, 
+\begin_inset Formula $L$
+\end_inset
+
+, 
+\begin_inset Formula $M$
+\end_inset
+
+ son diamentralmente opuestos a 
+\begin_inset Formula $A'$
+\end_inset
+
+, 
+\begin_inset Formula $B'$
+\end_inset
+
+, 
+\begin_inset Formula $C'$
+\end_inset
+
+, cualesquiera de los dos triángulos 
+\begin_inset Formula $KLM$
+\end_inset
+
+ y 
+\begin_inset Formula $A'B'C'$
+\end_inset
+
+, puede obtenerse del otro con un giro de 180°, alrededor del centro de
+ esta circunferencia.
+ Más claramente, este giro de 180°, que intercambia los dos triángulos congruent
+es, debe intercambiar también sus ortocentros 
+\begin_inset Formula $H$
+\end_inset
+
+ y 
+\begin_inset Formula $O$
+\end_inset
+
+.
+ Como el centro de la circunferencia de los nueve puntos es el punto medio
+ de 
+\begin_inset Formula $HO$
+\end_inset
+
+, lo denotaremos con 
+\begin_inset Formula $N$
+\end_inset
+
+, en previsión de su papel.
+ En otras palabras, el centro de la circunferencia de los nueve puntos está
+ situado en la recta de Euler, equidistante del ortocentro y del centro
+ de la circunferencia circunscrita.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename C:/semromero/circ nueve puntos.png
+	lyxscale 50
+	width 8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Circunferencia-de-los"
+
+\end_inset
+
+Circunferencia de los nueve puntos
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Teoremas utilizados en la demostración del Teorema de Feuerbach
+\end_layout
+
+\begin_layout Standard
+La figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:teorema3"
+
+\end_inset
+
+ muestra que la circunferencia inscripta es tangente a los lados 
+\begin_inset Formula $BC,\, CA,\, AB$
+\end_inset
+
+ en 
+\begin_inset Formula $X,\, Y,\, Z$
+\end_inset
+
+.
+ Como dos tangentes a una circunferencia desde un punto exterior son iguales,
+ vemos que 
+\begin_inset Formula $AY=AZ,\, BZ=BX,\, CX=CY$
+\end_inset
+
+.
+ Habiendo llamado a estos segmentos 
+\begin_inset Formula $x,\, y,\, z$
+\end_inset
+
+ tenemos que
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Formula $z+y=a,\,\,\, z+x=b,\,\,\, x+y=c$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Sumando estas igualdades y utilizando la abreviatura de Euler 
+\begin_inset Formula $s$
+\end_inset
+
+ para el semiperímetro, tenemos que 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Formula $2x+2y+2z=a+b+c=2s,$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+de forma que 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Formula $x+y+z=s,$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+y
+\end_layout
+
+\begin_layout Theorem
+\begin_inset Formula $x=s-a,\,\,\, y=s-b,\,\,\, z=s-c.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Theorem
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename teo3.png
+	lyxscale 60
+	width 12cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+
+\lang english
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Teorema 3
+\lang english
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:teorema3"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Como el triángulo 
+\begin_inset Formula $IBC$
+\end_inset
+
+ tiene base 
+\begin_inset Formula $a$
+\end_inset
+
+ y altura 
+\begin_inset Formula $r,$
+\end_inset
+
+ su area es 
+\begin_inset Formula $(IBC)=\frac{1}{2}ar.$
+\end_inset
+
+sumando las expresiones correspondientes para 
+\begin_inset Formula $(ICA)$
+\end_inset
+
+y 
+\begin_inset Formula $(IAB)$
+\end_inset
+
+, obtenemos 
+\begin_inset Formula $\frac{1}{2}(a+b+c)r=cr$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+Por tanto,
+\end_layout
+
+\begin_layout Theorem
+\begin_inset Formula $(ABC)=sr.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Theorem
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename teo5.png
+	lyxscale 50
+	width 12cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Teorema 4
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:teorema4"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:teorema4"
+
+\end_inset
+
+ muestra el triángulo 
+\begin_inset Formula $I_{a}I_{b}I_{c}$
+\end_inset
+
+ cuyos lados son las bisectrices exteriores de los lados de los ángulos
+ 
+\begin_inset Formula $A,\, B,\, C$
+\end_inset
+
+.
+ Cualquier punto de la bisectriz 
+\begin_inset Formula $I_{c}I_{a}$
+\end_inset
+
+ del 
+\begin_inset Formula $\angle B$
+\end_inset
+
+ es equidistante de 
+\begin_inset Formula $AB$
+\end_inset
+
+ y 
+\begin_inset Formula $BC$
+\end_inset
+
+.
+ Análogamente, cualquier punto de 
+\begin_inset Formula $I_{a}I_{b}$
+\end_inset
+
+ es equidistante de 
+\begin_inset Formula $BC$
+\end_inset
+
+ y 
+\begin_inset Formula $CA.$
+\end_inset
+
+ Por tanto, el punto 
+\begin_inset Formula $I_{a}$
+\end_inset
+
+ donde estas dos bisectrices exteriores se cortan, está a igual distancia
+ , 
+\begin_inset Formula $r_{a}$
+\end_inset
+
+, de los tres lados.
+ Como 
+\begin_inset Formula $I_{a}$
+\end_inset
+
+ es equidistante de los lados 
+\begin_inset Formula $AB$
+\end_inset
+
+ y 
+\begin_inset Formula $AC$
+\end_inset
+
+, debe estar situado en el lugar geométrico de los puntos equidistantes
+ de estas rectas, esto es, debe estar situado en la recta 
+\begin_inset Formula $AI$
+\end_inset
+
+, la bisectriz interior del ángulo 
+\begin_inset Formula $A$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Theorem
+Las bisectrices de un triángulo dividen el lado opuesto en dos segmentos
+ de longitud proporcional a la longitud de sus lados adyacentes.
+\end_layout
+
+\begin_layout Section
+Cuadriángulo Ortocéntrico
+\end_layout
+
+\begin_layout Standard
+La figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:cudriángulo"
+
+\end_inset
+
+ ilustra otra propiedad de un triángulo y de sus alturas.
+ Si analizamos cuidadosamente el diagrama, llegamos a la conclusión de que
+ 
+\begin_inset Formula $A$
+\end_inset
+
+ es el ortocentro de 
+\begin_inset Formula $\triangle HBC$
+\end_inset
+
+, precisamente cuando 
+\begin_inset Formula $H$
+\end_inset
+
+ es el ortocentro del 
+\begin_inset Formula $\triangle ABC$
+\end_inset
+
+, y, por idéntica razón, 
+\begin_inset Formula $B$
+\end_inset
+
+ es el ortocentro de 
+\begin_inset Formula $\triangle HAC$
+\end_inset
+
+, y 
+\begin_inset Formula $C$
+\end_inset
+
+ es el ortocentro de 
+\begin_inset Formula $\triangle HAB$
+\end_inset
+
+.
+ Esta configuración 
+\begin_inset Formula $ABCH$
+\end_inset
+
+ se conoce como el cuadriángulo ortocéntrico.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename apen6.png
+	lyxscale 40
+	width 12cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:cudriángulo"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

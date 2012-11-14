@@ -151,18 +151,6 @@ Silvia Noemí Romero
 \end_inset
 
 
-\begin_inset space \enskip{}
-\end_inset
-
-
-\begin_inset space \enskip{}
-\end_inset
-
-
-\begin_inset space \enskip{}
-\end_inset
-
-
 \begin_inset Graphics
 	filename escunsa.bmp
 	scale 60
@@ -748,7 +736,7 @@ status open
 \lang english
 \begin_inset CommandInset include
 LatexCommand include
-filename "Apendice.lyx"
+filename "Apendice1.lyx"
 
 \end_inset
 
@@ -831,7 +819,7 @@ status open
 
 \lang english
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
