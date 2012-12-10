@@ -151,6 +151,7 @@ Silvia Noemí Romero
 \end_inset
 
 
+<<<<<<< HEAD
 \begin_inset space \enskip{}
 \end_inset
 
@@ -163,6 +164,8 @@ Silvia Noemí Romero
 \end_inset
 
 
+=======
+>>>>>>> 0a27ec17c8d4e4871e43fc42c211c96f90a3f183
 \begin_inset Graphics
 	filename escunsa.bmp
 	scale 60
@@ -831,7 +834,7 @@ status open
 
 \lang english
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
