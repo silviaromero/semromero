@@ -736,7 +736,7 @@ status open
 \lang english
 \begin_inset CommandInset include
 LatexCommand include
-filename "Apendice.lyx"
+filename "Apendice1.lyx"
 
 \end_inset
 

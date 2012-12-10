@@ -642,7 +642,11 @@ status open
 
 \end_inset
 
+
+\lang spanish
 Agradecimientos
+\lang english
+
 \begin_inset Note Note
 status collapsed
 
@@ -672,8 +676,6 @@ Acknowledgments
 status open
 
 \begin_layout Plain Layout
-
-\lang english
 Agradecimientos
 \end_layout
 

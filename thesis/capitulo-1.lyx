@@ -469,11 +469,14 @@ Como
 \end_inset
 
  construido de esta manera, satisface
-\begin_inset Formula 
-\[
-\frac{OP}{OT}=\frac{OT}{OP_{1}}
-\]
+\end_layout
 
+\begin_layout Standard
+\noindent
+\align center
+
+\size larger
+\begin_inset Formula $\frac{OP}{OT}=\frac{OT}{OP_{1}}$
 \end_inset
 
 
@@ -707,12 +710,15 @@ Entonces
 \begin_inset Formula $\triangle OAP\sim\triangle OP_{1}A_{1}$
 \end_inset
 
-, 
-\begin_inset Formula 
-\[
-\frac{OP}{OA}=\frac{OA_{1}}{OP_{1}}
-\]
+,
+\end_layout
 
+\begin_layout Standard
+\noindent
+\align center
+
+\size larger
+\begin_inset Formula $\frac{OP}{OA}=\frac{OA_{1}}{OP_{1}}$
 \end_inset
 
 
