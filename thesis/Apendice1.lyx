@@ -7,9 +7,6 @@
 \use_default_options true
 \begin_modules
 theorems-ams
-eqs-within-sections
-figs-within-sections
-customHeadersFooters
 \end_modules
 \maintain_unincluded_children false
 \language spanish
@@ -319,7 +316,7 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
-	filename C:/semromero/circ nueve puntos.png
+	filename circ nueve puntos.png
 	lyxscale 50
 	width 8cm
 

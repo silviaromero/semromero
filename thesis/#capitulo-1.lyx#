@@ -358,7 +358,7 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
-	filename imag1.png
+	filename cap11.png
 	lyxscale 40
 	width 8cm
 
@@ -582,7 +582,7 @@ reference "fig:Inversa-de-una"
 
 \end_inset
 
-se observa que la inversa de cualquier recta 
+ se observa que la inversa de cualquier recta 
 \begin_inset Formula $a$
 \end_inset
 
@@ -620,29 +620,18 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
-	filename dib1.png
+	filename cap12.png
 	lyxscale 40
-	scale 50
+	width 14cm
 
 \end_inset
 
 
-\begin_inset Graphics
-	filename dib3.png
-	lyxscale 40
-	scale 50
+\end_layout
 
-\end_inset
-
-
-\begin_inset Graphics
-	filename dib5.png
-	lyxscale 40
-	scale 50
-
-\end_inset
-
-
+\begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -738,7 +727,7 @@ y
 \end_layout
 
 \begin_layout Standard
-|Recíprocamente, cualquier punto 
+Recíprocamente, cualquier punto 
 \begin_inset Formula $P_{1}$
 \end_inset
 
@@ -905,13 +894,18 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
-	filename imag4.png
-	lyxscale 20
-	scale 50
+	filename cap13.png
+	lyxscale 40
+	width 12cm
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -942,6 +936,45 @@ Circunferencias Ortogonales
 Dos circunferencias son ortogonales si se cortan en dos puntos formando
  ángulos rectos.
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename cap14.png
+	lyxscale 40
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Circunferencias-ortogonales"
+
+\end_inset
+
+Circunferencias ortogonales
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -982,7 +1015,14 @@ Sean dos circunferencias
 \begin_inset Formula $\omega_{2}$
 \end_inset
 
-.
+(como muestra la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Circunferencias-ortogonales"
+
+\end_inset
+
+ ).
  También vale la proposición recíproca: Cualquier circunferencia que pase
  por dos puntos distintos, inversos uno del otro en 
 \begin_inset Formula $\omega$
@@ -1779,8 +1819,8 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
-	filename C:/semromero/feuerbach.png
-	lyxscale 50
+	filename feuerbach.png
+	lyxscale 60
 	width 12cm
 
 \end_inset
@@ -1809,7 +1849,7 @@ Teorema de Feuerbach
 \end_layout
 
 \begin_layout Standard
-Por el teorema (ver apendice) y las observaciones posteriores, tenemos,
+Por el Teorema 3 (ver Apendice) y las observaciones posteriores, tenemos,
  en términos de 
 \begin_inset Formula $s=\frac{(a+b+c)}{2}$
 \end_inset
@@ -1925,7 +1965,7 @@ Como
 \begin_inset Formula $A$
 \end_inset
 
-, el teorema (ver apendice) demuestra que 
+, el teorema 5 (ver Apendice) demuestra que 
 \begin_inset Formula $S$
 \end_inset
 
@@ -2016,10 +2056,6 @@ Como
 \begin_inset Formula $\frac{A'B''}{b-c}=\frac{A'B''}{BC_{1}}$
 \end_inset
 
-=
-\begin_inset Formula $\frac{SA'}{SB}=\frac{b-c}{2c}$
-\end_inset
-
 
 \end_layout
 
@@ -2093,7 +2129,7 @@ Además, la circunferencia de los nueve puntos está determinada por los puntos
 \begin_inset Formula $ABCH$
 \end_inset
 
- (ver apendice).
+ (ver Apendice).
  En otras palabras, los cuatro triángulos 
 \begin_inset Formula $ABC$
 \end_inset
@@ -2106,19 +2142,91 @@ Además, la circunferencia de los nueve puntos está determinada por los puntos
 \begin_inset Formula $CAH,$
 \end_inset
 
-
+ 
 \begin_inset Formula $ABH$
 \end_inset
 
  tienen todos la misma circunferencia de los nueve puntos.
  Sin embargo, cada uno de estos triángulos tiene su propio conjunto de cuatro
  circunferencias tritangentes.
- Por tanto, el cuadriángulo ortocéntrico determina un conjunto de diciséis
+ Por tanto, el cuadriángulo ortocéntrico determina un conjunto de dieciséis
  circunferencias, todas tangentes a la circunferencia 
 \begin_inset Formula $DEF$
 \end_inset
 
 .
+ La figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig: triangulos ABC y ABH"
+
+\end_inset
+
+ muestra el conjunto de cuatro circunferencias tritangentes a los triángulos
+ 
+\begin_inset Formula $ABC$
+\end_inset
+
+ y 
+\begin_inset Formula $ABH$
+\end_inset
+
+, que tienen la misma circunferencia de los nueve puntos que pasa por 
+\begin_inset Formula $A'$
+\end_inset
+
+, 
+\begin_inset Formula $B'$
+\end_inset
+
+ y 
+\begin_inset Formula $C'$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename cap15.png
+	lyxscale 40
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig: triangulos ABC y ABH"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
