@@ -151,21 +151,6 @@ Silvia Noemí Romero
 \end_inset
 
 
-<<<<<<< HEAD
-\begin_inset space \enskip{}
-\end_inset
-
-
-\begin_inset space \enskip{}
-\end_inset
-
-
-\begin_inset space \enskip{}
-\end_inset
-
-
-=======
->>>>>>> 0a27ec17c8d4e4871e43fc42c211c96f90a3f183
 \begin_inset Graphics
 	filename escunsa.bmp
 	scale 60
@@ -657,7 +642,11 @@ status open
 
 \end_inset
 
+
+\lang spanish
 Agradecimientos
+\lang english
+
 \begin_inset Note Note
 status collapsed
 
@@ -687,8 +676,6 @@ Acknowledgments
 status open
 
 \begin_layout Plain Layout
-
-\lang english
 Agradecimientos
 \end_layout
 
@@ -751,7 +738,7 @@ status open
 \lang english
 \begin_inset CommandInset include
 LatexCommand include
-filename "Apendice1.lyx"
+filename "Apendice.lyx"
 
 \end_inset
 

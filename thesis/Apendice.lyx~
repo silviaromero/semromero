@@ -3,22 +3,69 @@
 \begin_document
 \begin_header
 \textclass scrbook
+\begin_preamble
+% Linkfläche für Querverweise vergrößern und automatisch benenne
+\AtBeginDocument{\renewcommand{\ref}[1]{\mbox{\autoref{#1}}}}
+\newlength{\abc}
+\settowidth{\abc}{\space}
+\AtBeginDocument{%
+\addto\extrasngerman{
+ \renewcommand{\equationautorefname}{\hspace{-\abc}}
+ \renewcommand{\sectionautorefname}{Kap.\negthinspace}
+ \renewcommand{\subsectionautorefname}{Kap.\negthinspace}
+ \renewcommand{\subsubsectionautorefname}{Kap.\negthinspace}
+ \renewcommand{\figureautorefname}{Abb.\negthinspace}
+ \renewcommand{\tableautorefname}{Tab.\negthinspace}
+}
+}
+
+% für den Fall, dass jemand die Bezeichnung "Gleichung" haben will
+%\renewcommand{\eqref}[1]{Gleichung~(\negthinspace\autoref{#1})}
+
+% Setzt den Link für Sprünge zu Gleitabbildungen
+% auf den Anfang des Gelitobjekts und nicht aufs Ende
+\usepackage[figure]{hypcap}
+
+% Die Seiten des Inhaltsverzeichnisses werden römisch numeriert,
+% ein PDF-Lesezeichen für das Inhaltsverzeichnis wird hinzugefügt
+\let\myTOC\tableofcontents
+\renewcommand\tableofcontents{%
+  \frontmatter
+  \pdfbookmark[1]{\contentsname}{}
+  \myTOC
+  \mainmatter }
+
+% make caption labels bold
+\setkomafont{captionlabel}{\bfseries}
+\setcapindent{1em}
+
+% enable calculations
+\usepackage{calc}
+
+% fancy page header/footer settings
+\renewcommand{\chaptermark}[1]{\markboth{#1}{#1}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+
+%Vergrößert den Teil der Seite, in dem Gleitobjekte
+% unten angeordnet werden dürfen
+\renewcommand{\bottomfraction}{0.5}
+
+% Vermeidet, dass Gleitobjekte vor ihrem Abschnitt gedruckt werden
+\let\mySection\section\renewcommand{\section}{\suppressfloats[t]\mySection}
+\end_preamble
 \options intoc,bibliography=totoc,index=totoc,BCOR10mm,captions=tableheading,titlepage,fleqn
 \use_default_options true
 \begin_modules
-theorems-ams
-eqs-within-sections
-figs-within-sections
 customHeadersFooters
 \end_modules
 \maintain_unincluded_children false
-\language spanish
+\language english
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman default
-\font_sans default
-\font_typewriter default
+\font_roman lmodern
+\font_sans lmss
+\font_typewriter lmtt
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
@@ -68,14 +115,14 @@ customHeadersFooters
 \shortcut idx
 \color #008000
 \end_index
-\secnumdepth 2
+\secnumdepth 3
 \tocdepth 2
 \paragraph_separation skip
 \defskip medskip
 \quotes_language english
 \papercolumns 1
 \papersides 2
-\paperpagestyle default
+\paperpagestyle fancy
 \tracking_changes false
 \output_changes false
 \html_math_output 0
@@ -86,8 +133,6 @@ customHeadersFooters
 \begin_body
 
 \begin_layout Left Header
-
-\emph on
 \begin_inset Argument
 status open
 
@@ -222,15 +267,30 @@ thepage
 
 \end_layout
 
+\begin_layout Right Footer
+
+\end_layout
+
+\begin_layout Standard
+\start_of_appendix
+
+\end_layout
+
 \begin_layout Chapter
+
+\lang spanish
 Apendice
 \end_layout
 
 \begin_layout Section
+
+\lang spanish
 La circunferencia de los nueve puntos
 \end_layout
 
 \begin_layout Standard
+
+\lang spanish
 Los pies de las tres alturas de cualquier triángulo, los puntos medios de
  los tres lados y los puntos medios de los segmentos que unen los tres vértices
  con el ortocentro, están todos en la misma circunferencia, de radio 
@@ -310,6 +370,8 @@ es, debe intercambiar también sus ortocentros
 \end_layout
 
 \begin_layout Standard
+
+\lang spanish
 \begin_inset Float figure
 wide false
 sideways false
@@ -318,8 +380,10 @@ status open
 \begin_layout Plain Layout
 \noindent
 \align center
+
+\lang spanish
 \begin_inset Graphics
-	filename C:/semromero/circ nueve puntos.png
+	filename circ nueve puntos.png
 	lyxscale 50
 	width 8cm
 
@@ -329,9 +393,13 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+
+\lang spanish
 \begin_inset Caption
 
 \begin_layout Plain Layout
+
+\lang spanish
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Circunferencia-de-los"
@@ -352,10 +420,14 @@ Circunferencia de los nueve puntos
 \end_layout
 
 \begin_layout Section
+
+\lang spanish
 Teoremas utilizados en la demostración del Teorema de Feuerbach
 \end_layout
 
 \begin_layout Standard
+
+\lang spanish
 La figura 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -388,6 +460,8 @@ reference "fig:teorema3"
 \begin_layout Standard
 \noindent
 \align center
+
+\lang spanish
 \begin_inset Formula $z+y=a,\,\,\, z+x=b,\,\,\, x+y=c$
 \end_inset
 
@@ -395,6 +469,8 @@ reference "fig:teorema3"
 \end_layout
 
 \begin_layout Standard
+
+\lang spanish
 Sumando estas igualdades y utilizando la abreviatura de Euler 
 \begin_inset Formula $s$
 \end_inset
@@ -405,6 +481,8 @@ Sumando estas igualdades y utilizando la abreviatura de Euler
 \begin_layout Standard
 \noindent
 \align center
+
+\lang spanish
 \begin_inset Formula $2x+2y+2z=a+b+c=2s,$
 \end_inset
 
@@ -412,12 +490,16 @@ Sumando estas igualdades y utilizando la abreviatura de Euler
 \end_layout
 
 \begin_layout Standard
+
+\lang spanish
 de forma que 
 \end_layout
 
 \begin_layout Standard
 \noindent
 \align center
+
+\lang spanish
 \begin_inset Formula $x+y+z=s,$
 \end_inset
 
@@ -425,10 +507,14 @@ de forma que
 \end_layout
 
 \begin_layout Standard
+
+\lang spanish
 y
 \end_layout
 
 \begin_layout Theorem
+
+\lang spanish
 \begin_inset Formula $x=s-a,\,\,\, y=s-b,\,\,\, z=s-c.$
 \end_inset
 
@@ -436,8 +522,6 @@ y
 \end_layout
 
 \begin_layout Theorem
-
-\lang english
 \begin_inset Float figure
 wide false
 sideways false
@@ -446,8 +530,10 @@ status open
 \begin_layout Plain Layout
 \noindent
 \align center
+
+\lang spanish
 \begin_inset Graphics
-	filename teo3.png
+	filename /home/antonio/Documentos/Seminarios/semromero/thesis/teo3.png
 	lyxscale 60
 	width 12cm
 
@@ -459,11 +545,11 @@ status open
 \begin_layout Plain Layout
 \noindent
 \align center
-
-\lang english
 \begin_inset Caption
 
 \begin_layout Plain Layout
+
+\lang spanish
 Teorema 3
 \lang english
 
@@ -488,6 +574,8 @@ name "fig:teorema3"
 
 \begin_layout Standard
 \noindent
+
+\lang spanish
 Como el triángulo 
 \begin_inset Formula $IBC$
 \end_inset
@@ -521,10 +609,14 @@ y
 
 \begin_layout Standard
 \noindent
+
+\lang spanish
 Por tanto,
 \end_layout
 
 \begin_layout Theorem
+
+\lang spanish
 \begin_inset Formula $(ABC)=sr.$
 \end_inset
 
@@ -532,6 +624,8 @@ Por tanto,
 \end_layout
 
 \begin_layout Theorem
+
+\lang spanish
 \begin_inset Float figure
 wide false
 sideways false
@@ -540,8 +634,10 @@ status open
 \begin_layout Plain Layout
 \noindent
 \align center
+
+\lang spanish
 \begin_inset Graphics
-	filename teo5.png
+	filename /home/antonio/Documentos/Seminarios/semromero/thesis/teo5.png
 	lyxscale 50
 	width 12cm
 
@@ -551,9 +647,13 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+
+\lang spanish
 \begin_inset Caption
 
 \begin_layout Plain Layout
+
+\lang spanish
 Teorema 4
 \begin_inset CommandInset label
 LatexCommand label
@@ -575,6 +675,8 @@ name "fig:teorema4"
 \end_layout
 
 \begin_layout Standard
+
+\lang spanish
 La figura 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -657,15 +759,21 @@ reference "fig:teorema4"
 \end_layout
 
 \begin_layout Theorem
+
+\lang spanish
 Las bisectrices de un triángulo dividen el lado opuesto en dos segmentos
  de longitud proporcional a la longitud de sus lados adyacentes.
 \end_layout
 
 \begin_layout Section
+
+\lang spanish
 Cuadriángulo Ortocéntrico
 \end_layout
 
 \begin_layout Standard
+
+\lang spanish
 La figura 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -716,6 +824,8 @@ reference "fig:cudriángulo"
 \end_layout
 
 \begin_layout Standard
+
+\lang spanish
 \begin_inset Float figure
 wide false
 sideways false
@@ -724,8 +834,10 @@ status open
 \begin_layout Plain Layout
 \noindent
 \align center
+
+\lang spanish
 \begin_inset Graphics
-	filename apen6.png
+	filename /home/antonio/Documentos/Seminarios/semromero/thesis/apen6.png
 	lyxscale 40
 	width 12cm
 
@@ -735,9 +847,13 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+
+\lang spanish
 \begin_inset Caption
 
 \begin_layout Plain Layout
+
+\lang spanish
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:cudriángulo"
@@ -749,10 +865,6 @@ name "fig:cudriángulo"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 

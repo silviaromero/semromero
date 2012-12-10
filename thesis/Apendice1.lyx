@@ -6,10 +6,7 @@
 \options intoc,bibliography=totoc,index=totoc,BCOR10mm,captions=tableheading,titlepage,fleqn
 \use_default_options true
 \begin_modules
-<<<<<<< HEAD
-=======
 customHeadersFooters
->>>>>>> 0a27ec17c8d4e4871e43fc42c211c96f90a3f183
 theorems-ams
 \end_modules
 \maintain_unincluded_children false
@@ -25,7 +22,6 @@ theorems-ams
 \font_roman lmodern
 \font_sans lmss
 \font_typewriter lmtt
->>>>>>> 0a27ec17c8d4e4871e43fc42c211c96f90a3f183
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
@@ -45,8 +41,6 @@ theorems-ams
 <<<<<<< HEAD
 \pdf_title "Your title"
 \pdf_author "Your name"
-=======
->>>>>>> 0a27ec17c8d4e4871e43fc42c211c96f90a3f183
 \pdf_bookmarks true
 \pdf_bookmarksnumbered true
 \pdf_bookmarksopen true
@@ -55,11 +49,8 @@ theorems-ams
 \pdf_pdfborder true
 \pdf_colorlinks false
 \pdf_backref false
-<<<<<<< HEAD
 \pdf_pdfusetitle false
-=======
 \pdf_pdfusetitle true
->>>>>>> 0a27ec17c8d4e4871e43fc42c211c96f90a3f183
 \pdf_quoted_options "pdfpagelayout=OneColumn, pdfnewwindow=true, pdfstartview=XYZ, plainpages=false"
 \papersize a4paper
 \use_geometry false
@@ -71,14 +62,12 @@ theorems-ams
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
-<<<<<<< HEAD
 \suppress_date false
 \use_refstyle 0
 \branch NoChildDocument
 \selected 0
 \filename_suffix 0
 \color #ff0000
-=======
 \suppress_date true
 \use_refstyle 0
 \branch chapter-1
@@ -105,28 +94,21 @@ theorems-ams
 \selected 1
 \filename_suffix 0
 \color #faf0e6
->>>>>>> 0a27ec17c8d4e4871e43fc42c211c96f90a3f183
 \end_branch
 \index Index
 \shortcut idx
 \color #008000
 \end_index
-<<<<<<< HEAD
 \secnumdepth 2
-=======
 \secnumdepth 3
->>>>>>> 0a27ec17c8d4e4871e43fc42c211c96f90a3f183
 \tocdepth 2
 \paragraph_separation skip
 \defskip medskip
 \quotes_language english
 \papercolumns 1
 \papersides 2
-<<<<<<< HEAD
 \paperpagestyle default
-=======
 \paperpagestyle fancy
->>>>>>> 0a27ec17c8d4e4871e43fc42c211c96f90a3f183
 \tracking_changes false
 \output_changes false
 \html_math_output 0
@@ -137,21 +119,15 @@ theorems-ams
 \begin_body
 
 \begin_layout Left Header
-<<<<<<< HEAD
 
 \emph on
-=======
->>>>>>> 0a27ec17c8d4e4871e43fc42c211c96f90a3f183
 \begin_inset Argument
 status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
-<<<<<<< HEAD
 status collapsed
-=======
 status open
->>>>>>> 0a27ec17c8d4e4871e43fc42c211c96f90a3f183
 
 \begin_layout Plain Layout
 
@@ -168,11 +144,8 @@ chaptername
 
 
 \begin_inset ERT
-<<<<<<< HEAD
 status collapsed
-=======
 status open
->>>>>>> 0a27ec17c8d4e4871e43fc42c211c96f90a3f183
 
 \begin_layout Plain Layout
 
@@ -238,8 +211,6 @@ leftmark
 
 
 \end_layout
-
-<<<<<<< HEAD
 \begin_layout Left Footer
 \begin_inset Argument
 status open
@@ -247,21 +218,15 @@ status open
 \begin_layout Plain Layout
 \begin_inset ERT
 status collapsed
-=======
 \begin_layout Standard
 \begin_inset ERT
 status open
->>>>>>> 0a27ec17c8d4e4871e43fc42c211c96f90a3f183
-
 \begin_layout Plain Layout
 
 
 \backslash
-<<<<<<< HEAD
 thepage
-=======
 pagestyle{fancy} 
->>>>>>> 0a27ec17c8d4e4871e43fc42c211c96f90a3f183
 \end_layout
 
 \end_inset
@@ -269,7 +234,6 @@ pagestyle{fancy}
 
 \end_layout
 
-<<<<<<< HEAD
 \end_inset
 
 
@@ -282,37 +246,26 @@ pagestyle{fancy}
 \begin_layout Right Footer
 \begin_inset ERT
 status collapsed
-=======
 \begin_layout Standard
 \begin_inset ERT
 status open
->>>>>>> 0a27ec17c8d4e4871e43fc42c211c96f90a3f183
-
 \begin_layout Plain Layout
 
 
 \backslash
-<<<<<<< HEAD
 thepage
-=======
 fancyfoot[LE,RO]{
 \backslash
 thepage}
->>>>>>> 0a27ec17c8d4e4871e43fc42c211c96f90a3f183
 \end_layout
 
 \end_inset
 
 
 \end_layout
-
-<<<<<<< HEAD
-=======
 \begin_layout Center Footer
 
 \end_layout
-
->>>>>>> 0a27ec17c8d4e4871e43fc42c211c96f90a3f183
 \begin_layout Chapter
 Apendice
 \end_layout
@@ -414,7 +367,6 @@ status open
 	filename circ nueve puntos.png
 =======
 	filename C:/semromero/circ nueve puntos.png
->>>>>>> 0a27ec17c8d4e4871e43fc42c211c96f90a3f183
 	lyxscale 50
 	width 8cm
 
@@ -818,7 +770,6 @@ sideways false
 status open
 =======
 status collapsed
->>>>>>> 0a27ec17c8d4e4871e43fc42c211c96f90a3f183
 
 \begin_layout Plain Layout
 \noindent
@@ -850,14 +801,10 @@ name "fig:cudriángulo"
 
 
 \end_layout
-
-<<<<<<< HEAD
 \begin_layout Plain Layout
 
 \end_layout
 
-=======
->>>>>>> 0a27ec17c8d4e4871e43fc42c211c96f90a3f183
 \end_inset
 
 
