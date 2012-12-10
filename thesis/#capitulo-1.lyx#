@@ -1825,7 +1825,11 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
+<<<<<<< HEAD
 	filename C:/semromero/feuerbach.png
+=======
+	filename feuerbach.png
+>>>>>>> c11d6923257009f0b4e45749ed012e87cde20ff4
 	lyxscale 60
 	width 12cm
 
